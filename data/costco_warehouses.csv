@@ -1,0 +1,628 @@
+state,city,address,zip,phone,latitude,longitude
+Alabama,Hoover,3650 Galleria Cir,35244-2346,(205) 909-1039,33.379,-86.812
+Alabama,Huntsville,1205 N. Memorial Pkwy,35801-5930,(256) 519-2220,34.744,-86.603
+Alabama,Madison,8094 Highway 72 West,35758-9567,(938) 218-2913,34.753,-86.754
+Alabama,Mobile,1450 Tingle Circle West,36606-2632,(251) 308-7030,30.649,-88.119
+Alabama,Montgomery,8251 Eastchase Pkwy,36117-7033,(334) 270-7452,32.364,-86.151
+Alaska,Anchorage,330 W Dimond Blvd,99515-1903,(907) 349-2335,61.143,-149.885
+Alaska,Anchorage,1074 N Muldoon Rd,99504-2073,(907) 416-9780,61.229,-149.738
+Alaska,Anchorage,8600 King Street,99515,(907) 206-6265,61.143,-149.88
+Alaska,Fairbanks,48 College Rd,99701-1706,(907) 205-3607,64.853,-147.708
+Alaska,Juneau,5225 Commercial Blvd,99801-7210,(907) 780-6740,58.359,-134.483
+Alaska,Anchorage,4125 Debarr Rd,99508-3115,(907) 269-9510,61.21,-149.804
+Arizona,Avondale,10000 W Mcdowell Rd,85392-4803,(623) 907-5663,33.467,-112.274
+Arizona,Buckeye,1111 N. Verrado Way,85326,(480) 618-4000,33.46,-112.501
+Arizona,Phoenix,2450 E Beardsley Rd,85050-1300,(480) 375-2850,33.671,-112.028
+Arizona,Chandler,595 S Galleria Way,85226-4932,(480) 375-2051,33.293,-111.9
+Arizona,Gilbert,1415 N Arizona Ave,85233-1616,(480) 293-0053,33.377,-111.841
+Arizona,Glendale,17550 N 79Th Ave,85308-8711,(623) 776-4003,33.643,-112.233
+Arizona,Mesa,1444 S Sossaman Rd,85209-3400,(480) 333-6552,33.389,-111.669
+Arizona,Phoenix,19001 N 27Th Ave,85027-5036,(623) 293-4400,33.66,-112.116
+Arizona,Tucson,3901 W Costco Dr,85741-2864,(520) 797-1980,32.326,-111.049
+Arizona,Phoenix,4570 E Cactus Rd,85032-7702,(480) 308-7044,33.604,-111.986
+Arizona,Phoenix,3801 N 33Rd Ave,85017-4508,(480) 293-2123,33.492,-112.128
+Arizona,Prescott,3911 E State Route 69,86301-6717,(928) 541-2203,34.548,-112.397
+Arizona,Queen Creek,20260 S Ellsworth Rd,85142,(480) 847-1000,33.265,-111.637
+Arizona,Gilbert,2887 S Market St,85295-1303,(480) 366-3950,33.296,-111.746
+Arizona,Tucson,1650 E Tucson Marketplace Blvd,85713-6561,(520) 791-7340,32.181,-110.947
+Arizona,Scottsdale,15255 N Hayden Rd,85260-2551,(480) 948-5040,33.623,-111.901
+Arizona,Surprise,16385 W. Waddell Rd.,85388,(602) 325-1799,33.608,-112.412
+Arizona,Tempe,1445 W Elliot Rd,85284-1103,(480) 496-6651,33.347,-111.961
+Arizona,Phoenix,4502 E Oak St,85008-2411,(602) 808-0101,33.474,-111.985
+Arizona,Tucson,6255 East Grant Road,85712-5804,(520) 886-6377,32.252,-110.859
+Arkansas,Little Rock,16901 Chenal Parkway,72223,(501) 817-8603,34.757,-92.454
+California,Alhambra,2207 W Commonwealth Ave,91803-1302,(626) 289-7164,34.089,-118.148
+California,San Jose,5301 Almaden Expy,95118-3603,(408) 723-0964,37.253,-121.88
+California,Antioch,2201 Verne Roberts Cir,94509-7911,(925) 757-7130,38.009,-121.836
+California,Azusa,1220 W Foothill Blvd,91702-2819,(626) 812-7911,34.132,-117.926
+California,Bakersfield,3800 Rosedale Hwy,93308-6235,(661) 852-2643,35.385,-119.049
+California,Brentwood,5151 Heidorn Ranch Rd,94513-0000,(925) 666-0223,37.957,-121.746
+California,Burbank,1051 W Burbank Blvd,91506-1421,(818) 557-3783,34.185,-118.324
+California,North Hollywood,11428 Sherman Way,91605-5807,(818) 423-7082,34.2,-118.38
+California,Sacramento,1600 Expo Pkwy,95815-4228,(916) 830-1078,38.597,-121.453
+California,Carlsbad,951 Palomar Airport Rd,92011-1110,(760) 929-0963,33.12,-117.316
+California,San Diego,12350 Carmel Mountain Rd,92128-4616,(858) 675-0379,32.987,-117.078
+California,Chico,2100 Dr Mlk Jr Pkwy,95928-4422,(530) 332-1742,39.721,-121.811
+California,Chino Hills,13111 Peyton Dr,91709-6002,(909) 464-2900,34.015,-117.742
+California,Chula Vista,1130 Broadway,91911-2707,(619) 205-1501,32.608,-117.083
+California,Citrus Heights,7000 Auburn Blvd,95621-4342,(916) 560-4003,38.69,-121.298
+California,City Of Industry,17550 Castleton St,91748-1701,(626) 839-3053,33.994,-117.922
+California,Clovis,2270 Clovis Ave,93612,(559) 291-3377,36.806,-119.703
+California,Commerce,6333 Telegraph Rd,90040-2513,(323) 767-2640,33.995,-118.141
+California,Concord,2400 Monument Blvd,94520-3105,(925) 566-4003,37.958,-122.033
+California,Corona,480 N Mckinley St,92879-1291,(951) 279-1190,33.886,-117.524
+California,Marina Del Rey,13463 Washington Blvd,90292-5658,(310) 754-2003,33.993,-118.446
+California,Cypress,5401 Katella Ave,90720-2809,(562) 668-5150,33.804,-118.039
+California,Danville,3150 Fostoria Way,94526-5553,(925) 277-0407,37.782,-121.973
+California,Eastvale,5030 Hamner Ave,91752-1009,(951) 749-7182,33.997,-117.556
+California,South San Francisco,1600 El Camino Real,94080-1206,(650) 757-3003,37.665,-122.448
+California,El Centro,2030 N Imperial Ave,92243-1323,(760) 353-2380,32.812,-115.573
+California,Elk Grove,7400 Elk Grove Blvd,95757-6299,(916) 465-6050,38.406,-121.414
+California,Eureka,1006 W Wabash Ave,95501-2121,(707) 441-8750,40.792,-124.182
+California,Fairfield,5101 Business Center Dr,94534-1624,(707) 864-3816,38.215,-122.145
+California,Folsom,1800 Cavitt Dr,95630-6235,(916) 850-1000,38.645,-121.11
+California,Fontana,16505 Sierra Lakes Pkwy,92336-1256,(909) 770-5639,34.138,-117.443
+California,Foster City,1001 Metro Center Blvd,94404-2177,(650) 286-0739,37.562,-122.274
+California,Fountain Valley,17900 Newhope St,92708-5422,(714) 338-2183,33.703,-117.932
+California,Fremont,43621 Pacific Commons Blvd,94538-3809,(510) 897-1092,37.502,-121.973
+California,Fresno,4500 W Shaw Ave,93722-6200,(559) 271-6511,36.81,-119.874
+California,Fullerton,900 S Harbor Blvd,92832-3025,(714) 738-7521,33.862,-117.922
+California,Garden Grove,11000 Garden Grove Blvd,92843-1206,(714) 638-6308,33.773,-117.941
+California,Gilroy,7251 Camino Arroyo,95020-7340,(408) 848-0700,37.008,-121.556
+California,Goleta,7095 Market Place Dr,93117-5905,(805) 685-3199,34.428,-119.874
+California,San Jose,6898 Raleigh Road,95119-1730,(408) 908-7929,37.244,-121.786
+California,Hanford,2395 E Lacey Blvd,93230-4740,(559) 670-6008,36.326,-119.607
+California,Hawthorne,14501 Hindry Avenue,90250-6748,(310) 727-0403,33.899,-118.373
+California,Hawthorne,12530 Prairie Ave,90250-4638,(310) 220-8826,33.919,-118.343
+California,Hayward,28505 Hesperian Blvd,94545-5008,(510) 921-3128,37.615,-122.09
+California,Hayward,22330 Hathaway Ave,94541-4861,(510) 259-6600,37.668,-122.103
+California,Highland,28000 Greenspot Rd,92346-4450,(909) 863-4762,34.109,-117.192
+California,Huntington Beach,7562 Center Ave,92647-3002,(714) 372-7510,33.733,-117.996
+California,Inglewood,3560 W Century Blvd,90303-1201,(310) 242-2777,33.943,-118.334
+California,Irvine,115 Technology Dr,92618-2408,(949) 453-0435,33.66,-117.745
+California,La Habra,101 N Beach Blvd,90631-4468,(562) 524-0001,33.933,-117.97
+California,La Mesa,8125 Fletcher Pkwy,91942-2934,(619) 667-8504,32.774,-117.024
+California,La Quinta,79795 Highway 111,92253-4756,(760) 775-0363,33.705,-116.273
+California,Laguna Niguel,27220 Heather Ridge Rd,92677-3418,(949) 389-8703,33.567,-117.711
+California,Laguna Niguel,27972 Cabot Rd,92677-1211,(949) 364-0217,33.555,-117.677
+California,Lake Elsinore,29315 Central Ave,92532-2212,(951) 253-6030,33.696,-117.339
+California,Lakewood,340 Lakewood Center Mall,90712-2409,(562) 295-1508,33.85,-118.137
+California,Lancaster,1141 W Avenue L,93534-7077,(661) 802-4470,34.661,-118.151
+California,Livermore,2800 Independence Dr,94551-7628,(925) 443-6306,37.703,-121.812
+California,Lodi,2680 Reynolds Ranch Pkwy,95240-6848,(209) 366-7300,38.1,-121.264
+California,Loomis,4101 Sierra College Blvd,95650,(916) 953-7270,38.809,-121.205
+California,Los Angeles,2901 Los Feliz Blvd,90039-1502,(323) 644-5201,34.128,-118.264
+California,Manteca,2440 Daniels St,95337-6745,(209) 825-8200,37.785,-121.26
+California,Linda,1214 N Beale Rd,95901,(530) 491-2717,39.125,-121.571
+California,Merced,1445 R St,95340-5850,(209) 725-5020,37.303,-120.497
+California,San Diego,2345 Fenton Pkwy,92108-4743,(619) 358-4000,32.782,-117.129
+California,Modesto,3801 Pelandale Ave,95356-8300,(209) 342-4903,37.702,-121.067
+California,Montclair,9404 Central Ave,91763-2421,(909) 575-5004,34.083,-117.69
+California,Monterey Park,2000 Market Place Dr,91755-7402,(323) 890-1904,34.037,-118.104
+California,San Diego,4605 Morena Blvd,92117-3650,(858) 270-6920,32.822,-117.225
+California,Moreno Valley,12700 Day St,92553-7521,(951) 697-8900,33.935,-117.276
+California,Mountain View,1000 N Rengstorff Ave,94043-1716,(650) 988-1841,37.421,-122.095
+California,Murrieta,35875 Warm Springs Parkway,92563,(951) 223-4839,33.6,-117.171
+California,Fresno,7100 N Abby St,93720-2920,(559) 437-3643,36.839,-119.788
+California,San Jose,1709 Automation Pkwy,95131-1866,(408) 678-2150,37.39,-121.884
+California,Napa,280 Riversound Way,94558-6357,(707) 819-5900,38.252,-122.279
+California,Sacramento,3881 E Commerce Way,95834,(916) 265-9594,38.64,-121.522
+California,Newark,350 Newpark Mall,94560,(510) 493-2945,37.526,-121.999
+California,Northridge,8810 Tampa Ave,91324-3519,(818) 775-1860,34.23,-118.551
+California,Norwalk,12324 Hoxie Ave,90650-2211,(562) 929-0826,33.92,-118.103
+California,Novato,300 Vintage Way,94945-5007,(415) 899-1332,38.087,-122.551
+California,Ontario,3680 E Guasti Rd,91761,(909) 789-1221,34.064,-117.573
+California,Oxnard,2001 E Ventura Blvd,93036-1813,(805) 983-4200,34.225,-119.148
+California,Pacoima,13550 Paxton St,91331-2352,(818) 272-2700,34.272,-118.426
+California,Palm Desert,72800 Dinah Shore Dr,92211-0814,(760) 770-2810,33.804,-116.39
+California,Pleasanton,7200 Johnson Drive,94588,(925) 475-4000,37.695,-121.917
+California,Poway,12155 Tech Center Dr,92064-7156,(858) 848-2451,32.937,-117.033
+California,Rancho Cordova,11260 White Rock Rd,95742-6571,(916) 724-2240,38.588,-121.264
+California,Rancho Cucamonga,11800 4Th St,91730-6129,(909) 581-1703,34.078,-117.547
+California,Chula Vista,895 E H St,91910-7807,(619) 656-0826,32.638,-117.023
+California,Redding,4805 Bechelli Lane,96002,(530) 222-0199,40.541,-122.356
+California,Redwood City,2300 Middlefield Rd,94063-2854,(650) 568-4040,37.479,-122.216
+California,Richmond,4801 Central Avenue,94804-5801,(510) 898-2003,37.898,-122.321
+California,Riverbank,2015 Claribel Road,95367,(209) 458-5587,37.711,-120.969
+California,Rohnert Park,5901 Redwood Dr,94928-2076,(707) 540-9113,38.353,-122.717
+California,Roseville,6750 Stanford Ranch Rd,95678-1907,(916) 789-1485,38.78,-121.267
+California,South San Francisco,451 S Airport Blvd,94080-6909,(650) 872-2021,37.642,-122.401
+California,South San Francisco,900 Dubuque Ave,94080-1805,(650) 784-4047,37.661,-122.401
+California,San Diego,650 Gateway Center Dr,92102-4530,(619) 358-2303,32.713,-117.116
+California,Bakersfield,4900 Panama Ln,93313-3479,(661) 398-4740,35.297,-119.058
+California,Sacramento,7981 E Stockton Blvd,95823-9606,(916) 682-3569,38.468,-121.414
+California,Sacramento,3360 El Camino Ave,95821-6308,(916) 426-4560,38.608,-121.386
+California,Salinas,1339 N Davis Rd,93907-1988,(831) 424-4242,36.704,-121.668
+California,San Bernardino,1099 E Hospitality Ln,92408-2813,(909) 478-3445,34.068,-117.263
+California,San Diego,7803 Othello Ave,92111-3709,(858) 810-5835,32.816,-117.153
+California,San Dimas,520 N Lone Hill Ave,91773-1725,(909) 962-5507,34.112,-117.827
+California,San Francisco,450 10Th St,94103-4304,(415) 626-4388,37.771,-122.411
+California,San Jose,2201 Senter Rd,95112-2627,(408) 275-0199,37.31,-121.851
+California,San Jose,2376 S Evergreen Loop,95122,(669) 236-4679,37.318,-121.811
+California,San Juan Capistrano,33961 Doheny Park Rd,92675-4835,(949) 240-3558,33.47,-117.678
+California,San Leandro,1900 Davis St,94577-1209,(510) 562-6708,37.72,-122.182
+California,San Luis Obispo,1540 Froom Ranch Way,93405-7211,(805) 541-7000,35.252,-120.691
+California,San Marcos,725 Center Drive,92069-3536,(760) 871-6867,33.135,-117.125
+California,San Marcos,150 S. Bent Ave,92078,(760) 410-5681,33.137,-117.184
+California,Sand City,801 Tioga Ave,93955-3050,(831) 899-1255,36.617,-121.845
+California,Santa Clara,1601 Coleman Ave,95050-3122,(408) 567-9000,37.357,-121.939
+California,Santa Clarita,18649 Via Princessa,91387-4935,(661) 250-2818,34.404,-118.461
+California,Santa Cruz,220 Sylvania Ave,95060-2161,(831) 469-0961,36.985,-122.033
+California,Santa Maria,1700 S. Bradley Rd.,93454-8001,(805) 928-8459,34.927,-120.419
+California,Santa Rosa,1900 Santa Rosa Ave,95407-7621,(707) 578-3775,38.42,-122.712
+California,Santee,101 Town Center Pkwy,92071-5802,(619) 562-3227,32.841,-116.988
+California,Signal Hill,2200 E Willow St,90755-2132,(562) 427-2537,33.803,-118.165
+California,Simi Valley,2660 Park Center Dr,93065-6207,(805) 578-3301,34.284,-118.796
+California,Stockton,1616 E Hammer Ln,95210-4119,(209) 478-2040,38.019,-121.292
+California,Sunnyvale,150 Lawrence Station Rd,94086-5309,(408) 730-1892,37.372,-121.995
+California,Temecula,26610 Ynez Rd,92591-4697,(951) 719-2000,33.521,-117.155
+California,Torrance,2640 Lomita Blvd,90505-5214,(310) 891-1020,33.807,-118.334
+California,Tracy,3250 W Grant Line Rd,95304-8427,(209) 830-5340,37.751,-121.475
+California,Turlock,2955 N Tegner Rd,95380-9401,(209) 656-5301,37.519,-120.888
+California,Tustin,2700 Park Ave,92782-2708,(714) 338-1933,33.699,-117.823
+California,Tustin,2655 El Camino Real,92782-8918,(714) 838-7895,33.728,-117.796
+California,Ukiah,1275 Airport Park Blvd,95482-7400,(707) 313-8004,39.127,-123.197
+California,Vacaville,1051 Hume Way,95687-5558,(707) 453-7343,38.351,-121.98
+California,Vallejo,198 Plaza Dr,94591-3702,(707) 553-6400,38.133,-122.214
+California,Van Nuys,6100 Sepulveda Blvd,91411-2503,(818) 989-5132,34.182,-118.464
+California,Victorville,14555 Valley Center Dr,92395-4216,(760) 524-9904,34.515,-117.318
+California,Visalia,1405 W Cameron Ave,93277-9527,(559) 735-2400,36.293,-119.307
+California,Vista,1755 Hacienda Dr,92081-4546,(760) 631-7255,33.188,-117.277
+California,Westlake Village,5700 Lindero Canyon Rd,91362-4063,(818) 597-3901,34.152,-118.797
+California,Westminster,13225 Beach Blvd,92683-9210,(657) 400-7006,33.769,-117.993
+California,Woodland,2299 Bronze Star Dr,95776-5409,(530) 406-2120,38.672,-121.723
+California,Woodland Hills,21800 Victory Blvd,91367-2227,(818) 884-9099,34.186,-118.603
+California,Yorba Linda,22633 Savi Ranch Pkwy,92887-4647,(714) 282-6650,33.875,-117.744
+Colorado,Arvada,5195 Wadsworth Blvd,80002-4617,(303) 463-3603,39.789,-105.083
+Colorado,Aurora,1471 S Havana St,80012-4013,(303) 750-2116,39.69,-104.868
+Colorado,Denver,400 S Zuni St,80223-1969,(303) 830-4529,39.709,-105.014
+Colorado,Littleton,8686 Park Meadows Center Dr,80124-5129,(303) 708-0012,39.558,-104.877
+Colorado,Colorado Springs,5885 Barnes Rd,80922-3512,(719) 591-3002,38.892,-104.717
+Colorado,Gypsum,170 Cooley Mesa Rd,81637-9707,(970) 328-7603,39.645,-106.891
+Colorado,Longmont,205 East Ken Pratt Blvd,80501,(303) 827-2534,40.152,-105.085
+Colorado,Denver,4741 N Airport Way,80239,(303) 957-3500,39.781,-104.796
+Colorado,Parker,18414 Cottonwood Dr,80138-8876,(303) 583-1939,39.556,-104.775
+Colorado,Littleton,7900 W Quincy Ave,80123-1350,(303) 933-4931,39.637,-105.086
+Colorado,Sheridan,4000 River Point Pkwy,80110-3316,(303) 200-1830,39.644,-105.007
+Colorado,Superior,600 Marshall Rd,80027-9730,(720) 587-1000,39.959,-105.174
+Colorado,Thornton,16375 N. Washington St,80023-8907,(303) 474-3247,39.991,-104.983
+Colorado,Timnath,4705 Weitzel St,80547-4703,(970) 416-6115,40.521,-104.99
+Colorado,Colorado Springs,5050 N Nevada Ave,80918-8602,(719) 264-5010,38.905,-104.821
+Colorado,Westminster,6400 W 92Nd Ave,80031-2952,(303) 650-1476,39.862,-105.066
+Connecticut,Brookfield,200 Federal Rd,06804-2514,(203) 740-7623,41.442,-73.406
+Connecticut,East Lyme,284 Flanders Rd,06333-1710,(860) 691-9647,41.36,-72.214
+Connecticut,Enfield,75 Freshwater Blvd,06082-3854,(860) 394-2000,41.993,-72.576
+Connecticut,Milford,1718 Boston Post Rd,06460-2718,(203) 882-8881,41.251,-73.025
+Connecticut,New Britain,405 Hartford Rd,06053-1507,(860) 893-7001,41.71,-72.763
+Connecticut,Norwalk,779 Connecticut Avenue,06854-1615,(203) 822-2003,41.092,-73.452
+Connecticut,South Windsor,1220 Tamarack Ave,06074,(860) 474-4031,41.818,-72.556
+Connecticut,Waterbury,3600 E Main St,06705-3851,(203) 596-9967,41.54,-72.968
+Delaware,Newark,900 Center Blvd,19702-3221,(302) 894-0511,39.677,-75.648
+District of Columbia,Washington,2441 Market St Ne,20018-3840,(202) 269-8540,38.921,-76.951
+Florida,Altamonte Springs,741 Orange Ave,32714-3031,(407) 786-7802,28.661,-81.418
+Florida,Boca Raton,17800 Congress Ave,33487-1200,(561) 981-5004,26.412,-80.101
+Florida,Bradenton,805 Lighthouse Drive,34212,(941) 213-0747,27.495,-82.47
+Florida,Brandon,10921 Causeway Blvd,33511-1997,(813) 952-0103,27.921,-82.331
+Florida,Clearwater,2655 Gulf To Bay Blvd,33759-4936,(727) 373-1951,27.957,-82.728
+Florida,Clermont,4600 Collina Terrace,34711,(689) 407-3663,28.548,-81.667
+Florida,Coral Springs,4621 Coral Ridge Dr.,33076-2200,(954) 715-8240,26.289,-80.28
+Florida,Davie,1890 S University Dr,33324-5808,(954) 370-8990,26.097,-80.248
+Florida,Daytona Beach,150 Pit Road,32114,(386) 267-3200,29.191,-81.072
+Florida,Jacksonville,4901 Gate Pkwy,32246-4405,(904) 997-7003,30.252,-81.534
+Florida,Winter Park,3333 University Blvd,32792-7428,(407) 681-2119,28.599,-81.3
+Florida,Fort Myers,10088 Gulf Center Dr,33913-8961,(239) 433-7240,26.49,-81.786
+Florida,Fort Myers,7171 Cypress Lake Dr,33907-6521,(239) 415-3806,26.545,-81.874
+Florida,Miami,13450 Sw 120Th St,33186-7393,(305) 964-4227,25.654,-80.413
+Florida,Lantana,1873 Lantana Rd,33462-2601,(561) 533-0958,26.589,-80.071
+Florida,Melbourne,4305 Pineda Causeway,32940,(321) 428-2910,28.189,-80.72
+Florida,Miami,7795 West Flagler Street,33144-2359,(786) 482-7135,25.775,-80.322
+Florida,Miami Lakes,16580 Nw 59Th Ave,33014-5611,(305) 825-9818,25.923,-80.299
+Florida,North Miami,14800 Sole Mia Way,33181,(305) 944-8711,25.912,-80.154
+Florida,Naples,6275 Naples Blvd,34109-2030,(239) 596-6404,26.22,-81.775
+Florida,North Port,11700 Mezzo Drive,34293-1254,(941) 548-4712,27.04,-82.307
+Florida,Orlando,2101 Waterbridge Blvd,32837-9283,(407) 586-7271,28.404,-81.406
+Florida,Palm Beach Gardens,3250 Northlake Blvd,33403-1702,(561) 776-3052,26.807,-80.088
+Florida,Pembroke Pines,15915 Pines Blvd,33027-1201,(954) 266-3460,26.01,-80.36
+Florida,Pompano Beach,1800 W Sample Rd,33064-1324,(954) 968-7114,26.273,-80.149
+Florida,Royal Palm Beach,11001 Southern Blvd,33411-4240,(561) 803-8822,26.683,-80.221
+Florida,Orlando,4696 Gardens Park Blvd,32839-2171,(407) 586-7221,28.496,-81.425
+Florida,Sarasota,8201 S Tamiami Trl Unit 501,34238-2966,(941) 554-2800,27.235,-82.491
+Florida,St. Augustine,215 World Commerce Parkway,32092,(904) 687-1299,29.982,-81.463
+Florida,Tallahassee,4067 Lagniappe Way,32317-1201,(850) 219-2500,30.461,-84.213
+Florida,The Villages,675 Tatonka Terrace,32162,,28.93,-82.022
+Florida,Jacksonville,8000 Parramore Rd,32244-5704,(904) 479-7521,30.202,-81.757
+Florida,Tampa,8712 W Linebaugh Ave,33625-3713,(813) 616-7001,28.042,-82.58
+Florida,Lutz,2225 Grand Cypress Dr,33559-6797,(813) 279-7031,28.189,-82.394
+Georgia,Alpharetta,2855 Jordan Ct,30004-3869,(678) 823-4950,34.091,-84.278
+Georgia,Athens,5550 Parkway Blvd,30606,(706) 247-8134,33.92,-83.457
+Georgia,Augusta,825 Cabela Dr,30909-8202,(706) 739-1700,33.525,-82.02
+Georgia,Atlanta,500 Brookhaven Ave Ne,30319-3291,(404) 460-1915,33.873,-84.336
+Georgia,Atlanta,2900 Cumberland Mall Se,30339-8107,(770) 431-1700,33.881,-84.471
+Georgia,Cumming,1211 Bald Ridge Marina Rd,30041-8484,(470) 239-6610,34.213,-84.116
+Georgia,Dallas,1715 Charles Hardy Pkwy,30157,(404) 806-4595,33.921,-84.764
+Georgia,Ringgold,100 Cobb Pkwy,30736-8566,(706) 891-2579,34.968,-85.194
+Georgia,Duluth,3980 Venture Dr,30096-5077,(770) 622-1330,33.948,-84.143
+Georgia,Buford,1550 Mall Of Georgia Blvd,30519-6551,(678) 288-3009,34.062,-83.996
+Georgia,Morrow,1700 Mount Zion Rd,30260-3014,(678) 201-0003,33.572,-84.334
+Georgia,Atlanta,6350 Peachtree Dunwoody Rd,30328-4568,(770) 352-8660,33.929,-84.354
+Georgia,Pooler,200 Mosaic Circle,31322,(912) 348-4569,32.081,-81.277
+Georgia,Sharpsburg,40 Fischer Crossings Dr,30277,(678) 621-8594,33.4,-84.622
+Georgia,Mcdonough,2245 Jodeco Road,30253,(678) 272-3288,33.481,-84.219
+Georgia,Kennesaw,645 Barrett Parkway Nw,30144-4922,(770) 794-1767,34.005,-84.57
+Georgia,Woodstock,113 Lincoln St,30188-7800,(770) 694-7193,34.12,-84.516
+Hawaii,Honolulu,333 A Keahole Street,96825-3406,(808) 396-5538,21.284,-157.71
+Hawaii,Honolulu,525 Alakawa St,96817-5764,(808) 526-6100,21.318,-157.87
+Hawaii,Kapolei,4589 Kapolei Pkwy,96707-1879,(808) 674-3900,21.327,-158.088
+Hawaii,Lihue,4300 Nuhou St.,96766-8002,(808) 241-4000,21.967,-159.381
+Hawaii,Kailua Kona,73-5600 Maiau St,96740-2630,(808) 331-4800,19.685,-156.017
+Hawaii,Kahului,540 Haleakala Hwy,96732-2302,(808) 877-5241,20.887,-156.45
+Hawaii,Pearl City,98-600 Kamehameha Hwy,96782,(808) 204-2845,21.392,-157.962
+Hawaii,Waipahu,94-1231 Ka Uka Blvd,96797-4495,(808) 678-6103,21.427,-158.0
+Idaho,Boise,2051 S Cole Rd,83709-2815,(208) 321-8700,43.586,-116.276
+Idaho,Coeur D' Alene,355 E Neider Ave,83815-3723,(208) 676-7351,47.709,-116.783
+Idaho,Idaho Falls,2495 E. Lincoln Road,83401,(986) 497-3149,43.513,-111.985
+Idaho,Meridian,3403 W. Chinden Blvd,83646,(986) 200-4136,43.661,-116.436
+Idaho,Nampa,16700 N Market Place Blvd,83687-7909,(208) 465-3800,43.615,-116.59
+Idaho,Pocatello,305 W Quinn Rd,83201-4988,(208) 238-4040,42.905,-112.455
+Idaho,Twin Falls,731 Pole Line Rd,83301-3036,(208) 736-1550,42.593,-114.464
+Illinois,Chicago,7300 S Cicero Ave,60629-5817,(708) 552-9010,41.759,-87.745
+Illinois,Bloomingdale,505 W Army Trail Rd,60108-1391,(630) 351-3059,41.941,-88.134
+Illinois,Bolingbrook,830 E Boughton Rd,60440-2355,(630) 410-0702,41.728,-88.032
+Illinois,Champaign,2002 N. Neil St,61820,(217) 600-6538,40.141,-88.245
+Illinois,Chicago,1430 S Ashland Ave,60608-2040,(312) 492-3609,41.863,-87.668
+Illinois,East Peoria,301 W Washington St,61611-2036,(309) 427-2930,40.669,-89.585
+Illinois,Glenview,2900 Patriot Blvd,60026-8046,(847) 730-1003,42.109,-87.822
+Illinois,Lake In The Hills,250 N Randall Rd,60156-5943,(847) 960-9910,42.179,-88.339
+Illinois,Lake Zurich,680 S Rand Rd,60047-3409,(847) 540-3050,42.187,-88.093
+Illinois,Chicago,2746 N Clybourn Ave,60614-1006,(773) 360-2053,41.93,-87.677
+Illinois,Loves Park,5000 Stadium Drive,61111,(779) 513-8397,42.321,-88.961
+Illinois,Melrose Park,8400 W North Ave,60160-1607,(708) 397-2905,41.91,-87.836
+Illinois,Mettawa,25901 Riverwoods Rd,60045-3403,(847) 235-1302,42.237,-87.903
+Illinois,Mount Prospect,999 N Elmhurst Rd,60056-1133,(847) 660-2000,42.083,-87.933
+Illinois,Naperville,1255 East Ogden Ave,60563,(331) 215-5612,41.798,-88.124
+Illinois,Naperville,1320 S Route 59,60564-5944,(630) 328-2900,41.746,-88.204
+Illinois,Niles,7311 N Melvina Ave,60714-3905,(847) 972-3003,42.015,-87.78
+Illinois,North Riverside,2500 South Harlem Ave,60546-1415,(708) 853-1017,41.844,-87.806
+Illinois,Oak Brook,1901 W 22Nd St,60523-1759,(630) 928-0235,41.845,-87.965
+Illinois,Orland Park,9915 W 159Th St,60467-4572,(708) 645-5336,41.6,-87.861
+Illinois,Plainfield,16261 S. Boulevard Place,60586,(815) 676-1170,41.587,-88.169
+Illinois,Schaumburg,1375 N Meacham Rd,60173-4805,(847) 969-0790,42.055,-88.042
+Illinois,Saint Charles,221 S Randall Rd,60174-1524,(630) 549-2024,41.909,-88.342
+Indiana,Avon,8816 Dr. Charles Nelson Drive,46123,(317) 286-4742,39.766,-86.365
+Indiana,Indianapolis,6110 E 86Th St,46250-3507,(317) 558-1453,39.914,-86.062
+Indiana,Evansville,1201 Cross Pointe Pl,47715-9168,(812) 909-6572,37.988,-87.462
+Indiana,Fort Wayne,5110 Value Dr,46808-4048,(260) 481-1100,41.126,-85.158
+Indiana,Indianapolis,9010 Michigan Rd,46268-3184,(317) 532-1608,39.917,-86.227
+Indiana,Merrillville,1310 E 79Th Ave,46410-5768,(219) 641-6400,41.475,-87.322
+Indiana,Granger,625 E University Dr,46530-7381,(574) 401-7004,41.719,-86.172
+Indiana,Noblesville,14775 North Pointe Blvd,46060,(463) 238-2013,40.004,-86.003
+Indiana,Indianapolis,4628 E County Line Rd,46237-9105,(317) 360-7076,39.638,-86.089
+Iowa,Ankeny,4000 Ne Spectrum Drive,50021,(515) 686-8709,41.762,-93.567
+Iowa,Coralville,2900 Heartland Dr,52241-2740,(319) 545-3200,41.699,-91.616
+Iowa,Davenport,2790 E 53Rd St,52807-3007,(563) 893-7004,41.577,-90.534
+Iowa,West Des Moines,7205 Mills Civic Pkwy,50266-8140,(515) 222-2920,41.563,-93.805
+Kansas,Lenexa,9350 Marshall Dr,66215-3845,(913) 227-3703,38.958,-94.733
+Kansas,Overland Park,12221 Blue Valley Pkwy,66213-2640,(913) 217-2050,38.907,-94.671
+Kansas,Wichita,9700 E Kellogg,67207-1821,(316) 226-7142,37.68,-97.224
+Kentucky,Florence,800 Heights Blvd,41042-1415,(859) 568-7000,38.989,-84.645
+Kentucky,Lexington,1500 Fitzgerald Ct,40509-8307,(859) 245-3620,38.025,-84.41
+Kentucky,Louisville,3408 Bardstown Rd,40218-4608,(502) 912-9869,38.204,-85.669
+Kentucky,Louisville,5020 Norton Healthcare Blvd,40241-2835,(502) 420-0160,38.316,-85.573
+Louisiana,Baton Rouge,10000 Dawnadele Ave Bldg A,70809-2591,(225) 295-4600,30.419,-91.074
+Louisiana,Covington,4001 Pinnacle Pkwy,70433-6052,(985) 249-2389,30.447,-90.131
+Louisiana,Lafayette,201 Meadow Farm Rd,70508-7277,(337) 541-7025,30.156,-92.043
+Louisiana,New Orleans,3900 Dublin St,70118-4754,(504) 484-5220,29.968,-90.11
+Maine,Scarborough,455 Scarborough Downs Road,04074,(207) 503-9902,43.609,-70.358
+Maryland,Hanover,7077 Arundel Mills Cir,21076-1387,(410) 379-3100,39.156,-76.731
+Maryland,Beltsville,10925 Baltimore Ave,20705-2117,(301) 902-2640,39.032,-76.909
+Maryland,Brandywine,16006 Crain Hwy,20613-8081,(301) 372-3200,38.67,-76.873
+Maryland,Elkridge,6675 Marie Curie Dr,21075-6457,(410) 423-4052,39.187,-76.794
+Maryland,Frederick,10 Monocacy Blvd,21704-7256,(301) 644-1483,39.401,-77.408
+Maryland,Gaithersburg,880 Russell Ave,20879-3506,(301) 417-1500,39.156,-77.214
+Maryland,Glen Burnie,575 E Ordnance Rd,21060-6555,(410) 590-8603,39.196,-76.6
+Maryland,Owings Mills,10270 Mill Run Circle,21117,(443) 501-7043,39.406,-76.789
+Maryland,Wheaton,11160 Veirs Mill Rd,20902-2538,(301) 692-1330,39.036,-77.056
+Maryland,Baltimore,9919 Pulaski Hwy,21220-1411,(410) 574-7563,39.358,-76.445
+Maryland,Glenarden,2400 Five Lees Ln,20706-1617,(301) 341-6742,38.923,-76.851
+Massachusetts,Avon,120 Stockwell Dr,02322-1149,(508) 232-4000,42.137,-71.066
+Massachusetts,Danvers,11 Newbury St,01923-1014,(978) 750-1000,42.557,-70.977
+Massachusetts,Dedham,200 Legacy Blvd,02026-2653,(781) 251-9975,42.232,-71.173
+Massachusetts,Everett,2 Mystic View Rd,02149-2428,(617) 544-4806,42.397,-71.072
+Massachusetts,Sharon,160 Old Post Road,02067-2820,(781) 253-7640,42.101,-71.225
+Massachusetts,Waltham,71 2Nd Ave,02451-1107,(781) 622-3883,42.395,-71.265
+Massachusetts,West Springfield,119 Daggett Dr,01089-4672,(413) 747-5518,42.132,-72.621
+Michigan,Auburn Hills,400 Brown Rd,48326-1305,(248) 648-0003,42.706,-83.296
+Michigan,Bloomfield,2343 S Telegraph Rd,48302-0254,(248) 836-1603,42.607,-83.293
+Michigan,Commerce Township,3000 Commerce Xing,48390-3082,(248) 529-2300,42.534,-83.445
+Michigan,East Lansing,2540 E Saginaw Highway,48823-9719,(517) 903-5000,42.752,-84.444
+Michigan,Flint,6200 Lafontaine Way,48507-4905,(810) 496-6829,42.943,-83.72
+Michigan,Grand Rapids,5100 28Th St Se,49512-2049,(616) 233-4401,42.911,-85.543
+Michigan,Brighton,6700 Whitmore Lake Rd,48116-2160,(810) 220-8950,42.504,-83.762
+Michigan,Livonia,20000 Haggerty Rd,48152-1011,(734) 464-6399,42.433,-83.43
+Michigan,Kalamazoo,5100 Century Ave,49006-5714,(269) 743-2298,42.272,-85.651
+Michigan,Shelby Township,45460 Market St,48315-6224,(586) 580-2000,42.63,-82.979
+Michigan,Madison Heights,30550 Stephenson Hwy,48071-1611,(248) 616-0048,42.516,-83.117
+Michigan,Livonia,13700 Middlebelt Rd,48150-2215,(734) 427-0563,42.382,-83.332
+Michigan,Midland,4816 Bay City Rd,48642,(989) 488-1553,43.603,-84.17
+Michigan,Ann Arbor,771 Airport Blvd,48108-3601,(734) 213-8010,42.231,-83.744
+Michigan,Roseville,27118 Gratiot Ave,48066-2915,(586) 447-0191,42.496,-82.935
+Michigan,Southfield,21110 Northwestern Hwy,48075-5013,(248) 233-8431,42.448,-83.205
+Michigan,Traverse City,125 E South Airport Rd,49686-4864,(231) 252-7000,44.734,-85.572
+Michigan,Wyoming,4901 Wilson Ave Sw,49418-8788,(616) 406-2651,42.876,-85.763
+Minnesota,Baxter,13650 Elder Dr,56425-8818,(218) 855-5740,46.349,-94.247
+Minnesota,Burnsville,14050 Burnhaven Dr,55337-4407,(952) 229-6449,44.75,-93.295
+Minnesota,Chaska,2 Oakridge Drive,55318,(952) 513-2821,44.841,-93.602
+Minnesota,Minneapolis,12547 Riverdale Blvd Nw,55448-6708,(763) 712-7763,45.199,-93.348
+Minnesota,Duluth,4611 W Arrowhead Rd.,55811,(218) 600-5978,46.823,-92.173
+Minnesota,Eagan,995 Blue Gentian Rd,55121-1542,(612) 439-8060,44.86,-93.141
+Minnesota,Eden Prairie,12011 Technology Dr,55344-3620,(952) 943-4801,44.861,-93.436
+Minnesota,Maple Grove,11330 Fountains Dr,55369-7200,(763) 494-8050,45.093,-93.425
+Minnesota,Maplewood,1431 Beam Ave,55109-1064,(612) 486-1740,45.029,-93.04
+Minnesota,Minneapolis,3311 Broadway St Ne,55413-4553,(651) 502-7600,45.0,-93.216
+Minnesota,Rochester,2020 Commerce Dr Nw,55901-3246,(507) 286-1860,44.047,-92.518
+Minnesota,Saint Cloud,3636 2Nd St S,56301-3732,(320) 316-9865,45.549,-94.2
+Minnesota,Saint Louis Park,5801 W 16Th St,55416-1446,(763) 582-9603,44.967,-93.354
+Minnesota,Woodbury,7070 Tamarack Road,55125-1205,(612) 540-5458,44.939,-92.963
+Mississippi,Ridgeland,700 Highland Colony Pkwy,39157,(601) 499-8581,32.423,-90.147
+Missouri,Independence,19040 E Valley View Pkwy,64055-7004,(816) 200-2003,39.036,-94.357
+Missouri,Kansas City,241 E Linwood Blvd,64111-1119,(816) 216-0003,39.067,-94.581
+Missouri,Manchester,301 Highlands Blvd Drive,63011-4385,(636) 686-7400,38.598,-90.507
+Missouri,Kansas City,1600 Nw 88Th St,64155-2410,(816) 857-7086,39.255,-94.599
+Missouri,Saint Louis,4200 Rusty Rd,63128-1973,(314) 894-7950,38.508,-90.339
+Missouri,Springfield,279 N. Eastgate Avenue,65802,(417) 512-8939,37.207,-93.224
+Missouri,St. Louis,8421 St John Industrial Lane,63114-4550,(314) 219-1195,38.705,-90.335
+Missouri,Saint Peters,200 Costco Way,63376-4385,(636) 970-4004,38.797,-90.607
+Missouri,Saint Louis,8685 Olive Blvd,63132-2503,(314) 219-5300,38.676,-90.36
+Montana,Billings,3880 Zoo Drive,59106-3963,(406) 601-8273,45.734,-108.614
+Montana,Bozeman,2505 Catron St,59718-7993,(406) 585-0383,45.713,-111.07
+Montana,Helena,2195 E Custer Ave,59602-1217,(406) 495-7042,46.616,-112.003
+Montana,Kalispell,2330 Us Highway 93 N,59901-2547,(406) 758-2500,48.234,-114.333
+Montana,Missoula,3220 N Reserve St,59808-1556,(406) 543-6445,46.895,-114.038
+Nebraska,La Vista,12515 Portside Parkway,68128-5622,(402) 378-7398,41.178,-96.109
+Nebraska,Lincoln,1620 Pine Lake Road,68512-3612,(531) 333-7559,40.739,-96.697
+Nebraska,Omaha,17701 Evans St,68116,(531) 484-4259,41.29,-96.192
+Nebraska,Omaha,12300 W Dodge Rd,68154-2382,(402) 952-3240,41.265,-96.106
+Nevada,Carson City,700 Old Clear Creek Rd,89705-6853,(775) 881-2503,39.117,-119.777
+Nevada,Las Vegas,6555 N. Decatur Blvd,89131-2796,(702) 415-2300,36.278,-115.209
+Nevada,Henderson,791 Marks St,89014-8601,(702) 352-2000,36.069,-115.037
+Nevada,Las Vegas,222 S Martin L King Blvd,89106-4305,(702) 384-6247,36.172,-115.162
+Nevada,Reno,2200 Harvard Way,89502-4004,(775) 689-2200,39.503,-119.784
+Nevada,Henderson,3411 Saint Rose Pkwy,89052-4570,(702) 803-7044,35.988,-115.138
+Nevada,Sparks,4810 Galleria Pkwy,89436-9605,(775) 356-4400,39.579,-119.739
+Nevada,Las Vegas,801 S Pavilion Center Dr,89144-4566,(702) 352-2053,36.163,-115.333
+New Hampshire,Nashua,311 Daniel Webster Hwy,03060-5702,(603) 888-3640,42.702,-71.443
+New Jersey,Bayonne,21 Goldsborough Dr,07002,(201) 354-2335,40.674,-74.104
+New Jersey,Brick,465 Route 70,08723-4049,(732) 262-6300,40.055,-74.157
+New Jersey,Bridgewater,325 Promenade Blvd,08807-3457,(732) 584-1003,40.563,-74.558
+New Jersey,Cherry Hill,650 Garden Park Blvd,08002-4250,(856) 406-7430,39.927,-75.04
+New Jersey,Clifton,20 Bridewell Pl,07014-1724,(973) 779-8715,40.832,-74.137
+New Jersey,East Hanover,156 Sr-10 West,07936-2107,(973) 602-2000,40.812,-74.38
+New Jersey,Edison,205 Vineyard Rd,08817-4785,(732) 491-2023,40.53,-74.376
+New Jersey,Flemington,2A Walter E Foran Blvd N,08822,(908) 905-7210,40.522,-74.852
+New Jersey,Hackensack,80 S River St,07601-6954,(201) 296-3044,40.876,-74.039
+New Jersey,Hazlet,2835 Route 35 N,07730-1516,(732) 335-3800,40.419,-74.171
+New Jersey,Stafford Township,245 Stafford Park Blvd,08050-2734,(609) 242-2011,39.707,-74.288
+New Jersey,Morganville,18 Route 9 North,07751-1526,(732) 617-4340,40.362,-74.303
+New Jersey,Mount Laurel,100 Centerton Rd,08054-6103,(856) 359-3650,39.972,-74.908
+New Jersey,North Brunswick,100 Grand Avenue,08902-5026,(732) 509-3905,40.437,-74.507
+New Jersey,North Plainfield,1290 Us Highway 22E,07060-3518,(908) 546-5666,40.612,-74.459
+New Jersey,Ocean,2361 State Route 66,07712-3961,(732) 481-0023,40.233,-74.046
+New Jersey,Lawrence Township,4100 Quakerbridge Rd,08648-4702,(609) 779-7000,40.282,-74.675
+New Jersey,Teterboro,2 Teterboro Landing Dr,07608-1120,(201) 596-7001,40.861,-74.064
+New Jersey,Union,1055 Hudson St,07083-6809,(908) 810-1458,40.694,-74.288
+New Jersey,Wayne,149 State Route 23,07470-6933,(973) 339-4006,40.891,-74.255
+New Jersey,Wharton,315 State Route 15 N,07885-1222,(973) 659-2000,40.907,-74.569
+New Mexico,Albuquerque,1420 N Renaissance Blvd Ne,87107-7008,(505) 345-9411,35.137,-106.614
+New Mexico,Albuquerque,9955 Coors Bypass Nw,87114-6196,(505) 922-7400,35.195,-106.661
+New Mexico,Albuquerque,500 Eubank Blvd Se,87123-3338,(505) 332-6603,35.068,-106.531
+New York,Brooklyn,976 3Rd Ave,11232-2400,(718) 965-7603,40.655,-74.009
+New York,Commack,10 Garet Pl,11725-5421,(631) 462-3900,40.807,-73.286
+New York,Holbrook,125 Beacon Dr,11741-4309,(631) 244-0292,40.773,-73.05
+New York,Lawrence,605 Rockaway Tpke,11559-1047,(516) 371-2017,40.631,-73.739
+New York,New York,517 E 117Th St,10035-4409,(212) 896-5875,40.796,-73.931
+New York,Melville,625 Broadhollow Rd,11747-5006,(631) 293-8707,40.758,-73.421
+New York,Nanuet,50 Overlook Blvd,10954-5290,(845) 425-1469,41.107,-74.025
+New York,Nesconset,3000 Middle Country Rd,11767-1072,(631) 366-1504,40.86,-73.13
+New York,New Rochelle,1 Industrial Ln,10805-1203,(914) 235-2233,40.896,-73.795
+New York,Oceanside,3705 Hampton Rd,11572-4808,(516) 259-7002,40.619,-73.652
+New York,Port Chester,1 Westchester Ave,10573-4314,(914) 935-3103,41.0,-73.661
+New York,Long Island City,3250 Vernon Blvd,11106-4927,(718) 267-3680,40.768,-73.939
+New York,Rego Park,6135 Junction Blvd,11374-2771,(718) 760-2180,40.733,-73.863
+New York,Riverhead,1768 Old Country Rd,11901-3146,(631) 655-0110,40.927,-72.707
+New York,Rochester,335 Westfall Road,14620-4603,(585) 471-6906,43.114,-77.613
+New York,Staten Island,2975 Richmond Ave,10314-5851,(718) 982-9525,40.573,-74.169
+New York,Camillus,120 Township Blvd,13031-1659,(315) 883-2361,43.057,-76.268
+New York,Westbury,1250 Old Country Rd,11590-5624,(516) 683-8300,40.744,-73.598
+New York,Yonkers,20 Stew Leonard Dr,10710-7204,(914) 595-1003,40.974,-73.862
+North Carolina,Apex,1021 Pine Plaza Dr,27523-6406,(919) 331-6027,35.747,-78.828
+North Carolina,Charlotte,500 Tyvola Rd,28217-3504,(704) 501-2403,35.162,-80.885
+North Carolina,Durham,1510 N Pointe Dr,27705-3405,(919) 220-2770,36.029,-78.915
+North Carolina,Raleigh,7800 Fayetteville Rd.,27603,(984) 810-5030,35.668,-78.699
+North Carolina,Greensboro,4201 W Wendover Ave,27407-1908,(336) 291-4010,36.058,-79.884
+North Carolina,Matthews,2125 Matthews Township Pkwy,28105-5766,(704) 321-7440,35.13,-80.704
+North Carolina,Mooresville,392 Talbert Rd,28117,(980) 447-9749,35.582,-80.855
+North Carolina,Raleigh,2838 Wake Forest Rd,27609-7840,(919) 755-2801,35.818,-78.622
+North Carolina,Wilmington,5351 Gingerwood Dr,28405-3091,(910) 798-3250,34.248,-77.873
+North Carolina,Winston Salem,1085 Hanes Mall Blvd,27103-1310,(336) 970-2300,36.065,-80.318
+North Dakota,Bismarck,1325 57Th Ave Ne,58503-6581,(701) 415-7003,46.865,-100.77
+North Dakota,West Fargo,750 23Rd Ave East,58078-7804,(701) 281-2220,46.845,-96.887
+Ohio,Avon,35804 Detroit Road,44011-1681,(440) 930-0103,41.46,-82.011
+Ohio,Boston Heights,6720 Bass Pro Dr,44236-1198,(330) 341-7000,41.265,-81.507
+Ohio,Centerville,5300 Cornerstone North Blvd,45440-2268,(937) 640-6000,39.662,-84.107
+Ohio,Columbus,1500 Gemini Pl,43240-7002,(614) 987-1900,40.15,-82.977
+Ohio,Cincinnati,9691 Waterstone Blvd,45249-8220,(513) 774-0024,39.296,-84.303
+Ohio,Columbus,3888 Stelzer Rd,43219-3044,(614) 934-6211,40.054,-82.905
+Ohio,Liberty Township,7135 Veterans Boulevard,45069,(513) 346-7940,39.37,-84.358
+Ohio,Cleveland,1409 Golden Gate Blvd,44124-1808,(440) 544-1350,41.524,-81.447
+Ohio,Plain City,7300 State Route 161 E,43064-9276,(614) 733-5002,40.11,-83.189
+Ohio,North Canton,4953 Huckleberry St Nw,44720,(330) 818-0000,40.886,-81.44
+Ohio,Perrysburg,26400 Dixie Hwy,43551-1967,(567) 368-6000,41.535,-83.633
+Ohio,Strongsville,16690 Royalton Rd,44136-4433,(440) 783-3415,41.317,-81.816
+Ohio,Toledo,3405 W Central Ave,43606-1402,(419) 381-5000,41.676,-83.625
+Oklahoma,Moore,2651 S. Telephone Rd,73160-0008,(405) 300-7661,35.314,-97.496
+Oklahoma,Tulsa,4816 N 118Th Ave E,74116,(539) 235-5110,36.223,-95.848
+Oklahoma,Oklahoma City,13200 N Western Ave,73114,(405) 832-5102,35.605,-97.53
+Oklahoma,Tulsa,10220 S Memorial Dr,74133-7179,(918) 710-2220,36.014,-95.889
+Oregon,Albany,3130 Killdeer Ave Se,97322-5359,(541) 918-7043,44.638,-123.066
+Oregon,Aloha,15901 Sw Jenkins Rd,97006-5045,(503) 644-7615,45.509,-122.842
+Oregon,Bend,62207 Nw Costco Drive,97703-8508,(541) 640-8580,44.107,-121.306
+Oregon,Central Point,3075 Hamrick Road,97502-2844,(541) 734-4227,42.375,-122.887
+Oregon,Clackamas,13130 Se 84Th Ave,97015-9733,(503) 794-5500,45.428,-122.574
+Oregon,Eugene,2828 Chad Dr,97408-7336,(541) 683-8126,44.089,-123.065
+Oregon,Hillsboro,1255 Ne 48Th Ave,97124-5008,(503) 681-2800,45.536,-122.935
+Oregon,Portland,4849 Ne 138Th Ave,97230-3401,(503) 252-2243,45.559,-122.524
+Oregon,Roseburg,4141 Ne Stephens St,97470-1161,(541) 378-0020,43.26,-123.35
+Oregon,Salem,4885 27Th Ave. Se,97306-6919,(503) 371-1729,44.884,-123.007
+Oregon,Tigard,7850 Sw Dartmouth St,97223-8401,(503) 639-0811,45.435,-122.758
+Oregon,Warrenton,1804 Se Ensign Ln,97146-7339,(503) 338-4103,46.147,-123.914
+Oregon,Wilsonville,25900 Sw Heather Pl,97070-5785,(503) 825-4003,45.333,-122.764
+Pennsylvania,Allentown,791 N Krocks Rd,18106-9046,(484) 273-7056,40.566,-75.558
+Pennsylvania,Warminster,100 Veterans Way,18974-3533,(215) 347-1950,40.197,-75.08
+Pennsylvania,Glen Mills,700 Evergreen Dr,19342-2102,(610) 387-2205,39.89,-75.532
+Pennsylvania,Cranberry Township,1050 Cranberry Square Dr,16066-6142,(724) 778-6300,40.691,-80.108
+Pennsylvania,Harrisburg,5125 Jonestown Rd Ste 221,17112-2983,(717) 412-2050,40.307,-76.798
+Pennsylvania,Homestead,501 Waterfront Dr W,15120-5009,(412) 205-1000,40.403,-79.921
+Pennsylvania,King Of Prussia,201 Allendale Rd,19406-1634,(610) 337-6601,40.091,-75.386
+Pennsylvania,Lancaster,1875 Hempstead Rd,17601-5671,(717) 396-8460,40.053,-76.257
+Pennsylvania,North Wales,740 Upper State Rd,19454-1403,(215) 353-4153,40.237,-75.234
+Pennsylvania,Pittsburgh,202 Costco Dr,15205-4858,(412) 490-2204,40.459,-80.166
+Pennsylvania,Pottstown,14 W Lightcap Rd,19464-3413,(610) 569-4137,40.238,-75.576
+Puerto Rico,Caguas Bairoa Ward,"200 Ave Rafael Cordero, Pr#30",00725-4302,(787) 653-6930,18.247,-66.024
+Puerto Rico,San Juan,1185 Ave 65 Infanteria,00924-3403,(787) 999-7230,18.4,-65.997
+Puerto Rico,Bayamon,125 Calle A,00959,(787) 993-9303,18.384,-66.138
+Puerto Rico,San Juan,Carr 176 Km 0.5,00926,(888) 860-0413,18.357,-66.054
+Puerto Rico,Bayamon,"Pr-2, Km 15.5",00961,(787) 474-6930,18.404,-66.195
+South Carolina,Charleston,3050 Ashley Town Center Dr,29414-5664,(843) 460-2003,32.795,-80.036
+South Carolina,Columbia,507 Piney Grove Rd,29210-3405,(803) 875-7130,34.071,-81.14
+South Carolina,Greenville,1021 Woodruff Rd,29607-4108,(864) 297-2560,34.836,-82.311
+South Carolina,Mount Pleasant,3525 Park Avenue Blvd,29466-7242,(843) 375-7021,32.882,-79.77
+South Carolina,Myrtle Beach,1021 Oak Forest Ln,29577-9795,(843) 839-6604,33.706,-78.916
+South Carolina,Spartanburg,211 W Blackstock Rd,29301-1382,(864) 515-4942,34.94,-81.997
+South Dakota,Sioux Falls,3700 S Grange Ave,57105-6359,(605) 988-9140,43.513,-96.74
+Tennessee,Brentwood,98 Seaboard Ln,37027-2930,(615) 493-1003,35.964,-86.817
+Tennessee,Knoxville,10745 Kingston Pike,37934-3002,(865) 218-7700,35.896,-84.14
+Tennessee,Hendersonville,1101 Forest Retreat Rd,37075,(615) 348-3248,36.329,-86.623
+Tennessee,Mt. Juliet,100 Legacy Pointe Blvd.,37122,(615) 583-4480,36.182,-86.463
+Tennessee,Murfreesboro,1524 Beasie Rd,37128,(615) 439-2639,35.826,-86.417
+Tennessee,Cordova,2431 N Germantown Pkwy,38016-4494,(901) 214-0003,35.192,-89.795
+Tennessee,Memphis,3775 Hacks Cross Rd,38125-2302,(901) 214-0054,35.046,-89.797
+Tennessee,Nashville,6670 Charlotte Pike,37209-4202,(615) 354-5100,36.14,-86.885
+Texas,Arlington,600 W Arbrook Blvd,76014-3702,(817) 417-1603,32.684,-97.113
+Texas,Austin,10401 Research Blvd,78759-5712,(512) 634-2253,30.396,-97.744
+Texas,Houston,1150 Bunker Hill Rd,77055-6208,(713) 576-2053,29.787,-95.529
+Texas,Cedar Park,4601 183A Toll Rd,78613-6310,(512) 690-9059,30.527,-97.819
+Texas,College Station,4321 State Hwy 6 South,77845,(979) 321-6550,30.567,-96.263
+Texas,Cypress,26960 Nw Freeway,77433-4934,(832) 653-4576,29.979,-95.712
+Texas,Dallas,8055 Churchill Way,75251-2149,(469) 680-7546,32.919,-96.768
+Texas,Dallas,8282 Park Ln,75231-6023,(469) 498-6623,32.869,-96.764
+Texas,Duncanville,250 W Highway 67,75137-4415,(469) 221-8113,32.621,-96.91
+Texas,Plano,3800 N Central Expy,75074-2221,(972) 244-0003,33.044,-96.7
+Texas,El Paso,6101 Gateway Blvd W Suite #1,79925-3416,(915) 774-5203,31.783,-106.41
+Texas,Fort Worth,5300 Overton Ridge Blvd,76132-3301,(817) 210-0003,32.677,-97.409
+Texas,Frisco,11220 Dallas Pkwy,75033-4102,(469) 200-7116,33.172,-96.838
+Texas,Houston,3836 Richmond Ave,77027-5802,(832) 325-5850,29.735,-95.439
+Texas,Georgetown,2201A N Ih 35,78628,(512) 240-9201,30.677,-97.664
+Texas,Humble,21802 Townsen Blvd W.,77338-1594,(281) 707-7051,30.021,-95.267
+Texas,Kyle,19086 Ih 35,78640,(512) 400-2311,30.002,-97.867
+Texas,Lewisville,851 State Highway 121 Byp,75067-4158,(469) 948-1026,32.998,-96.964
+Texas,Lubbock,6020 34Th St,79407-3102,(806) 784-1450,33.564,-101.947
+Texas,Mckinney,3650 W University Dr,75071-2934,(469) 347-6421,33.219,-96.66
+Texas,Fort Worth,8900 Tehama Ridge Pkwy,76177-2004,(817) 806-9833,32.901,-97.321
+Texas,San Antonio,5611 Utsa Blvd,78249-1619,(210) 200-2050,29.576,-98.597
+Texas,Pearland,3500 Business Center Drive,77584-1952,(281) 707-7001,29.544,-95.39
+Texas,Pflugerville,1901 Kelly Ln,78660,(737) 888-6037,30.469,-97.591
+Texas,Pharr,1501 W Kelly Ave,78577-5031,(956) 354-3900,26.193,-98.202
+Texas,Prosper,5620 W University Drive,75078-3830,(972) 346-6120,33.222,-96.896
+Texas,Richmond,11125 W Grand Pkwy S,77406,(346) 309-3111,29.649,-95.706
+Texas,Rockwall,1225 State Highway 276,75032-9376,(972) 772-1602,32.908,-96.446
+Texas,Austin,4301 W William Cannon Dr Bldg A Ste,78749-1499,(512) 382-3013,30.219,-97.842
+Texas,Selma,15330 Ih-35 North,78154-3814,(210) 332-1072,29.576,-98.319
+Texas,San Antonio,1201 N Loop 1604 E,78232-1322,(210) 403-4703,29.612,-98.475
+Texas,Southlake,2601 E State Highway 114,76092-6668,(817) 749-2800,32.942,-97.111
+Texas,Stafford,12717 Network Dr,77477-1738,(346) 309-3871,29.638,-95.577
+Texas,Sugar Land,17520 Southwest Fwy,77479-2359,(281) 566-6720,29.586,-95.644
+Texas,Tomball,27000 Tomball Pkwy,77375,(832) 843-0795,30.069,-95.621
+Texas,Katy,23645 Katy Freeway,77494-7221,(281) 347-9900,29.783,-95.781
+Texas,Plano,1701 Dallas Pkwy,75093-4580,(972) 246-2203,33.024,-96.832
+Texas,San Antonio,191 W Loop 1604 S,78245-4191,(210) 868-6725,29.431,-98.715
+Texas,Weatherford,310 Center Point Road,76087-4940,(682) 803-2846,32.75,-97.732
+Texas,Webster,1310 Jasmine Ave,77598,(281) 707-7750,29.533,-95.139
+Texas,Houston,12405 N Gessner Rd,77064-1170,(832) 912-2353,29.955,-95.547
+Texas,Conroe,8185 Highway 242,77385-4365,(936) 703-2295,30.209,-95.453
+Utah,West Bountiful,573 W 100 N,84010-7018,(801) 299-3940,40.89,-111.895
+Utah,Lehi,198 N 1200 E,84043-2294,(801) 653-2700,40.389,-111.823
+Utah,Logan,1160 N 1000 W,84321,(435) 915-4214,41.752,-111.857
+Utah,Murray,5201 S Intermountain Dr,84107-6024,(801) 290-4200,40.658,-111.89
+Utah,Orem,648 E 800 S,84097-6528,(801) 851-5003,40.28,-111.68
+Utah,Riverton,13126 S. Eagles Flight Rd,84096,(385) 855-7196,40.513,-112.002
+Utah,Salt Lake City,1818 S 300 W,84115-1805,(801) 485-9715,40.731,-111.902
+Utah,Sandy,11100 S Auto Mall Dr,84070-4171,(801) 790-0003,40.55,-111.895
+Utah,Saratoga Springs,1083 N Redwood Rd.,84045,(801) 407-4194,40.382,-111.918
+Utah,South Jordan,3571 W 10400 S,84095-7173,(801) 523-5287,40.56,-111.975
+Utah,Ogden,3656 Wall Ave,84405-7101,(801) 317-3953,41.196,-111.978
+Utah,Spanish Fork,273 E 1000 N,84660-5844,(801) 504-9530,40.124,-111.649
+Utah,Saint George,835 N 3050 E,84790-9041,(435) 256-0003,37.122,-113.522
+Utah,Salt Lake City,3747 S 2700 W,84119-3721,(801) 996-9008,40.69,-111.954
+Vermont,Colchester,218 Lower Mountain View Dr,05446-5830,(802) 318-2000,44.504,-73.175
+Virginia,Chantilly,14390 Chantilly Crossing Ln,20151-2117,(703) 885-5544,38.896,-77.443
+Virginia,Charlottesville,3171 District Ave,22901-2784,(434) 328-7023,38.068,-78.49
+Virginia,North Chesterfield,1401 Mall Dr,23235-4887,(804) 464-9110,37.514,-77.605
+Virginia,Fairfax,4725 W Ox Rd,22030-6125,(703) 332-3200,38.849,-77.372
+Virginia,Fredericksburg,3102 Plank Rd # 600,22407-4900,(540) 785-1160,38.29,-77.516
+Virginia,Harrisonburg,1830 Reservoir St,22801-8742,(540) 432-8989,38.428,-78.857
+Virginia,Leesburg,1300 Edwards Ferry Rd Ne,20176-3355,(703) 669-5061,39.115,-77.533
+Virginia,Manassas,10701 Sudley Manor Dr,20109-2845,(703) 368-7579,38.784,-77.517
+Virginia,Alexandria,7940 Richmond Hwy,22306-7826,(571) 458-3500,38.742,-77.088
+Virginia,Springfield,7373 Boston Blvd,22153-2805,(703) 912-1203,38.74,-77.197
+Virginia,Newport News,12121 Jefferson Ave,23602-6916,(757) 746-2003,37.106,-76.497
+Virginia,Norfolk,850 Glenrock Rd,23502-3702,(757) 459-4471,36.852,-76.2
+Virginia,Arlington,1200 S Fern St,22202-2862,(703) 413-2324,38.861,-77.057
+Virginia,Woodbridge,2700 Potomac Mills Circle,22192-4653,(703) 490-7410,38.642,-77.292
+Virginia,Sterling,21398 Price Cascades Plz,20164-6606,(703) 406-6500,39.024,-77.402
+Virginia,Glen Allen,9650 W Broad St,23060-4115,(804) 727-3050,37.642,-77.561
+Virginia,Winchester,251 Front Royal Pike,22602-7319,(540) 722-9626,39.158,-78.156
+Washington,Shoreline,1175 N 205Th St,98133-3206,(206) 546-0480,47.775,-122.344
+Washington,Bellingham,4125 Arctic Ave,98226-9325,(360) 671-6947,48.792,-122.514
+Washington,Bonney Lake,9801 204Th Ave E,98391-6559,(253) 750-8120,47.167,-122.159
+Washington,Burlington,1725 S Burlington Blvd,98233-3223,(360) 757-5703,48.454,-122.338
+Washington,Clarkston,301 5Th St,99403-1860,(509) 758-1800,46.423,-117.042
+Washington,Covington,27520 Covington Way Se,98042-9100,(253) 796-1004,47.355,-122.121
+Washington,Camas,19610 Se 1St St,98607-7472,(360) 258-6221,45.622,-122.473
+Washington,Everett,10200 19Th Ave Se,98208-4256,(425) 379-7451,47.904,-122.21
+Washington,Federal Way,35100 Enchanted Pkwy S,98003-8314,(253) 874-3652,47.287,-122.31
+Washington,Fife,3900 20Th St E,98424-1818,(253) 719-1950,47.238,-122.374
+Washington,Gig Harbor,10990 Harbor Hill Dr Nw,98332-8945,(253) 853-8600,47.358,-122.604
+Washington,Issaquah,1801 10Th Ave Nw,98027-5384,(425) 313-0965,47.551,-122.052
+Washington,Kennewick,8505 W. Gage Blvd,99336-8120,(509) 737-8861,46.226,-119.235
+Washington,Kirkland,8629 120Th Ave Ne,98033-5822,(425) 827-1693,47.681,-122.181
+Washington,Lacey,1470 Marvin Rd Ne,98516-3870,(360) 412-3500,47.059,-122.761
+Washington,Lake Stevens,9210 24Th Street Se,98258,(425) 367-6422,47.975,-122.105
+Washington,Lynnwood,18109 33Rd Ave W,98037-4840,(425) 697-1062,47.834,-122.273
+Washington,Lynnwood,19105 Highway 99,98036-5228,(425) 640-7700,47.826,-122.31
+Washington,Marysville,16616 Twin Lakes Ave,98271-4701,(360) 652-4532,48.148,-122.191
+Washington,Spokane,12020 N Newport Hwy,99218-1655,(509) 466-9668,47.766,-117.383
+Washington,Puyallup,1201 39Th Ave Sw,98373-3803,(253) 445-7543,47.156,-122.309
+Washington,Redmond,7725 188Th Ave Ne,98052-6088,(425) 406-5382,47.673,-122.091
+Washington,Ridgefield,519 N. 56Th Pl.,98642,(360) 727-8401,45.82,-122.693
+Washington,Seattle,4401 4Th Ave S,98134-2311,(206) 622-3136,47.565,-122.331
+Washington,Sequim,955 W Washington St,98382-3266,(360) 406-2025,48.077,-123.126
+Washington,Silverdale,10000 Mickelberry Rd Nw,98383-8302,(360) 692-9213,47.657,-122.68
+Washington,Spokane,5601 E Sprague Ave,99212-0826,(509) 842-0003,47.658,-117.333
+Washington,Tacoma,2219 S 37Th St,98409-7473,(253) 475-5595,47.225,-122.468
+Washington,Tukwila,400 Costco Dr Ste 150,98188-4808,(206) 575-9191,47.446,-122.248
+Washington,Tumwater,5500 Littlerock Rd Sw,98512-7363,(360) 357-6580,46.997,-122.916
+Washington,Union Gap,2310 Longfibre Rd,98903-1513,(509) 454-5242,46.563,-120.5
+Washington,Vancouver,6720 Ne 84Th St,98665-2016,(360) 828-2262,45.685,-122.605
+Washington,East Wenatchee,375 Highline Dr,98802-5344,(509) 886-0593,47.401,-120.281
+Washington,Woodinville,24008 Snohomish Woodinville Rd,98072-9743,(425) 806-7700,47.78,-122.148
+Wisconsin,Bellevue,2355 Costco Way,54311-9206,(920) 469-5700,44.458,-87.986
+Wisconsin,Eau Claire,1420 Black Avenue,54703,(715) 598-6755,44.831,-91.451
+Wisconsin,Grafton,950 Port Washington Rd,53024-9201,(262) 204-1050,43.324,-87.922
+Wisconsin,Grand Chute,5401 W. Integrity Way,54913-8602,(920) 815-4500,44.271,-88.488
+Wisconsin,Menomonee Falls,W162N9235 Pershing Ave,53051-4026,(262) 946-6060,43.185,-88.112
+Wisconsin,Middleton,2150 Deming Way,53562-5507,(608) 824-3950,43.1,-89.522
+Wisconsin,New Berlin,15300 West Grange Ave,53151-7909,(262) 599-7030,42.945,-88.106
+Wisconsin,Pewaukee,443 Pewaukee Rd,53072-5886,(262) 956-6700,43.089,-88.231
+Wisconsin,Pleasant Prairie,7707 94Th Ave,53158-1955,(262) 597-1027,42.564,-87.92
+Wisconsin,Sun Prairie,2850 Hoepker Rd,53590-9334,(608) 825-4001,43.167,-89.274
+Wisconsin,Verona,1000 Batker Court,53593,(608) 497-8355,42.971,-89.509

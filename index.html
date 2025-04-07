@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Store Locator</title>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.5;
+    }
+    select {
+      padding: 8px;
+      margin: 10px 0;
+      min-width: 200px;
+    }
+    .store-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .store-card {
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      width: 300px;
+    }
+    .target {
+      border-left: 5px solid #cc0000;
+    }
+    .costco {
+      border-left: 5px solid #005daa;
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Target and Costco Store Locator</h1>
+  
+  <div>
+    <label for="citySelect">Select a city: </label>
+    <select id="citySelect">
+      <option value="">Loading cities...</option>
+    </select>
+  </div>
+  
+  <div id="storeResults">
+    <p>Select a city to view store locations.</p>
+  </div>
+
+  <script>
+    // Main code will go here
+    document.addEventListener('DOMContentLoaded', async () => {
+      const citySelect = document.getElementById('citySelect');
+      const storeResults = document.getElementById('storeResults');
+      
+      let targetData = [];
+      let costcoData = [];
+      let citiesWithBoth = {};
+      
+      // Load CSV data
+      async function loadData() {
+        try {
+          // Fetch Target data
+          const targetResponse = await fetch('/data/target_all_states.csv');
+          const targetCsv = await targetResponse.text();
+          targetData = Papa.parse(targetCsv, { header: true, skipEmptyLines: true }).data;
+          
+          // Fetch Costco data
+          const costcoResponse = await fetch('/data/costco_warehouses.csv');
+          const costcoCsv = await costcoResponse.text();
+          costcoData = Papa.parse(costcoCsv, { header: true, skipEmptyLines: true }).data;
+          
+          processData();
+        } catch (error) {
+          console.error('Error loading data:', error);
+          storeResults.innerHTML = '<p style="color: red;">Error loading store data.</p>';
+        }
+      }
+      
+      // Process the data to find cities with both stores
+      function processData() {
+        // Filter for Michigan only
+        const targetMI = targetData.filter(store => store.state === 'MI');
+        const costcoMI = costcoData.filter(store => store.state === 'Michigan');
+        
+        // Normalize and group by city
+        const normalizeCity = city => city?.trim().toLowerCase();
+        
+        const targetByCity = _.groupBy(targetMI, store => normalizeCity(store.city));
+        const costcoByCity = _.groupBy(costcoMI, store => normalizeCity(store.city));
+        
+        // Find cities with both stores
+        citiesWithBoth = {};
+        
+        Object.keys(targetByCity).forEach(city => {
+          if (costcoByCity[city]) {
+            citiesWithBoth[city] = {
+              displayName: targetByCity[city][0].city,
+              target: targetByCity[city],
+              costco: costcoByCity[city]
+            };
+          }
+        });
+        
+        // Populate dropdown
+        citySelect.innerHTML = '<option value="">Select a city</option>';
+        Object.entries(citiesWithBoth)
+          .sort((a, b) => a[1].displayName.localeCompare(b[1].displayName))
+          .forEach(([cityKey, cityData]) => {
+            const option = document.createElement('option');
+            option.value = cityKey;
+            option.textContent = `${cityData.displayName} (${cityData.target.length} Target, ${cityData.costco.length} Costco)`;
+            citySelect.appendChild(option);
+          });
+      }
+      
+      // Show stores for selected city
+      function showStores(cityKey) {
+        if (!cityKey || !citiesWithBoth[cityKey]) {
+          storeResults.innerHTML = '<p>Select a city to view store locations.</p>';
+          return;
+        }
+        
+        const cityData = citiesWithBoth[cityKey];
+        
+        let html = `<h2>${cityData.displayName}, MI</h2>`;
+        html += '<div class="store-container">';
+        
+        // Target stores
+        cityData.target.forEach(store => {
+          html += `
+            <div class="store-card target">
+              <h3>Target</h3>
+              <p>${store.street}</p>
+              <p>${store.city}, ${store.state} ${store.zip}</p>
+              <p>Phone: ${store.phone || 'N/A'}</p>
+              <p>Coordinates: ${store.latitude}, ${store.longitude}</p>
+            </div>
+          `;
+        });
+        
+        // Costco stores
+        cityData.costco.forEach(store => {
+          html += `
+            <div class="store-card costco">
+              <h3>Costco</h3>
+              <p>${store.address}</p>
+              <p>${store.city}, Michigan ${store.zip}</p>
+              <p>Phone: ${store.phone || 'N/A'}</p>
+              <p>Coordinates: ${store.latitude}, ${store.longitude}</p>
+            </div>
+          `;
+        });
+        
+        html += '</div>';
+        storeResults.innerHTML = html;
+      }
+      
+      // Set up event listener for city selection
+      citySelect.addEventListener('change', (e) => {
+        showStores(e.target.value);
+      });
+      
+      // Initial data load
+      loadData();
+    });
+  </script>
+</body>
+</html>

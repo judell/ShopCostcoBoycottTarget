@@ -3,174 +3,568 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Store Locator</title>
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+  <title>Target & Costco Store Locator</title>
+  <!-- Leaflet CSS for maps -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  
   <style>
+    /* Base styles */
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
       line-height: 1.5;
+      margin: 0;
+      padding: 20px;
+      background-color: #f3f4f6;
+      color: #1f2937;
     }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    
+    /* Controls */
+    .controls {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1.5rem;
+    }
+    
+    .control-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    @media (min-width: 768px) {
+      .control-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    
+    label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      color: #4b5563;
+    }
+    
     select {
-      padding: 8px;
-      margin: 10px 0;
-      min-width: 200px;
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #d1d5db;
+      border-radius: 0.375rem;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      font-size: 1rem;
     }
-    .store-container {
+    
+    select:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+    }
+    
+    /* Message panels */
+    .message {
+      text-align: center;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 1.125rem;
+    }
+    
+    .message-info {
+      background-color: #eff6ff;
+      border: 1px solid #bfdbfe;
+    }
+    
+    .message-warning {
+      background-color: #fffbeb;
+      border: 1px solid #fcd34d;
+    }
+    
+    .message-loading {
+      background-color: #f9fafb;
+      border: 1px solid #e5e7eb;
+    }
+    
+    /* Results area */
+    .results {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .map-container {
+      height: 400px;
+      width: 100%;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .store-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    @media (min-width: 768px) {
+      .store-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    
+    .costco-title {
+      color: #15803d;
+    }
+    
+    .target-title {
+      color: #dc2626;
+    }
+    
+    .store-list {
       display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 1rem;
     }
+    
     .store-card {
-      border: 1px solid #ddd;
-      padding: 10px;
-      border-radius: 5px;
-      background-color: #f9f9f9;
-      width: 300px;
+      background-color: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      padding: 1rem;
     }
-    .target {
-      border-left: 5px solid #cc0000;
+    
+    .store-name {
+      font-weight: 500;
+      margin-bottom: 0.25rem;
     }
-    .costco {
-      border-left: 5px solid #005daa;
+    
+    .store-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #2563eb;
+      text-decoration: none;
     }
-    h1, h2, h3 {
-      margin-top: 0;
+    
+    .store-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Target and Costco Store Locator</h1>
-  
-  <div>
-    <label for="citySelect">Select a city: </label>
-    <select id="citySelect">
-      <option value="">Loading cities...</option>
-    </select>
-  </div>
-  
-  <div id="storeResults">
-    <p>Select a city to view store locations.</p>
+  <div class="container">
+    <h1>Target & Costco Store Locator</h1>
+    
+    <div class="controls">
+      <div class="control-grid">
+        <div>
+          <label for="state-select">Select State</label>
+          <select id="state-select">
+            <option value="">-- Select a state --</option>
+            <!-- States will be populated here -->
+          </select>
+        </div>
+        
+        <div>
+          <label for="city-select" id="city-select-label">Select City</label>
+          <select id="city-select" disabled>
+            <option value="">-- Select a state first --</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    
+    <div id="message-container">
+      <div class="message message-info">
+        Please select a state to view available cities.
+      </div>
+    </div>
+    
+    <div id="results-container" style="display: none;" class="results">
+      <h2 id="city-state-heading"></h2>
+      
+      <!-- Map -->
+      <div id="map" class="map-container"></div>
+      
+      <div class="store-grid">
+        <div>
+          <h3 id="costco-heading" class="costco-title">Costco Locations</h3>
+          <div id="costco-list" class="store-list">
+            <!-- Costco stores will be populated here -->
+          </div>
+        </div>
+        
+        <div>
+          <h3 id="target-heading" class="target-title">Target Locations</h3>
+          <div id="target-list" class="store-list">
+            <!-- Target stores will be populated here -->
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script>
-    // Main code will go here
-    document.addEventListener('DOMContentLoaded', async () => {
-      const citySelect = document.getElementById('citySelect');
-      const storeResults = document.getElementById('storeResults');
+    // State map for full names
+    const stateMap = {
+      'AL': 'Alabama',
+      'AK': 'Alaska',
+      'AZ': 'Arizona',
+      'AR': 'Arkansas',
+      'CA': 'California',
+      'CO': 'Colorado',
+      'CT': 'Connecticut',
+      'DE': 'Delaware',
+      'FL': 'Florida',
+      'GA': 'Georgia',
+      'HI': 'Hawaii',
+      'ID': 'Idaho',
+      'IL': 'Illinois',
+      'IN': 'Indiana',
+      'IA': 'Iowa',
+      'KS': 'Kansas',
+      'KY': 'Kentucky',
+      'LA': 'Louisiana',
+      'ME': 'Maine',
+      'MD': 'Maryland',
+      'MA': 'Massachusetts',
+      'MI': 'Michigan',
+      'MN': 'Minnesota',
+      'MS': 'Mississippi',
+      'MO': 'Missouri',
+      'MT': 'Montana',
+      'NE': 'Nebraska',
+      'NV': 'Nevada',
+      'NH': 'New Hampshire',
+      'NJ': 'New Jersey',
+      'NM': 'New Mexico',
+      'NY': 'New York',
+      'NC': 'North Carolina',
+      'ND': 'North Dakota',
+      'OH': 'Ohio',
+      'OK': 'Oklahoma',
+      'OR': 'Oregon',
+      'PA': 'Pennsylvania',
+      'RI': 'Rhode Island',
+      'SC': 'South Carolina',
+      'SD': 'South Dakota',
+      'TN': 'Tennessee',
+      'TX': 'Texas',
+      'UT': 'Utah',
+      'VT': 'Vermont',
+      'VA': 'Virginia',
+      'WA': 'Washington',
+      'WV': 'West Virginia',
+      'WI': 'Wisconsin',
+      'WY': 'Wyoming',
+      'DC': 'District of Columbia'
+    };
+
+    // DOM elements
+    const stateSelect = document.getElementById('state-select');
+    const citySelect = document.getElementById('city-select');
+    const citySelectLabel = document.getElementById('city-select-label');
+    const messageContainer = document.getElementById('message-container');
+    const resultsContainer = document.getElementById('results-container');
+    const cityStateHeading = document.getElementById('city-state-heading');
+    const costcoHeading = document.getElementById('costco-heading');
+    const targetHeading = document.getElementById('target-heading');
+    const costcoList = document.getElementById('costco-list');
+    const targetList = document.getElementById('target-list');
+    const mapEl = document.getElementById('map');
+
+    // Map instance and markers
+    let map = null;
+    let markers = [];
+
+    // Current state
+    let selectedState = '';
+    let selectedCity = null;
+    let cities = [];
+    let isLoadingCities = false;
+
+    // Initialize the app
+    function init() {
+      // Populate state dropdown
+      populateStateDropdown();
       
-      let targetData = [];
-      let costcoData = [];
-      let citiesWithBoth = {};
+      // Add event listeners
+      stateSelect.addEventListener('change', handleStateChange);
+      citySelect.addEventListener('change', handleCityChange);
+    }
+
+    // Populate the state dropdown with options
+    function populateStateDropdown() {
+      const stateEntries = Object.entries(stateMap);
+      stateEntries.sort((a, b) => a[1].localeCompare(b[1]));
       
-      // Load CSV data
-      async function loadData() {
-        try {
-          // Fetch Target data
-          const targetResponse = await fetch('/data/target_all_states.csv');
-          const targetCsv = await targetResponse.text();
-          targetData = Papa.parse(targetCsv, { header: true, skipEmptyLines: true }).data;
-          
-          // Fetch Costco data
-          const costcoResponse = await fetch('/data/costco_warehouses.csv');
-          const costcoCsv = await costcoResponse.text();
-          costcoData = Papa.parse(costcoCsv, { header: true, skipEmptyLines: true }).data;
-          
-          processData();
-        } catch (error) {
-          console.error('Error loading data:', error);
-          storeResults.innerHTML = '<p style="color: red;">Error loading store data.</p>';
-        }
+      stateEntries.forEach(([code, name]) => {
+        const option = document.createElement('option');
+        option.value = code;
+        option.textContent = name;
+        stateSelect.appendChild(option);
+      });
+    }
+
+    // Handle state selection change
+    async function handleStateChange(event) {
+      selectedState = event.target.value;
+      selectedCity = null;
+      cities = [];
+      
+      // Reset city dropdown
+      citySelect.innerHTML = '<option value="">-- Select a city --</option>';
+      citySelect.disabled = true;
+      
+      // Hide results
+      resultsContainer.style.display = 'none';
+      
+      if (!selectedState) {
+        // Show the initial message
+        messageContainer.innerHTML = `
+          <div class="message message-info">
+            Please select a state to view available cities.
+          </div>
+        `;
+        return;
       }
       
-      // Process the data to find cities with both stores
-      function processData() {
-        // Filter for Michigan only
-        const targetMI = targetData.filter(store => store.state === 'MI');
-        const costcoMI = costcoData.filter(store => store.state === 'Michigan');
-        
-        // Normalize and group by city
-        const normalizeCity = city => city?.trim().toLowerCase();
-        
-        const targetByCity = _.groupBy(targetMI, store => normalizeCity(store.city));
-        const costcoByCity = _.groupBy(costcoMI, store => normalizeCity(store.city));
-        
-        // Find cities with both stores
-        citiesWithBoth = {};
-        
-        Object.keys(targetByCity).forEach(city => {
-          if (costcoByCity[city]) {
-            citiesWithBoth[city] = {
-              displayName: targetByCity[city][0].city,
-              target: targetByCity[city],
-              costco: costcoByCity[city]
-            };
-          }
-        });
-        
-        // Populate dropdown
-        citySelect.innerHTML = '<option value="">Select a city</option>';
-        Object.entries(citiesWithBoth)
-          .sort((a, b) => a[1].displayName.localeCompare(b[1].displayName))
-          .forEach(([cityKey, cityData]) => {
-            const option = document.createElement('option');
-            option.value = cityKey;
-            option.textContent = `${cityData.displayName} (${cityData.target.length} Target, ${cityData.costco.length} Costco)`;
-            citySelect.appendChild(option);
-          });
-      }
+      // Show loading message
+      messageContainer.innerHTML = `
+        <div class="message message-loading">
+          Loading cities in ${stateMap[selectedState]}...
+        </div>
+      `;
       
-      // Show stores for selected city
-      function showStores(cityKey) {
-        if (!cityKey || !citiesWithBoth[cityKey]) {
-          storeResults.innerHTML = '<p>Select a city to view store locations.</p>';
-          return;
+      isLoadingCities = true;
+      citySelectLabel.textContent = 'Loading cities...';
+      
+      try {
+        // Fetch cities for the selected state
+        const response = await fetch(`/api/stores/${selectedState}`);
+        
+        if (!response.ok) {
+          throw new Error(`Failed to fetch cities for ${selectedState}`);
         }
         
-        const cityData = citiesWithBoth[cityKey];
+        cities = await response.json();
         
-        let html = `<h2>${cityData.displayName}, MI</h2>`;
-        html += '<div class="store-container">';
+        // Populate city dropdown
+        populateCityDropdown(cities);
         
-        // Target stores
-        cityData.target.forEach(store => {
-          html += `
-            <div class="store-card target">
-              <h3>Target</h3>
-              <p>${store.street}</p>
-              <p>${store.city}, ${store.state} ${store.zip}</p>
-              <p>Phone: ${store.phone || 'N/A'}</p>
-              <p>Coordinates: ${store.latitude}, ${store.longitude}</p>
+        // Update UI based on cities
+        if (cities.length === 0) {
+          messageContainer.innerHTML = `
+            <div class="message message-warning">
+              No cities found with both Target and Costco in ${stateMap[selectedState]}.
             </div>
           `;
-        });
-        
-        // Costco stores
-        cityData.costco.forEach(store => {
-          html += `
-            <div class="store-card costco">
-              <h3>Costco</h3>
-              <p>${store.address}</p>
-              <p>${store.city}, Michigan ${store.zip}</p>
-              <p>Phone: ${store.phone || 'N/A'}</p>
-              <p>Coordinates: ${store.latitude}, ${store.longitude}</p>
-            </div>
-          `;
-        });
-        
-        html += '</div>';
-        storeResults.innerHTML = html;
+        } else {
+          messageContainer.innerHTML = '';
+        }
+      } catch (error) {
+        console.error('Error fetching cities:', error);
+        messageContainer.innerHTML = `
+          <div class="message message-warning">
+            Error: ${error.message}
+          </div>
+        `;
+      } finally {
+        isLoadingCities = false;
+        citySelectLabel.textContent = 'Select City';
+        citySelect.disabled = cities.length === 0;
+      }
+    }
+
+    // Populate the city dropdown with options
+    function populateCityDropdown(cities) {
+      citySelect.innerHTML = '<option value="">-- Select a city --</option>';
+      
+      cities.forEach(city => {
+        const option = document.createElement('option');
+        option.value = city.city;
+        option.textContent = `${city.city} (Target: ${city.target.length}, Costco: ${city.costco.length})`;
+        citySelect.appendChild(option);
+      });
+    }
+
+    // Handle city selection change
+    function handleCityChange(event) {
+      const cityName = event.target.value;
+      
+      if (!cityName) {
+        selectedCity = null;
+        resultsContainer.style.display = 'none';
+        return;
       }
       
-      // Set up event listener for city selection
-      citySelect.addEventListener('change', (e) => {
-        showStores(e.target.value);
+      // Find the selected city data
+      selectedCity = cities.find(city => city.city === cityName);
+      
+      if (selectedCity) {
+        // Show results
+        displayCityResults(selectedCity);
+      }
+    }
+
+    // Display results for the selected city
+    function displayCityResults(city) {
+      // Update headings
+      cityStateHeading.textContent = `${city.city}, ${stateMap[selectedState]}`;
+      costcoHeading.textContent = `Costco Locations (${city.costco.length})`;
+      targetHeading.textContent = `Target Locations (${city.target.length})`;
+      
+      // Populate store lists
+      populateStoreList(costcoList, city.costco, 'costco');
+      populateStoreList(targetList, city.target, 'target');
+      
+      // Show results container
+      resultsContainer.style.display = 'block';
+      
+      // Initialize/update map
+      initializeMap(city);
+    }
+
+    // Populate a store list with store cards
+    function populateStoreList(listElement, stores, storeType) {
+      listElement.innerHTML = '';
+      
+      stores.forEach(store => {
+        const card = document.createElement('div');
+        card.className = 'store-card';
+        
+        if (storeType === 'costco') {
+          card.innerHTML = `
+            <div class="store-name">Costco Warehouse</div>
+            <div>${store.address}</div>
+            ${store.zip ? `<div>${selectedCity.city}, ${stateMap[selectedState]} ${store.zip}</div>` : ''}
+            ${store.phone ? `<div>Phone: ${store.phone}</div>` : ''}
+          `;
+        } else {
+          card.innerHTML = `
+            <div class="store-name">${store.name || 'Target'}</div>
+            <div>${store.street}</div>
+            ${store.zip ? `<div>${selectedCity.city}, ${store.state} ${store.zip}</div>` : ''}
+            ${store.phone ? `<div>Phone: ${store.phone}</div>` : ''}
+            ${store.url ? `<a href="${store.url}" target="_blank" rel="noopener noreferrer" class="store-link">Store Website</a>` : ''}
+          `;
+        }
+        
+        listElement.appendChild(card);
+      });
+    }
+
+    // Initialize or update the map
+    function initializeMap(city) {
+      // Clear existing map if any
+      if (map) {
+        map.remove();
+        map = null;
+        markers = [];
+      }
+      
+      if (!city.costco.length || !city.target.length) return;
+      
+      // Get coordinates from the first store for initial center
+      const firstCostco = city.costco[0];
+      const lat = parseFloat(firstCostco.latitude);
+      const lng = parseFloat(firstCostco.longitude);
+      
+      // Initialize map
+      map = L.map('map').setView([lat, lng], 12);
+      
+      // Add OpenStreetMap tiles
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
+      
+      // Add markers
+      addMapMarkers(city);
+    }
+
+    // Add store markers to the map
+    function addMapMarkers(city) {
+      // Add Costco markers
+      city.costco.forEach(store => {
+        if (store.latitude && store.longitude) {
+          const lat = parseFloat(store.latitude);
+          const lng = parseFloat(store.longitude);
+          
+          // Create Costco marker (green)
+          const marker = L.marker([lat, lng], {
+            icon: L.divIcon({
+              html: '<div style="background-color: #15803d; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">C</div>',
+              className: 'costco-marker',
+              iconSize: [24, 24],
+              iconAnchor: [12, 12]
+            })
+          }).addTo(map);
+          
+          // Add popup
+          marker.bindPopup(`<b>Costco</b><br>${store.address}<br>Phone: ${store.phone || 'N/A'}`);
+          
+          markers.push(marker);
+        }
       });
       
-      // Initial data load
-      loadData();
-    });
+      // Add Target markers
+      city.target.forEach(store => {
+        if (store.latitude && store.longitude) {
+          const lat = parseFloat(store.latitude);
+          const lng = parseFloat(store.longitude);
+          
+          // Create Target marker (red)
+          const marker = L.marker([lat, lng], {
+            icon: L.divIcon({
+              html: '<div style="background-color: #dc2626; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">T</div>',
+              className: 'target-marker',
+              iconSize: [24, 24],
+              iconAnchor: [12, 12]
+            })
+          }).addTo(map);
+          
+          // Add popup
+          marker.bindPopup(`<b>Target</b><br>${store.street}<br>Phone: ${store.phone || 'N/A'}`);
+          
+          markers.push(marker);
+        }
+      });
+      
+      // Fit the map to show all markers
+      if (markers.length > 0) {
+        const group = new L.featureGroup(markers);
+        map.fitBounds(group.getBounds().pad(0.1));
+      }
+    }
+
+    // Initialize the app when the DOM is loaded
+    document.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
 </html>

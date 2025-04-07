@@ -7,6 +7,7 @@
   <!-- Leaflet CSS for maps -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://unpkg.com/papaparse@5.3.0/papaparse.min.js"></script>
   
   <style>
     /* Base styles */
@@ -303,20 +304,80 @@
     let map = null;
     let markers = [];
 
-    // Current state
+    // Data storage
+    let costcoStores = [];
+    let targetStores = [];
     let selectedState = '';
     let selectedCity = null;
     let cities = [];
     let isLoadingCities = false;
 
     // Initialize the app
-    function init() {
-      // Populate state dropdown
-      populateStateDropdown();
+    async function init() {
+      try {
+        // Show loading message
+        messageContainer.innerHTML = `
+          <div class="message message-loading">
+            Loading store data...
+          </div>
+        `;
+        
+        // Load CSV data
+        await Promise.all([loadCostcoData(), loadTargetData()]);
+        
+        // Populate state dropdown
+        populateStateDropdown();
+        
+        // Show initial message
+        messageContainer.innerHTML = `
+          <div class="message message-info">
+            Please select a state to view available cities.
+          </div>
+        `;
+        
+        // Add event listeners
+        stateSelect.addEventListener('change', handleStateChange);
+        citySelect.addEventListener('change', handleCityChange);
+      } catch (error) {
+        console.error('Error loading data:', error);
+        messageContainer.innerHTML = `
+          <div class="message message-warning">
+            Error loading store data: ${error.message}
+          </div>
+        `;
+      }
+    }
+    
+    // Load Costco data from CSV
+    async function loadCostcoData() {
+      const response = await fetch('data/costco_warehouses.csv');
+      const csvData = await response.text();
       
-      // Add event listeners
-      stateSelect.addEventListener('change', handleStateChange);
-      citySelect.addEventListener('change', handleCityChange);
+      return new Promise((resolve) => {
+        Papa.parse(csvData, {
+          header: true,
+          complete: (results) => {
+            costcoStores = results.data.filter(store => store.state && store.city);
+            resolve(costcoStores);
+          }
+        });
+      });
+    }
+    
+    // Load Target data from CSV
+    async function loadTargetData() {
+      const response = await fetch('data/target_all_states.csv');
+      const csvData = await response.text();
+      
+      return new Promise((resolve) => {
+        Papa.parse(csvData, {
+          header: true,
+          complete: (results) => {
+            targetStores = results.data.filter(store => store.state && store.city);
+            resolve(targetStores);
+          }
+        });
+      });
     }
 
     // Populate the state dropdown with options
@@ -333,7 +394,7 @@
     }
 
     // Handle state selection change
-    async function handleStateChange(event) {
+    function handleStateChange(event) {
       selectedState = event.target.value;
       selectedCity = null;
       cities = [];
@@ -366,14 +427,63 @@
       citySelectLabel.textContent = 'Loading cities...';
       
       try {
-        // Fetch cities for the selected state
-        const response = await fetch(`/api/stores/${selectedState}`);
+        // Process state data locally
+        const stateName = stateMap[selectedState];
         
-        if (!response.ok) {
-          throw new Error(`Failed to fetch cities for ${selectedState}`);
-        }
+        // Filter stores for the selected state
+        const stateTargetStores = targetStores.filter(store => 
+          store.state === selectedState
+        );
         
-        cities = await response.json();
+        const stateCostcoStores = costcoStores.filter(store => 
+          store.state === stateName
+        );
+        
+        // Normalize city names for comparison (lowercase, trim)
+        const normalizeCityName = city => city?.toLowerCase().trim();
+        
+        // Get cities with both stores
+        const targetCities = new Map();
+        stateTargetStores.forEach(store => {
+          const normalizedCity = normalizeCityName(store.city);
+          if (normalizedCity) {
+            targetCities.set(normalizedCity, store.city);
+          }
+        });
+        
+        const costcoCities = new Map();
+        stateCostcoStores.forEach(store => {
+          const normalizedCity = normalizeCityName(store.city);
+          if (normalizedCity) {
+            costcoCities.set(normalizedCity, store.city);
+          }
+        });
+        
+        // Find cities that have both Target and Costco
+        const citiesWithBothStores = [...costcoCities.keys()].filter(normalizedCity => 
+          targetCities.has(normalizedCity)
+        );
+        
+        // Build cities data
+        cities = citiesWithBothStores.map(normalizedCity => {
+          // Use original city name from Costco data
+          const cityName = costcoCities.get(normalizedCity);
+          
+          return {
+            city: cityName,
+            state: stateName,
+            stateCode: selectedState,
+            costco: stateCostcoStores.filter(store => 
+              normalizeCityName(store.city) === normalizedCity
+            ),
+            target: stateTargetStores.filter(store => 
+              normalizeCityName(store.city) === normalizedCity
+            )
+          };
+        });
+        
+        // Sort results by city name
+        cities.sort((a, b) => a.city.localeCompare(b.city));
         
         // Populate city dropdown
         populateCityDropdown(cities);
@@ -389,7 +499,7 @@
           messageContainer.innerHTML = '';
         }
       } catch (error) {
-        console.error('Error fetching cities:', error);
+        console.error('Error processing city data:', error);
         messageContainer.innerHTML = `
           <div class="message message-warning">
             Error: ${error.message}

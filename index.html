@@ -248,22 +248,24 @@
       text-decoration: underline;
     }
 
-    .controls, #message-container .message, #results-container {
-    border-left: 1px solid #e5e7eb;
-    border-right: 1px solid #e5e7eb;
-  }
+    .controls,
+    #message-container .message,
+    #results-container {
+      border-left: 1px solid #e5e7eb;
+      border-right: 1px solid #e5e7eb;
+    }
 
-  .controls {
-    border-top: 1px solid #e5e7eb;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-  }
+    .controls {
+      border-top: 1px solid #e5e7eb;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
 
-  #results-container {
-    border-bottom: 1px solid #e5e7eb;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-  }
+    #results-container {
+      border-bottom: 1px solid #e5e7eb;
+      border-bottom-left-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+    }
   </style>
 </head>
 
@@ -418,6 +420,11 @@
     // Initialize the app
     async function init() {
       try {
+        // Check for state/city parameters in URL
+        const { state, city } = readURLParameters();
+        if (state) {
+          selectedState = state;
+        }
         // Show loading message
         messageContainer.innerHTML = `
           <div class="message message-loading">
@@ -626,6 +633,8 @@
         citySelectLabel.textContent = 'Select City';
         citySelect.disabled = cities.length === 0;
 
+        updateURL(selectedState, null);
+
         // Auto-select the first city if available
         if (cities.length > 0) {
           // Select the first city option (index 1 because index 0 is the placeholder)
@@ -662,6 +671,8 @@
 
       // Find the selected city data
       selectedCity = cities.find(city => city.city === cityName);
+
+      updateURL(selectedState, selectedCity.city);
 
       if (selectedCity) {
         // Show results
@@ -798,6 +809,35 @@
         const group = new L.featureGroup(markers);
         map.fitBounds(group.getBounds().pad(0.1));
       }
+    }
+
+    // Function to update URL with state and city parameters
+    function updateURL(state, city) {
+      if (!state) return;
+
+      // Create URL object from current location
+      const url = new URL(window.location.href);
+
+      // Set or update parameters
+      url.searchParams.set('state', state);
+
+      if (city) {
+        url.searchParams.set('city', encodeURIComponent(city));
+      } else {
+        url.searchParams.delete('city');
+      }
+
+      // Update browser history without reloading the page
+      window.history.replaceState({}, '', url);
+    }
+
+    // Function to read parameters from URL
+    function readURLParameters() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const stateParam = urlParams.get('state');
+      const cityParam = urlParams.get('city');
+
+      return { state: stateParam, city: cityParam ? decodeURIComponent(cityParam) : null };
     }
 
     // Initialize the app when the DOM is loaded

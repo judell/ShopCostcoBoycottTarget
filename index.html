@@ -1,15 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Target & Costco Store Locator</title>
+  <title>Costco vs Target</title>
   <!-- Leaflet CSS for maps -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script src="https://unpkg.com/papaparse@5.3.0/papaparse.min.js"></script>
-  
+
   <style>
+    .hero {
+      background: linear-gradient(135deg, #15803d 0%, #22c55e 100%);
+      color: white;
+      padding: 1.5rem 2rem;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .hero-left {
+      flex: 1;
+      min-width: 300px;
+      margin-right: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin: 0 0 0.5rem 0;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .hero-subtitle {
+      font-size: 1.1rem;
+      margin: 0 0 1.5rem 0;
+      opacity: 0.9;
+      text-align: center;
+    }
+
+    .cta-badge {
+      position: absolute;
+      top: -0.75rem;
+      right: 1.5rem;
+      background-color: #fef3c7;
+      color: #92400e;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 0.4rem 0.75rem;
+      border-radius: 9999px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .evidence-box {
+      flex: 0 0 350px;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 0.5rem;
+      padding: 0.75rem 1rem;
+      font-size: 0.9rem;
+      border-left: 3px solid #fcd34d;
+    }
+
+    .evidence-box a {
+      color: #fef3c7;
+      text-decoration: underline;
+      margin-top: 0.5rem;
+      display: block;
+      text-align: right;
+      font-size: 0.85rem;
+    }
+
     /* Base styles */
     body {
       font-family: Arial, sans-serif;
@@ -19,52 +81,57 @@
       background-color: #f3f4f6;
       color: #1f2937;
     }
-    
+
+    blockquote {
+      font-size: smaller;
+      font-family: italic;
+    }
+
     .container {
       max-width: 1200px;
       margin: 0 auto;
     }
-    
+
     h1 {
       font-size: 2rem;
       font-weight: 700;
       text-align: center;
       margin-bottom: 1.5rem;
     }
-    
+
     h2 {
       font-size: 1.5rem;
       font-weight: 700;
       margin-bottom: 1rem;
     }
-    
+
     h3 {
       font-size: 1.25rem;
       font-weight: 600;
       margin-bottom: 1rem;
     }
-    
+
     /* Controls */
     .controls {
       background-color: white;
       padding: 1.5rem;
       border-radius: 0.5rem;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-      margin-bottom: 1.5rem;
+      margin-bottom: 0.5rem;
     }
-    
+
     .control-grid {
       display: grid;
       grid-template-columns: 1fr;
       gap: 1.5rem;
     }
-    
+
     @media (min-width: 768px) {
       .control-grid {
         grid-template-columns: 1fr 1fr;
       }
     }
-    
+
     label {
       display: block;
       font-size: 0.875rem;
@@ -72,7 +139,7 @@
       margin-bottom: 0.5rem;
       color: #4b5563;
     }
-    
+
     select {
       width: 100%;
       padding: 0.5rem;
@@ -81,13 +148,13 @@
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
       font-size: 1rem;
     }
-    
+
     select:focus {
       outline: none;
       border-color: #3b82f6;
       box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
     }
-    
+
     /* Message panels */
     .message {
       text-align: center;
@@ -96,22 +163,22 @@
       margin-bottom: 1.5rem;
       font-size: 1.125rem;
     }
-    
+
     .message-info {
       background-color: #eff6ff;
       border: 1px solid #bfdbfe;
     }
-    
+
     .message-warning {
       background-color: #fffbeb;
       border: 1px solid #fcd34d;
     }
-    
+
     .message-loading {
       background-color: #f9fafb;
       border: 1px solid #e5e7eb;
     }
-    
+
     /* Results area */
     .results {
       background-color: white;
@@ -119,69 +186,85 @@
       border-radius: 0.5rem;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     }
-    
+
     .map-container {
-      height: 400px;
+      height: 300px;
       width: 100%;
       border: 1px solid #e5e7eb;
       border-radius: 0.5rem;
       margin-bottom: 1.5rem;
     }
-    
+
     .store-grid {
       display: grid;
       grid-template-columns: 1fr;
       gap: 1.5rem;
     }
-    
+
     @media (min-width: 768px) {
       .store-grid {
         grid-template-columns: 1fr 1fr;
       }
     }
-    
+
     .costco-title {
       color: #15803d;
     }
-    
+
     .target-title {
       color: #dc2626;
     }
-    
+
     .store-list {
       display: flex;
       flex-direction: column;
       gap: 1rem;
     }
-    
+
     .store-card {
       background-color: #f9fafb;
       border: 1px solid #e5e7eb;
       border-radius: 0.5rem;
       padding: 1rem;
     }
-    
+
     .store-name {
       font-weight: 500;
       margin-bottom: 0.25rem;
     }
-    
+
     .store-link {
       display: inline-block;
       margin-top: 0.5rem;
       color: #2563eb;
       text-decoration: none;
     }
-    
+
     .store-link:hover {
       text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
   <div class="container">
-    <h1>Target & Costco Store Locator</h1>
-    
+
+    <div class="hero">
+      <div class="cta-badge">Reward integrity!</div>
+
+      <div class="hero-left">
+        <h1>Shop Costco, Boycott Target</h1>
+        <p class="hero-subtitle">Support companies that stand by their commitment to diversity</p>
+      </div>
+
+      <div class="evidence-box">
+        Target was hit the hardest by a national boycott last week, experiencing a 9% drop in web traffic. Meanwhile
+        Costco, which announced it was sticking by its DEI initiatives, saw a double-digit traffic increase.
+        <a
+          href="https://www.supermarketnews.com/consumer-trends/target-hit-hardest-by-dei-boycott-costco-saw-double-digit-traffic-increase">Source:
+          Supermarket News</a>
+      </div>
+    </div>
     <div class="controls">
       <div class="control-grid">
         <div>
@@ -191,7 +274,7 @@
             <!-- States will be populated here -->
           </select>
         </div>
-        
+
         <div>
           <label for="city-select" id="city-select-label">Select City</label>
           <select id="city-select" disabled>
@@ -200,19 +283,19 @@
         </div>
       </div>
     </div>
-    
+
     <div id="message-container">
       <div class="message message-info">
         Please select a state to view available cities.
       </div>
     </div>
-    
+
     <div id="results-container" style="display: none;" class="results">
       <h2 id="city-state-heading"></h2>
-      
+
       <!-- Map -->
       <div id="map" class="map-container"></div>
-      
+
       <div class="store-grid">
         <div>
           <h3 id="costco-heading" class="costco-title">Costco Locations</h3>
@@ -220,7 +303,7 @@
             <!-- Costco stores will be populated here -->
           </div>
         </div>
-        
+
         <div>
           <h3 id="target-heading" class="target-title">Target Locations</h3>
           <div id="target-list" class="store-list">
@@ -283,8 +366,7 @@
       'WA': 'Washington',
       'WV': 'West Virginia',
       'WI': 'Wisconsin',
-      'WY': 'Wyoming',
-      'DC': 'District of Columbia'
+      'WY': 'Wyoming'
     };
 
     // DOM elements
@@ -321,20 +403,20 @@
             Loading store data...
           </div>
         `;
-        
+
         // Load CSV data
         await Promise.all([loadCostcoData(), loadTargetData()]);
-        
+
         // Populate state dropdown
         populateStateDropdown();
-        
+
         // Show initial message
         messageContainer.innerHTML = `
           <div class="message message-info">
             Please select a state to view available cities.
           </div>
         `;
-        
+
         // Add event listeners
         stateSelect.addEventListener('change', handleStateChange);
         citySelect.addEventListener('change', handleCityChange);
@@ -347,12 +429,12 @@
         `;
       }
     }
-    
+
     // Load Costco data from CSV
     async function loadCostcoData() {
       const response = await fetch('data/costco_warehouses.csv');
       const csvData = await response.text();
-      
+
       return new Promise((resolve) => {
         Papa.parse(csvData, {
           header: true,
@@ -363,12 +445,12 @@
         });
       });
     }
-    
+
     // Load Target data from CSV
     async function loadTargetData() {
       const response = await fetch('data/target_all_states.csv');
       const csvData = await response.text();
-      
+
       return new Promise((resolve) => {
         Papa.parse(csvData, {
           header: true,
@@ -380,17 +462,29 @@
       });
     }
 
-    // Populate the state dropdown with options
     function populateStateDropdown() {
       const stateEntries = Object.entries(stateMap);
       stateEntries.sort((a, b) => a[1].localeCompare(b[1]));
-      
-      stateEntries.forEach(([code, name]) => {
+
+      stateEntries.forEach(([code, name], index) => {
         const option = document.createElement('option');
         option.value = code;
         option.textContent = name;
+
+        // Select the first state (Alabama after sorting)
+        if (index === 0) {
+          option.selected = true;
+          selectedState = code;
+        }
+
         stateSelect.appendChild(option);
       });
+
+      // Manually trigger the handleStateChange function after a brief delay
+      // to ensure all DOM elements and data are ready
+      setTimeout(() => {
+        handleStateChange({ target: stateSelect });
+      }, 100);
     }
 
     // Handle state selection change
@@ -398,14 +492,14 @@
       selectedState = event.target.value;
       selectedCity = null;
       cities = [];
-      
+
       // Reset city dropdown
       citySelect.innerHTML = '<option value="">-- Select a city --</option>';
       citySelect.disabled = true;
-      
+
       // Hide results
       resultsContainer.style.display = 'none';
-      
+
       if (!selectedState) {
         // Show the initial message
         messageContainer.innerHTML = `
@@ -415,33 +509,33 @@
         `;
         return;
       }
-      
+
       // Show loading message
       messageContainer.innerHTML = `
         <div class="message message-loading">
           Loading cities in ${stateMap[selectedState]}...
         </div>
       `;
-      
+
       isLoadingCities = true;
       citySelectLabel.textContent = 'Loading cities...';
-      
+
       try {
         // Process state data locally
         const stateName = stateMap[selectedState];
-        
+
         // Filter stores for the selected state
-        const stateTargetStores = targetStores.filter(store => 
+        const stateTargetStores = targetStores.filter(store =>
           store.state === selectedState
         );
-        
-        const stateCostcoStores = costcoStores.filter(store => 
+
+        const stateCostcoStores = costcoStores.filter(store =>
           store.state === stateName
         );
-        
+
         // Normalize city names for comparison (lowercase, trim)
         const normalizeCityName = city => city?.toLowerCase().trim();
-        
+
         // Get cities with both stores
         const targetCities = new Map();
         stateTargetStores.forEach(store => {
@@ -450,7 +544,7 @@
             targetCities.set(normalizedCity, store.city);
           }
         });
-        
+
         const costcoCities = new Map();
         stateCostcoStores.forEach(store => {
           const normalizedCity = normalizeCityName(store.city);
@@ -458,36 +552,36 @@
             costcoCities.set(normalizedCity, store.city);
           }
         });
-        
+
         // Find cities that have both Target and Costco
-        const citiesWithBothStores = [...costcoCities.keys()].filter(normalizedCity => 
+        const citiesWithBothStores = [...costcoCities.keys()].filter(normalizedCity =>
           targetCities.has(normalizedCity)
         );
-        
+
         // Build cities data
         cities = citiesWithBothStores.map(normalizedCity => {
           // Use original city name from Costco data
           const cityName = costcoCities.get(normalizedCity);
-          
+
           return {
             city: cityName,
             state: stateName,
             stateCode: selectedState,
-            costco: stateCostcoStores.filter(store => 
+            costco: stateCostcoStores.filter(store =>
               normalizeCityName(store.city) === normalizedCity
             ),
-            target: stateTargetStores.filter(store => 
+            target: stateTargetStores.filter(store =>
               normalizeCityName(store.city) === normalizedCity
             )
           };
         });
-        
+
         // Sort results by city name
         cities.sort((a, b) => a.city.localeCompare(b.city));
-        
+
         // Populate city dropdown
         populateCityDropdown(cities);
-        
+
         // Update UI based on cities
         if (cities.length === 0) {
           messageContainer.innerHTML = `
@@ -505,17 +599,28 @@
             Error: ${error.message}
           </div>
         `;
+
       } finally {
         isLoadingCities = false;
         citySelectLabel.textContent = 'Select City';
         citySelect.disabled = cities.length === 0;
+
+        // Auto-select the first city if available
+        if (cities.length > 0) {
+          // Select the first city option (index 1 because index 0 is the placeholder)
+          citySelect.selectedIndex = 1;
+
+          // Trigger the city change event to display results
+          const cityEvent = new Event('change');
+          citySelect.dispatchEvent(cityEvent);
+        }
       }
     }
 
     // Populate the city dropdown with options
     function populateCityDropdown(cities) {
       citySelect.innerHTML = '<option value="">-- Select a city --</option>';
-      
+
       cities.forEach(city => {
         const option = document.createElement('option');
         option.value = city.city;
@@ -527,16 +632,16 @@
     // Handle city selection change
     function handleCityChange(event) {
       const cityName = event.target.value;
-      
+
       if (!cityName) {
         selectedCity = null;
         resultsContainer.style.display = 'none';
         return;
       }
-      
+
       // Find the selected city data
       selectedCity = cities.find(city => city.city === cityName);
-      
+
       if (selectedCity) {
         // Show results
         displayCityResults(selectedCity);
@@ -549,14 +654,14 @@
       cityStateHeading.textContent = `${city.city}, ${stateMap[selectedState]}`;
       costcoHeading.textContent = `Costco Locations (${city.costco.length})`;
       targetHeading.textContent = `Target Locations (${city.target.length})`;
-      
+
       // Populate store lists
       populateStoreList(costcoList, city.costco, 'costco');
       populateStoreList(targetList, city.target, 'target');
-      
+
       // Show results container
       resultsContainer.style.display = 'block';
-      
+
       // Initialize/update map
       initializeMap(city);
     }
@@ -564,17 +669,18 @@
     // Populate a store list with store cards
     function populateStoreList(listElement, stores, storeType) {
       listElement.innerHTML = '';
-      
+
       stores.forEach(store => {
         const card = document.createElement('div');
         card.className = 'store-card';
-        
+
         if (storeType === 'costco') {
           card.innerHTML = `
             <div class="store-name">Costco Warehouse</div>
             <div>${store.address}</div>
             ${store.zip ? `<div>${selectedCity.city}, ${stateMap[selectedState]} ${store.zip}</div>` : ''}
             ${store.phone ? `<div>Phone: ${store.phone}</div>` : ''}
+            ${store.store_url ? `<a href="${store.store_url}" target="_blank" rel="noopener noreferrer" class="store-link">Store Website</a>` : ''}
           `;
         } else {
           card.innerHTML = `
@@ -585,7 +691,7 @@
             ${store.url ? `<a href="${store.url}" target="_blank" rel="noopener noreferrer" class="store-link">Store Website</a>` : ''}
           `;
         }
-        
+
         listElement.appendChild(card);
       });
     }
@@ -598,22 +704,22 @@
         map = null;
         markers = [];
       }
-      
+
       if (!city.costco.length || !city.target.length) return;
-      
+
       // Get coordinates from the first store for initial center
       const firstCostco = city.costco[0];
       const lat = parseFloat(firstCostco.latitude);
       const lng = parseFloat(firstCostco.longitude);
-      
+
       // Initialize map
       map = L.map('map').setView([lat, lng], 12);
-      
+
       // Add OpenStreetMap tiles
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       }).addTo(map);
-      
+
       // Add markers
       addMapMarkers(city);
     }
@@ -625,7 +731,7 @@
         if (store.latitude && store.longitude) {
           const lat = parseFloat(store.latitude);
           const lng = parseFloat(store.longitude);
-          
+
           // Create Costco marker (green)
           const marker = L.marker([lat, lng], {
             icon: L.divIcon({
@@ -635,20 +741,20 @@
               iconAnchor: [12, 12]
             })
           }).addTo(map);
-          
+
           // Add popup
-          marker.bindPopup(`<b>Costco</b><br>${store.address}<br>Phone: ${store.phone || 'N/A'}`);
-          
+          marker.bindPopup(`<b>Costco</b><br>${store.address}`);
+
           markers.push(marker);
         }
       });
-      
+
       // Add Target markers
       city.target.forEach(store => {
         if (store.latitude && store.longitude) {
           const lat = parseFloat(store.latitude);
           const lng = parseFloat(store.longitude);
-          
+
           // Create Target marker (red)
           const marker = L.marker([lat, lng], {
             icon: L.divIcon({
@@ -658,14 +764,14 @@
               iconAnchor: [12, 12]
             })
           }).addTo(map);
-          
+
           // Add popup
-          marker.bindPopup(`<b>Target</b><br>${store.street}<br>Phone: ${store.phone || 'N/A'}`);
-          
+          marker.bindPopup(`<b>Target</b><br>${store.street}`);
+
           markers.push(marker);
         }
       });
-      
+
       // Fit the map to show all markers
       if (markers.length > 0) {
         const group = new L.featureGroup(markers);
@@ -675,6 +781,8 @@
 
     // Initialize the app when the DOM is loaded
     document.addEventListener('DOMContentLoaded', init);
+
   </script>
 </body>
+
 </html>

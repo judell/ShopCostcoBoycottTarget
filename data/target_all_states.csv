@@ -1,261 +1,854 @@
 store_id,name,street,city,state,zip,latitude,longitude,phone,url
-1772,Target Store -,4616 Highway 280,Birmingham,AL,35242-5028,33.42553,-86.7118,+12054087687,https://www.target.com/sl/birmingham/1772
-1773,Target Store -,1654 Gadsden Hwy,Birmingham,AL,35235-3104,33.60526,-86.636743,+12056556950,https://www.target.com/sl/birmingham/1773
+2715,Target Store -,11000 Stockdale Hwy,Bakersfield,CA,93311-3635,35.34998,-119.125,+16616173657,https://www.target.com/sl/bakersfield/2715
+3346,Target Store -,"7021 Hollywood Blvd, #210",Los Angeles,CA,90028-6034,34.101948,-118.342672,+12135887106,https://www.target.com/sl/los-angeles/3346
+300,Target Store -,24500 Alicia Pkwy,Mission Viejo,CA,92691-4508,33.60628,-117.689,+19495831298,https://www.target.com/sl/mission-viejo/300
+2492,Target Store -,6507 4th Ave,Sacramento,CA,95817-2611,38.549206,-121.426579,+19165033678,https://www.target.com/sl/sacramento/2492
+2421,Target Store -,101 S Euclid St,Anaheim,CA,92802-1011,33.831712,-117.942535,+17144221120,https://www.target.com/sl/anaheim/2421
+205,Target Store -,8001 Othello Ave,San Diego,CA,92111-3713,32.81637,-117.151,+18585761570,https://www.target.com/sl/san-diego/205
+328,Target Store -,7200 Amador Plaza Rd,Dublin,CA,94568-2320,37.706588,-121.931028,+19258298900,https://www.target.com/sl/dublin/328
+1427,Target Store -,1600 Saratoga Ave,San Jose,CA,95129-5101,37.290985,-121.989769,+14088717984,https://www.target.com/sl/san-jose/1427
+303,Target Store -,2255 S El Camino Real,Oceanside,CA,92054-6318,33.184026,-117.329697,+17609678335,https://www.target.com/sl/oceanside/303
+3216,Target Store -,620 S Virgil Ave Ste 100,Los Angeles,CA,90005-4080,34.06264,-118.286131,+12132963712,https://www.target.com/sl/los-angeles/3216
+2581,Target Store -,95 Holger Way,San Jose,CA,95134-1377,37.418112,-121.955506,+14088341527,https://www.target.com/sl/san-jose/2581
+1984,Target Store -,1750 Story Rd,San Jose,CA,95122-1921,37.340099,-121.840931,+14082730054,https://www.target.com/sl/san-jose/1984
+2615,Target Store -,43950 Pacific Commons Blvd,Fremont,CA,94538-3803,37.502219,-121.968037,+15107711616,https://www.target.com/sl/fremont/2615
+3231,Target Store -,11840 W. Santa Monica Blvd,Los Angeles,CA,90025-2202,34.04353,-118.456571,+14245593327,https://www.target.com/sl/los-angeles/3231
+1407,Target Store -,133 Serramonte Ctr,Daly City,CA,94015-2349,37.670553,-122.470173,+16507552393,https://www.target.com/sl/daly-city/1407
+911,Target Store -,7600 N Blackstone Ave,Fresno,CA,93720-4300,36.847075,-119.786993,+15594310104,https://www.target.com/sl/fresno/911
+2632,Target Store -,6000 Sepulveda Blvd,Culver City,CA,90230-6423,33.9853,-118.394695,+13107544614,https://www.target.com/sl/culver-city/2632
+2775,Target Store -,8480 Beverly Blvd Ste 1A,Los Angeles,CA,90048-3414,34.0743,-118.3755,+13236020637,https://www.target.com/sl/los-angeles/2775
+626,Target Store -,2155 Morrill Ave,San Jose,CA,95132-1130,37.414028,-121.876387,+14089466791,https://www.target.com/sl/san-jose/626
+193,Target Store -,13831 Brookhurst St,Garden Grove,CA,92843-3120,33.761503,-117.955915,+17145342142,https://www.target.com/sl/garden-grove/193
+3225,Target Store -,5760 E 7TH ST,Long Beach,CA,90803-2002,33.7744,-118.11967,+15623439142,https://www.target.com/sl/long-beach/3225
+310,Target Store -,2505 Riverside Blvd,Sacramento,CA,95818-2234,38.562221,-121.49751,+19164440993,https://www.target.com/sl/sacramento/310
+3258,Target Store -,2620 E Chapman Ave,Orange,CA,92869-3205,33.787208,-117.825177,+17149231766,https://www.target.com/sl/orange/3258
+1424,Target Store -,12051 Imperial Hwy,Norwalk,CA,90650-3084,33.917962,-118.07613,+15624095036,https://www.target.com/sl/norwalk/1424
+3202,Target Store -,2187 Shattuck Ave,Berkeley,CA,94704-1308,37.86955,-122.26773,+15109823726,https://www.target.com/sl/berkeley/3202
+2245,Target Store -,4200 E 4th St,Ontario,CA,91764-5250,34.0758,-117.561778,+19095793040,https://www.target.com/sl/ontario/2245
+1410,Target Store -,1288 Camino Del Rio N,San Diego,CA,92108-1511,32.767561,-117.150905,+16195420025,https://www.target.com/sl/san-diego/1410
+291,Target Store -,3333 Arlington Ave,Riverside,CA,92506-3252,33.947388,-117.382433,+19517846430,https://www.target.com/sl/riverside/291
+3205,Target Store -,3030 Grape St,San Diego,CA,92102-1134,32.72686,-117.12904,+16196847086,https://www.target.com/sl/san-diego/3205
+3371,Target Store -,8900 S Sepulveda Blvd,Los Angeles,CA,90045-3604,33.955706,-118.395791,+14244395000,https://www.target.com/sl/los-angeles/3371
+358,Target Store -,900 Shaw Ave,Clovis,CA,93612-3900,36.807026,-119.698562,+15592974691,https://www.target.com/sl/clovis/358
+1408,Target Store -,2626 Colorado Blvd,Los Angeles,CA,90041-1070,34.141668,-118.224336,+13232581355,https://www.target.com/sl/los-angeles/1408
+2855,Target Store -,17170 Camino Del Sur,San Diego,CA,92127-4166,33.020167,-117.125633,+18582273918,https://www.target.com/sl/san-diego/2855
+1332,Target Store -,3121 E Colorado Blvd,Pasadena,CA,91107-3814,34.147097,-118.085751,+16265842931,https://www.target.com/sl/pasadena/1332
+3446,Target Store -,"1670 E 4th St, Ste D",Ontario,CA,91764-2638,34.076466,-117.618184,+19097402166,https://www.target.com/sl/ontario/3446
+1417,Target Store -,5740 N Blackstone Ave,Fresno,CA,93710-5006,36.821413,-119.788498,+15594318622,https://www.target.com/sl/fresno/1417
+2398,Target Store -,245 S Mills Rd,Ventura,CA,93003-3435,34.27049,-119.249,+18055352752,https://www.target.com/sl/ventura/2398
+1958,Target Store -,15272 Summit Ave,Fontana,CA,92336-0231,34.152152,-117.472963,+19094639872,https://www.target.com/sl/fontana/1958
+2774,Target Store -,10861 Weyburn Ave,Los Angeles,CA,90024-2957,34.063027,-118.444199,+13108932360,https://www.target.com/sl/los-angeles/2774
+267,Target Store -,1925 Douglas Blvd,Roseville,CA,95661-3834,38.745763,-121.254606,+19167868787,https://www.target.com/sl/roseville/267
+3302,Target Store -,3029 University Ave,San Diego,CA,92104-3036,32.748369,-117.128943,+16198811535,https://www.target.com/sl/san-diego/3302
+1306,Target Store -,3535 S La Cienega Blvd,Los Angeles,CA,90016-4407,34.0227,-118.373,+13108951131,https://www.target.com/sl/los-angeles/1306
+2605,Target Store -,5630 Cottle Rd,San Jose,CA,95123-3696,37.25041,-121.803374,+14086003721,https://www.target.com/sl/san-jose/2605
+2115,Target Store -,3601 N Freeway Blvd,Sacramento,CA,95834-2902,38.640887,-121.499327,+19165760487,https://www.target.com/sl/sacramento/2115
+2163,Target Store -,25601 Jeronimo Rd,Mission Viejo,CA,92691-2794,33.62332,-117.682,+19496801064,https://www.target.com/sl/mission-viejo/2163
+3262,Target Store -,4211 Eagle Rock Blvd,Los Angeles,CA,90065-4404,34.122936,-118.225142,+13234743070,https://www.target.com/sl/los-angeles/3262
+2744,Target Store -,6655 North Riverside Dr,Fresno,CA,93722-9308,36.83473,-119.912566,+15594905567,https://www.target.com/sl/fresno/2744
+2771,Target Store -,2800 Dublin Blvd,Dublin,CA,94568-4589,37.703228,-121.853195,+19252411042,https://www.target.com/sl/dublin/2771
+1340,Target Store -,10600 Firestone Blvd,Norwalk,CA,90650-7410,33.925134,-118.107045,+15624068870,https://www.target.com/sl/norwalk/1340
+201,Target Store -,3245 Sports Arena Blvd,San Diego,CA,92110-4529,32.751897,-117.210247,+16192232491,https://www.target.com/sl/san-diego/201
+1472,Target Store -,2499 Whipple Rd,Hayward,CA,94544-7807,37.607973,-122.063005,+15104719166,https://www.target.com/sl/hayward/1472
+2128,Target Store -,900 Spectrum Center Dr,Irvine,CA,92618-4958,33.64795,-117.740077,+19498850114,https://www.target.com/sl/irvine/2128
+2871,Target Store -,443 College Blvd,Oceanside,CA,92057-5435,33.247039,-117.293228,+17606666778,https://www.target.com/sl/oceanside/2871
+1438,Target Store -,4000 Bel Aire Plz,Napa,CA,94558-2835,38.322461,-122.307627,+17072253016,https://www.target.com/sl/napa/1438
+3427,Target Store -,12121 Victory Blvd,North Hollywood,CA,91606-3204,34.187918,-118.397453,+17472055632,https://www.target.com/sl/north-hollywood/3427
+3303,Target Store -,4864 Newport Ave,San Diego,CA,92107-3111,32.745381,-117.24844,+16198811380,https://www.target.com/sl/san-diego/3303
+195,Target Store -,2270 N Bellflower Blvd,Long Beach,CA,90815-2017,33.798438,-118.123236,+15624935411,https://www.target.com/sl/long-beach/195
+1862,Target Store -,10424 Trinity Parkway,Stockton,CA,95219-7225,38.05213,-121.372721,+12092350251,https://www.target.com/sl/stockton/1862
+1384,Target Store -,9100 Rosedale Hwy,Bakersfield,CA,93312-2143,35.385275,-119.102815,+16615890554,https://www.target.com/sl/bakersfield/1384
+2766,Target Store -,789 Mission St,San Francisco,CA,94103-3132,37.784642,-122.404002,+14153436272,https://www.target.com/sl/san-francisco/2766
+1927,Target Store -,879 Blossom Hill Rd,San Jose,CA,95123-1213,37.252092,-121.860045,+14085133002,https://www.target.com/sl/san-jose/1927
+1028,Target Store -,2831 E Eastland Ctr Dr,West Covina,CA,91791-1624,34.07412,-117.884696,+16268590221,https://www.target.com/sl/west-covina/1028
+3217,Target Store -,3131 S Hoover St STE 1910,Los Angeles,CA,90089-1910,34.024306,-118.285114,+12132753149,https://www.target.com/sl/los-angeles/3217
+2147,Target Store -,2370 S Azusa Ave,West Covina,CA,91792-1511,34.033547,-117.912146,+16266675400,https://www.target.com/sl/west-covina/2147
+3294,Target Store -,"1302 S. La Brea Ave, Ste A",Los Angeles,CA,90019-2909,34.049677,-118.343739,+13238010965,https://www.target.com/sl/los-angeles/3294
+3288,Target Store -,609 N Dillon St,Los Angeles,CA,90026-3604,34.079057,-118.279319,+12137585147,https://www.target.com/sl/los-angeles/3288
+203,Target Store -,1240 Broadway,Chula Vista,CA,91911-2911,32.60458,-117.080426,+16194253850,https://www.target.com/sl/chula-vista/203
+3344,Target Store -,420 Broadway,Santa Monica,CA,90401-2314,34.015417,-118.492677,+14244165468,https://www.target.com/sl/santa-monica/3344
+212,Target Store -,3520 Tyler St,Riverside,CA,92503-4175,33.906912,-117.459627,+19513518271,https://www.target.com/sl/riverside/212
+2165,Target Store -,3150 Business Park Dr,Vista,CA,92081-8520,33.13671,-117.228517,+17602086111,https://www.target.com/sl/vista/2165
+938,Target Store -,3900 Sisk Rd,Modesto,CA,95356-3215,37.69382,-121.063121,+12095439561,https://www.target.com/sl/modesto/938
+250,Target Store -,3300 S Bristol St,Santa Ana,CA,92704-7246,33.702755,-117.886981,+17146414944,https://www.target.com/sl/santa-ana/250
+324,Target Store -,1811 Hillsdale Ave,San Jose,CA,95124-3027,37.264626,-121.918805,+14082677900,https://www.target.com/sl/san-jose/324
+3338,Target Store -,1610 Wilshire Blvd,Santa Monica,CA,90403-5508,34.028327,-118.486493,+14244165730,https://www.target.com/sl/santa-monica/3338
+2304,Target Store -,200 Westminster Mall,Westminster,CA,92683-4984,33.745618,-118.012257,+17146571351,https://www.target.com/sl/westminster/2304
+2260,Target Store -,20288 US Highway 18,Apple Valley,CA,92307-2937,34.527472,-117.217228,+17602407654,https://www.target.com/sl/apple-valley/2260
+1383,Target Store -,1893 W Malvern Ave,Fullerton,CA,92833-2403,33.87942,-117.961619,+17142781024,https://www.target.com/sl/fullerton/1383
+2020,Target Store -,8999 Balboa Blvd,Northridge,CA,91325-2608,34.23479,-118.503,+18189249001,https://www.target.com/sl/northridge/2020
+2469,Target Store -,3308 N Dinuba Blvd,Visalia,CA,93291-8718,36.358716,-119.295256,+15593021850,https://www.target.com/sl/visalia/2469
+1026,Target Store -,205 Soscol Ave,Napa,CA,94559-4007,38.282734,-122.277002,+17072241058,https://www.target.com/sl/napa/1026
+2768,Target Store -,2675 Geary Blvd,San Francisco,CA,94118-3400,37.781863,-122.44705,+14157965280,https://www.target.com/sl/san-francisco/2768
+289,Target Store -,20200 Bloomfield Ave,Cerritos,CA,90703-7821,33.847157,-118.062572,+15628609909,https://www.target.com/sl/cerritos/289
+299,Target Store -,8840 Corbin Ave,Northridge,CA,91324-3309,34.230802,-118.560808,+18187720494,https://www.target.com/sl/northridge/299
+2479,Target Store -,5500 W Sunset Blvd,Los Angeles,CA,90028-8522,34.09797,-118.30943,+12135887000,https://www.target.com/sl/los-angeles/2479
+2088,Target Store -,533 Coleman Ave,San Jose,CA,95110-2047,37.339164,-121.905016,+14083462022,https://www.target.com/sl/san-jose/2088
+1238,Target Store -,13200 Jamboree Rd,Irvine,CA,92602-2307,33.727436,-117.784915,+17148381209,https://www.target.com/sl/irvine/1238
+660,Target Store -,16964 Slover Ave,Fontana,CA,92337-7556,34.064981,-117.434569,+19093564242,https://www.target.com/sl/fontana/660
+1815,Target Store -,910 Eastlake Pkwy,Chula Vista,CA,91914-3558,32.650517,-116.968454,+16192131010,https://www.target.com/sl/chula-vista/1815
+3267,Target Store -,1414 University Ave,Berkeley,CA,94702-1548,37.869961,-122.283755,+15105425346,https://www.target.com/sl/berkeley/3267
+1293,Target Store -,3030 Harbor Blvd Ste A,Costa Mesa,CA,92626-2562,33.68243,-117.918,+17149790372,https://www.target.com/sl/costa-mesa/1293
+314,Target Store -,3173 E Shields Ave,Fresno,CA,93726-6902,36.780352,-119.771179,+15592288471,https://www.target.com/sl/fresno/314
+1846,Target Store -,3424 College Ave,San Diego,CA,92115-7134,32.74126,-117.055525,+16194710025,https://www.target.com/sl/san-diego/1846
+2281,Target Store -,2161 Monterey Hwy,San Jose,CA,95125-1057,37.303989,-121.865807,+14086601703,https://www.target.com/sl/san-jose/2281
+2018,Target Store -,695 W Herndon Ave,Clovis,CA,93612-0104,36.839828,-119.727711,+15593210009,https://www.target.com/sl/clovis/2018
+2462,Target Store -,51 Tierra Rejada Rd,Simi Valley,CA,93065-2902,34.273194,-118.797049,+18054165790,https://www.target.com/sl/simi-valley/2462
+2026,Target Store -,20700 S Avalon Blvd,Carson,CA,90746-3701,33.843169,-118.260619,+13108193011,https://www.target.com/sl/carson/2026
+273,Target Store -,3405 Mchenry Ave,Modesto,CA,95350-1445,37.687154,-120.995583,+12095723341,https://www.target.com/sl/modesto/273
+614,Target Store -,3401 Mall View Rd,Bakersfield,CA,93306-3060,35.393662,-118.955545,+16618729929,https://www.target.com/sl/bakersfield/614
+230,Target Store -,2191 N Tustin St,Orange,CA,92865-3701,33.824384,-117.834997,+17149742800,https://www.target.com/sl/orange/230
+1283,Target Store -,41040 California Oaks Rd,Murrieta,CA,92562-5749,33.565642,-117.203908,+19516967527,https://www.target.com/sl/murrieta/1283
+2802,Target Store -,280 E Via Rancho Pkwy,Escondido,CA,92025-8005,33.069927,-117.065291,+17607059019,https://www.target.com/sl/escondido/2802
+286,Target Store -,1330 E 17th St,Santa Ana,CA,92705-8500,33.759257,-117.850704,+17145414593,https://www.target.com/sl/santa-ana/286
+311,Target Store -,5001 Madison Ave,Sacramento,CA,95841-2604,38.66161,-121.349226,+19163483701,https://www.target.com/sl/sacramento/311
+249,Target Store -,16400 Beach Blvd,Westminster,CA,92683-7858,33.725383,-117.98629,+17148414449,https://www.target.com/sl/westminster/249
+2350,Target Store -,38019 47Th St E,Palmdale,CA,93552-3103,34.574355,-118.047839,+16619982500,https://www.target.com/sl/palmdale/2350
+1362,Target Store -,1800 W Empire Ave,Burbank,CA,91504-3403,34.18962,-118.33,+18182380132,https://www.target.com/sl/burbank/1362
+3391,Target Store -,289 E 17th St,Costa Mesa,CA,92627-3831,33.632402,-117.916925,+19497632392,https://www.target.com/sl/costa-mesa/3391
+912,Target Store -,3944 Grand Ave,Chino,CA,91710-5422,34.001494,-117.718243,+19094655804,https://www.target.com/sl/chino/912
+3315,Target Store -,27551 Puerta Real,Mission Viejo,CA,92691-6321,33.562615,-117.671648,+19493175522,https://www.target.com/sl/mission-viejo/3315
+1936,Target Store -,1441 W 17th St,Santa Ana,CA,92706-3301,33.761461,-117.887485,+17144810030,https://www.target.com/sl/santa-ana/1936
+246,Target Store -,2907 Cochran St,Simi Valley,CA,93065-2773,34.280264,-118.739242,+18055838933,https://www.target.com/sl/simi-valley/246
+1309,Target Store -,14920 Raymer St,Van Nuys,CA,91405-1146,34.212687,-118.46022,+18189221001,https://www.target.com/sl/van-nuys/1309
+685,Target Store -,39440 10th St W,Palmdale,CA,93551-3747,34.599359,-118.146734,+16612650906,https://www.target.com/sl/palmdale/685
+294,Target Store -,11051 Victory Blvd,North Hollywood,CA,91606-3719,34.18816,-118.371645,+18187613083,https://www.target.com/sl/north-hollywood/294
+2424,Target Store -,6750 Cherry Ave,Long Beach,CA,90805-1717,33.877571,-118.166633,+15622952971,https://www.target.com/sl/long-beach/2424
+192,Target Store -,12100 Harbor Blvd,Garden Grove,CA,92840-4004,33.787031,-117.913614,+17149714826,https://www.target.com/sl/garden-grove/192
+1418,Target Store -,200 W Orangethorpe Ave,Fullerton,CA,92832-2900,33.85851,-117.928,+17149924565,https://www.target.com/sl/fullerton/1418
+1422,Target Store -,39201 Fremont Blvd,Fremont,CA,94538-1301,37.545146,-121.984401,+15107956305,https://www.target.com/sl/fremont/1422
+298,Target Store -,4200 E Main St,Ventura,CA,93003-5230,34.261914,-119.237025,+18056449871,https://www.target.com/sl/ventura/298
+3264,Target Store -,285 Winston Dr,San Francisco,CA,94132-1921,37.726614,-122.476464,+14156802914,https://www.target.com/sl/san-francisco/3264
+2185,Target Store -,19661 Hesperian Blvd,Hayward,CA,94541-4200,37.666285,-122.120084,+15107310001,https://www.target.com/sl/hayward/2185
+3347,Target Store -,1833A LaCienega Blvd,Los Angeles,CA,90035-4664,34.044258,-118.379157,+14243613817,https://www.target.com/sl/los-angeles/3347
+2499,Target Store -,27818 Clinton Keith Rd,Murrieta,CA,92562-8554,33.603888,-117.173596,+19517041123,https://www.target.com/sl/murrieta/2499
+3274,Target Store -,2222 E Lincoln Ave,Anaheim,CA,92806-4107,33.8377781,-117.8856891,+16572763773,https://www.target.com/sl/anaheim/3274
+2238,Target Store -,3155 Silver Creek Rd,San Jose,CA,95121-1730,37.30786,-121.813,+14082387800,https://www.target.com/sl/san-jose/2238
+1307,Target Store -,5711 Sepulveda Blvd,Van Nuys,CA,91411-2918,34.175234,-118.466515,+18187790163,https://www.target.com/sl/van-nuys/1307
+3251,Target Store -,1033 N Hollywood Way,Burbank,CA,91505-2540,34.16904,-118.348002,+17472415032,https://www.target.com/sl/burbank/3251
+336,Target Store -,3750 Barranca Pkwy,Irvine,CA,92606-8200,33.685581,-117.812576,+19498578337,https://www.target.com/sl/irvine/336
+304,Target Store -,250 Broadway,El Cajon,CA,92021-4539,32.809271,-116.958998,+16194429641,https://www.target.com/sl/el-cajon/304
+2776,Target Store -,735 S Figueroa St,Los Angeles,CA,90017-2571,34.048833,-118.261007,+12133304543,https://www.target.com/sl/los-angeles/2776
+1843,Target Store -,2755 Canyon Springs Pkwy,Riverside,CA,92507-0932,33.938916,-117.28174,+19516976778,https://www.target.com/sl/riverside/1843
+3384,Target Store -,1707 J St,Sacramento,CA,95811-3007,38.57781,-121.483561,+12793005351,https://www.target.com/sl/sacramento/3384
+3233,Target Store -,4255 CAMPUS DR STE A150,Irvine,CA,92612-2668,33.649956,-117.838337,+19499886230,https://www.target.com/sl/irvine/3233
+2804,Target Store -,950 Coddingtown Center,Santa Rosa,CA,95401-3506,38.456614,-122.730368,+17075965587,https://www.target.com/sl/santa-rosa/2804
+2051,Target Store -,9882 Adams Ave,Huntington Beach,CA,92646-4808,33.6715,-117.956,+17148491814,https://www.target.com/sl/huntington-beach/2051
+3393,Target Store -,"330 N Westlake Ave, Unit 500",Los Angeles,CA,90026-7734,34.069283,-118.265935,+12135133089,https://www.target.com/sl/los-angeles/3393
+275,Target Store -,3150 W Shaw Ave,Fresno,CA,93711-3215,36.809433,-119.847324,+15592757059,https://www.target.com/sl/fresno/275
+883,Target Store -,777 E Colorado Blvd,Pasadena,CA,91101-2104,34.14677,-118.135,+16265841606,https://www.target.com/sl/pasadena/883
+1305,Target Store -,11525 South St,Cerritos,CA,90703-6627,33.859295,-118.08794,+15622740063,https://www.target.com/sl/cerritos/1305
+1502,Target Store -,10451 Fairway Dr,Roseville,CA,95678-1987,38.791131,-121.289567,+19167801020,https://www.target.com/sl/roseville/1502
+677,Target Store -,8148 E Santa Ana Canyon Rd,Anaheim,CA,92808-1105,33.865805,-117.747645,+17149219091,https://www.target.com/sl/anaheim/677
+2524,Target Store -,2901 Ming Ave,Bakersfield,CA,93304-4144,35.336984,-119.036604,+16616172000,https://www.target.com/sl/bakersfield/2524
+2328,Target Store -,651 W Sepulveda Blvd,Carson,CA,90745-6314,33.80924,-118.286,+13105070020,https://www.target.com/sl/carson/2328
+3343,Target Store -,220 N. La Brea Ave,Inglewood,CA,90301,33.964768,-118.353068,+14244395117,https://www.target.com/sl/inglewood/3343
+937,Target Store -,1980 Santa Rosa Ave,Santa Rosa,CA,95407-7621,38.417042,-122.709582,+17075750665,https://www.target.com/sl/santa-rosa/937
+2465,Target Store -,5680 Balboa Ave,San Diego,CA,92111-2702,32.822049,-117.179293,+18583096564,https://www.target.com/sl/san-diego/2465
+258,Target Store -,5555 Philadelphia St,Chino,CA,91710-2481,34.032494,-117.682043,+19096278433,https://www.target.com/sl/chino/258
+1426,Target Store -,450 N Capitol Ave,San Jose,CA,95133-1938,37.373857,-121.844588,+14082548931,https://www.target.com/sl/san-jose/1426
+1329,Target Store -,3471 W Century Blvd,Inglewood,CA,90301-1218,33.948025,-118.332844,+13106772436,https://www.target.com/sl/inglewood/1329
+1140,Target Store -,2911 Jamacha Rd,El Cajon,CA,92019-4342,32.738795,-116.93853,+16196602948,https://www.target.com/sl/el-cajon/1140
+1040,Target Store -,1751 University Dr,Vista,CA,92083-7775,33.169156,-117.214363,+17609410220,https://www.target.com/sl/vista/1040
+313,Target Store -,4707 Pacific Ave,Stockton,CA,95207-6301,37.991634,-121.314598,+12094768081,https://www.target.com/sl/stockton/313
+1805,Target Store -,4247 S Mooney Blvd,Visalia,CA,93277-9146,36.292517,-119.316571,+15597490740,https://www.target.com/sl/visalia/1805
+305,Target Store -,8251 Mira Mesa Blvd,San Diego,CA,92126-2603,32.910813,-117.146313,+18585301901,https://www.target.com/sl/san-diego/305
+274,Target Store -,1280 Auto Park Way,Escondido,CA,92029-2231,33.113107,-117.099632,+17604896119,https://www.target.com/sl/escondido/274
+3353,Target Store -,100 Westlake Ctr,Daly City,CA,94015-1407,37.70032,-122.48288,+14154660506,https://www.target.com/sl/daly-city/3353
+312,Target Store -,1919 Fulton Ave,Sacramento,CA,95825-1905,38.600567,-121.403401,+19164836093,https://www.target.com/sl/sacramento/312
+293,Target Store -,2920 Yorba Linda Blvd,Fullerton,CA,92831-1523,33.887729,-117.877297,+17145793090,https://www.target.com/sl/fullerton/293
+939,Target Store -,19201 Bear Valley Rd,Apple Valley,CA,92308-6763,34.469177,-117.243953,+17602474111,https://www.target.com/sl/apple-valley/939
+1527,Target Store -,8101 Cosumnes River Blvd,Sacramento,CA,95823-5415,38.458625,-121.41386,+19165253576,https://www.target.com/sl/sacramento/1527
+3422,Target Store -,19041 Beach Blvd,Huntington Beach,CA,92648-2305,33.686081,-117.990423,+17142746902,https://www.target.com/sl/huntington-beach/3422
+3359,Target Store -,415 S LaBrea Ave,Los Angeles,CA,90036-3523,34.066618,-118.344355,+13238012401,https://www.target.com/sl/los-angeles/3359
+198,Target Store -,10820 Jefferson Blvd,Culver City,CA,90230-4935,33.999135,-118.394038,+13108395200,https://www.target.com/sl/culver-city/198
+2166,Target Store -,430 Mariner Way,Biddeford,ME,04005-9440,43.474,-70.5141,+12072842510,https://www.target.com/sl/biddeford/2166
+2315,Target Store -,119 Crossing Way,Augusta,ME,04330-6184,44.312403,-69.804993,+12076228000,https://www.target.com/sl/augusta/2315
+2130,Target Store -,125 Topsham Fair Mall Rd,Topsham,ME,04086-1741,43.934038,-69.985271,+12075045050,https://www.target.com/sl/topsham/2130
+2880,Target Store -,603 Center St,Auburn,ME,04210-6306,44.124102,-70.22299,+12074023234,https://www.target.com/sl/auburn-center-st/2880
+1338,Target Store -,200 Running Hill Rd,South Portland,ME,04106-3258,43.634242,-70.347774,+12078711156,https://www.target.com/sl/south-portland/1338
+1855,Target Store -,60 Longview Dr,Bangor,ME,04401-3629,44.842191,-68.74156,+12079453133,https://www.target.com/sl/bangor/1855
 2503,Target Store -,5561 Grove Blvd,Birmingham,AL,35226-4600,33.361598,-86.852559,+12057471654,https://www.target.com/sl/birmingham/2503
-1346,Target Store -,6275 University Dr NW,Huntsville,AL,35806-1776,34.741637,-86.681523,+12569220189,https://www.target.com/sl/huntsville/1346
-1367,Target Store -,2750 Carl T Jones Dr SE,Huntsville,AL,35802-4914,34.673498,-86.541632,+12566503491,https://www.target.com/sl/huntsville/1367
+1773,Target Store -,1654 Gadsden Hwy,Birmingham,AL,35235-3104,33.60526,-86.636743,+12056556950,https://www.target.com/sl/birmingham/1773
+1772,Target Store -,4616 Highway 280,Birmingham,AL,35242-5028,33.42553,-86.7118,+12054087687,https://www.target.com/sl/birmingham/1772
 797,Target Store -,3150 Bel Air Mall,Mobile,AL,36606-3203,30.671392,-88.12001,+12514719760,https://www.target.com/sl/mobile/797
 1376,Target Store -,790 Schillinger Rd S,Mobile,AL,36695-8979,30.67388,-88.2283,+12516070265,https://www.target.com/sl/mobile/1376
+1346,Target Store -,6275 University Dr NW,Huntsville,AL,35806-1776,34.741637,-86.681523,+12569220189,https://www.target.com/sl/huntsville/1346
+1367,Target Store -,2750 Carl T Jones Dr SE,Huntsville,AL,35802-4914,34.673498,-86.541632,+12566503491,https://www.target.com/sl/huntsville/1367
 2371,Target Store -,1200 N Muldoon Rd,Anchorage,AK,99504-6103,61.226817,-149.745678,+19072692100,https://www.target.com/sl/anchorage/2371
 2372,Target Store -,150 W 100th Ave,Anchorage,AK,99515-2673,61.129094,-149.881696,+19072677500,https://www.target.com/sl/anchorage/2372
-1838,Target Store -,3425 W Frye Rd,Chandler,AZ,85226-5008,33.296076,-111.899963,+14802810007,https://www.target.com/sl/chandler/1838
-2747,Target Store -,3777 S ARIZONA AVE,Chandler,AZ,85248-2700,33.25002,-111.838331,+14806126101,https://www.target.com/sl/chandler/2747
-1209,Target Store -,1515 E Warner Rd,Gilbert,AZ,85296-3138,33.334243,-111.757366,+14808922282,https://www.target.com/sl/gilbert/1209
-1960,Target Store -,3931 S Gilbert Rd,Gilbert,AZ,85297-7004,33.27841,-111.786353,+14802810201,https://www.target.com/sl/gilbert/1960
-1361,Target Store -,9350 W Northern Ave,Glendale,AZ,85305-1103,33.554179,-112.259787,+16238778440,https://www.target.com/sl/glendale/1361
 2341,Target Store -,10404 N 43rd Ave,Glendale,AZ,85302-2019,33.580184,-112.152971,+16239314434,https://www.target.com/sl/glendale/2341
-1242,Target Store -,1515 N Litchfield Rd,Goodyear,AZ,85395-1237,33.462942,-112.355692,+16239353510,https://www.target.com/sl/goodyear/1242
-2400,Target Store -,995 S Cotton Ln,Goodyear,AZ,85338-4604,33.437407,-112.421869,+14806273275,https://www.target.com/sl/goodyear/2400
-251,Target Store -,1135 S Gilbert Rd,Mesa,AZ,85204-5205,33.394166,-111.785987,+14809263443,https://www.target.com/sl/mesa/251
-639,Target Store -,1525 S Power Rd,Mesa,AZ,85206-3707,33.388909,-111.683474,+14803960403,https://www.target.com/sl/mesa/639
-1386,Target Store -,2151 N Power Rd,Mesa,AZ,85215-2971,33.453955,-111.682275,+14808302035,https://www.target.com/sl/mesa/1386
-1429,Target Store -,1230 S Longmore Ave,Mesa,AZ,85202-9602,33.392155,-111.864869,+14802810105,https://www.target.com/sl/mesa/1429
 1959,Target Store -,5110 S Power Rd,Mesa,AZ,85212-4201,33.322949,-111.689675,+14802810268,https://www.target.com/sl/mesa/1959
+1316,Target Store -,1225 W Irvington Rd,Tucson,AZ,85714-1167,32.160961,-110.989723,+15202951277,https://www.target.com/sl/tucson/1316
+2176,Target Store -,1800 E Rio Salado Pkwy,Tempe,AZ,85281-2266,33.430441,-111.905248,+14802142667,https://www.target.com/sl/tempe/2176
 825,Target Store -,8055 W Bell Rd,Peoria,AZ,85382-3806,33.636207,-112.22854,+16239790250,https://www.target.com/sl/peoria/825
-2227,Target Store -,24890 N Lake Pleasant Pkwy,Peoria,AZ,85383-1348,33.709473,-112.27532,+16233767300,https://www.target.com/sl/peoria/2227
+2400,Target Store -,995 S Cotton Ln,Goodyear,AZ,85338-4604,33.437407,-112.421869,+14806273275,https://www.target.com/sl/goodyear/2400
+639,Target Store -,1525 S Power Rd,Mesa,AZ,85206-3707,33.388909,-111.683474,+14803960403,https://www.target.com/sl/mesa/639
+251,Target Store -,1135 S Gilbert Rd,Mesa,AZ,85204-5205,33.394166,-111.785987,+14809263443,https://www.target.com/sl/mesa/251
 233,Target Store -,12602 N Paradise Village Pkwy W,Phoenix,AZ,85032-7671,33.600407,-111.989239,+16029532151,https://www.target.com/sl/phoenix/233
-851,Target Store -,7409 W Virginia Ave,Phoenix,AZ,85035-1336,33.475425,-112.218617,+16232451800,https://www.target.com/sl/phoenix/851
-909,Target Store -,4734 E Ray Rd,Phoenix,AZ,85044-6225,33.321379,-111.981542,+14808939333,https://www.target.com/sl/phoenix/909
-950,Target Store -,4515 E Thomas Rd,Phoenix,AZ,85018-7614,33.477388,-111.984509,+16029521797,https://www.target.com/sl/phoenix/950
 1141,Target Store -,2727 W Agua Fria Fwy,Phoenix,AZ,85027-3929,33.666761,-112.119577,+16238698070,https://www.target.com/sl/phoenix/1141
-1360,Target Store -,21001 N Tatum Blvd Ste 20,Phoenix,AZ,85050-4207,33.674884,-111.974585,+14804199380,https://www.target.com/sl/phoenix/1360
-1905,Target Store -,2140 E Baseline Rd,Phoenix,AZ,85042-6910,33.379333,-112.03501,+16022811119,https://www.target.com/sl/phoenix/1905
 2236,Target Store -,16806 N 7th St,Phoenix,AZ,85022-2662,33.63865,-112.069,+16027943601,https://www.target.com/sl/phoenix/2236
-2354,Target Store -,5715 N 19th Ave,Phoenix,AZ,85015-2433,33.520769,-112.096798,+16023083604,https://www.target.com/sl/phoenix/2354
+950,Target Store -,4515 E Thomas Rd,Phoenix,AZ,85018-7614,33.477388,-111.984509,+16029521797,https://www.target.com/sl/phoenix/950
+1386,Target Store -,2151 N Power Rd,Mesa,AZ,85215-2971,33.453955,-111.682275,+14808302035,https://www.target.com/sl/mesa/1386
+854,Target Store -,3901 W Ina Rd,Tucson,AZ,85741-2206,32.336156,-111.048391,+15207443553,https://www.target.com/sl/tucson/854
+1863,Target Store -,9615 E Old Spanish Trl,Tucson,AZ,85748-7540,32.207417,-110.786774,+15202964290,https://www.target.com/sl/tucson/1863
+2747,Target Store -,3777 S ARIZONA AVE,Chandler,AZ,85248-2700,33.25002,-111.838331,+14806126101,https://www.target.com/sl/chandler/2747
+1439,Target Store -,3699 E Broadway Blvd,Tucson,AZ,85716-5400,32.22347,-110.914589,+15209170116,https://www.target.com/sl/tucson/1439
+1429,Target Store -,1230 S Longmore Ave,Mesa,AZ,85202-9602,33.392155,-111.864869,+14802810105,https://www.target.com/sl/mesa/1429
+851,Target Store -,7409 W Virginia Ave,Phoenix,AZ,85035-1336,33.475425,-112.218617,+16232451800,https://www.target.com/sl/phoenix/851
+1360,Target Store -,21001 N Tatum Blvd Ste 20,Phoenix,AZ,85050-4207,33.674884,-111.974585,+14804199380,https://www.target.com/sl/phoenix/1360
+319,Target Store -,1818 E Baseline Rd,Tempe,AZ,85283-1502,33.379204,-111.907465,+14808319162,https://www.target.com/sl/tempe/319
+936,Target Store -,15444 N Frank Lloyd Wright Blvd,Scottsdale,AZ,85260-2845,33.627292,-111.888293,+14808602800,https://www.target.com/sl/scottsdale/936
+855,Target Store -,6500 E Grant Rd,Tucson,AZ,85715-3801,32.249311,-110.853411,+15202901711,https://www.target.com/sl/tucson/855
+1242,Target Store -,1515 N Litchfield Rd,Goodyear,AZ,85395-1237,33.462942,-112.355692,+16239353510,https://www.target.com/sl/goodyear/1242
+1905,Target Store -,2140 E Baseline Rd,Phoenix,AZ,85042-6910,33.379333,-112.03501,+16022811119,https://www.target.com/sl/phoenix/1905
+1361,Target Store -,9350 W Northern Ave,Glendale,AZ,85305-1103,33.554179,-112.259787,+16238778440,https://www.target.com/sl/glendale/1361
+1209,Target Store -,1515 E Warner Rd,Gilbert,AZ,85296-3138,33.334243,-111.757366,+14808922282,https://www.target.com/sl/gilbert/1209
+1838,Target Store -,3425 W Frye Rd,Chandler,AZ,85226-5008,33.296076,-111.899963,+14802810007,https://www.target.com/sl/chandler/1838
+2140,Target Store -,4040 N Oracle Rd,Tucson,AZ,85705-2720,32.27986,-110.977,+15202021501,https://www.target.com/sl/tucson/2140
+1960,Target Store -,3931 S Gilbert Rd,Gilbert,AZ,85297-7004,33.27841,-111.786353,+14802810201,https://www.target.com/sl/gilbert/1960
 3261,Target Store -,1625 E Camelback Rd,Phoenix,AZ,85016-3901,33.507522,-112.046462,+16026037581,https://www.target.com/sl/phoenix/3261
 363,Target Store -,9000 E Talking Stick Way,Scottsdale,AZ,85250-8502,33.54021,-111.887628,+14809514403,https://www.target.com/sl/scottsdale/363
-936,Target Store -,15444 N Frank Lloyd Wright Blvd,Scottsdale,AZ,85260-2845,33.627292,-111.888293,+14808602800,https://www.target.com/sl/scottsdale/936
+909,Target Store -,4734 E Ray Rd,Phoenix,AZ,85044-6225,33.321379,-111.981542,+14808939333,https://www.target.com/sl/phoenix/909
+2227,Target Store -,24890 N Lake Pleasant Pkwy,Peoria,AZ,85383-1348,33.709473,-112.27532,+16233767300,https://www.target.com/sl/peoria/2227
 1327,Target Store -,32351 N Scottsdale Rd,Scottsdale,AZ,85266-1513,33.779027,-111.923014,+14805757043,https://www.target.com/sl/scottsdale/1327
-319,Target Store -,1818 E Baseline Rd,Tempe,AZ,85283-1502,33.379204,-111.907465,+14808319162,https://www.target.com/sl/tempe/319
-2176,Target Store -,1800 E Rio Salado Pkwy,Tempe,AZ,85281-2266,33.430441,-111.905248,+14802142667,https://www.target.com/sl/tempe/2176
-854,Target Store -,3901 W Ina Rd,Tucson,AZ,85741-2206,32.336156,-111.048391,+15207443553,https://www.target.com/sl/tucson/854
-855,Target Store -,6500 E Grant Rd,Tucson,AZ,85715-3801,32.249311,-110.853411,+15202901711,https://www.target.com/sl/tucson/855
-1316,Target Store -,1225 W Irvington Rd,Tucson,AZ,85714-1167,32.160961,-110.989723,+15202951277,https://www.target.com/sl/tucson/1316
-1439,Target Store -,3699 E Broadway Blvd,Tucson,AZ,85716-5400,32.22347,-110.914589,+15209170116,https://www.target.com/sl/tucson/1439
-1863,Target Store -,9615 E Old Spanish Trl,Tucson,AZ,85748-7540,32.207417,-110.786774,+15202964290,https://www.target.com/sl/tucson/1863
-2140,Target Store -,4040 N Oracle Rd,Tucson,AZ,85705-2720,32.27986,-110.977,+15202021501,https://www.target.com/sl/tucson/2140
+2354,Target Store -,5715 N 19th Ave,Phoenix,AZ,85015-2433,33.520769,-112.096798,+16023083604,https://www.target.com/sl/phoenix/2354
 1114,Target Store -,12700 Chenal Pkwy,Little Rock,AR,72211-3360,34.755508,-92.414374,+15012170200,https://www.target.com/sl/little-rock/1114
 2737,Target Store -,420 S University Ave,Little Rock,AR,72205-5246,34.749789,-92.345077,+15018013412,https://www.target.com/sl/little-rock/2737
-677,Target Store -,8148 E Santa Ana Canyon Rd,Anaheim,CA,92808-1105,33.865805,-117.747645,+17149219091,https://www.target.com/sl/anaheim/677
-2421,Target Store -,101 S Euclid St,Anaheim,CA,92802-1011,33.831712,-117.942535,+17144221120,https://www.target.com/sl/anaheim/2421
-3274,Target Store -,2222 E Lincoln Ave,Anaheim,CA,92806-4107,33.8377781,-117.8856891,+16572763773,https://www.target.com/sl/anaheim/3274
-939,Target Store -,19201 Bear Valley Rd,Apple Valley,CA,92308-6763,34.469177,-117.243953,+17602474111,https://www.target.com/sl/apple-valley/939
-2260,Target Store -,20288 US Highway 18,Apple Valley,CA,92307-2937,34.527472,-117.217228,+17602407654,https://www.target.com/sl/apple-valley/2260
-614,Target Store -,3401 Mall View Rd,Bakersfield,CA,93306-3060,35.393662,-118.955545,+16618729929,https://www.target.com/sl/bakersfield/614
-1384,Target Store -,9100 Rosedale Hwy,Bakersfield,CA,93312-2143,35.385275,-119.102815,+16615890554,https://www.target.com/sl/bakersfield/1384
-2524,Target Store -,2901 Ming Ave,Bakersfield,CA,93304-4144,35.336984,-119.036604,+16616172000,https://www.target.com/sl/bakersfield/2524
-2715,Target Store -,11000 Stockdale Hwy,Bakersfield,CA,93311-3635,35.34998,-119.125,+16616173657,https://www.target.com/sl/bakersfield/2715
-3202,Target Store -,2187 Shattuck Ave,Berkeley,CA,94704-1308,37.86955,-122.26773,+15109823726,https://www.target.com/sl/berkeley/3202
-3267,Target Store -,1414 University Ave,Berkeley,CA,94702-1548,37.869961,-122.283755,+15105425346,https://www.target.com/sl/berkeley/3267
-1362,Target Store -,1800 W Empire Ave,Burbank,CA,91504-3403,34.18962,-118.33,+18182380132,https://www.target.com/sl/burbank/1362
-3251,Target Store -,1033 N Hollywood Way,Burbank,CA,91505-2540,34.16904,-118.348002,+17472415032,https://www.target.com/sl/burbank/3251
-2026,Target Store -,20700 S Avalon Blvd,Carson,CA,90746-3701,33.843169,-118.260619,+13108193011,https://www.target.com/sl/carson/2026
-2328,Target Store -,651 W Sepulveda Blvd,Carson,CA,90745-6314,33.80924,-118.286,+13105070020,https://www.target.com/sl/carson/2328
-289,Target Store -,20200 Bloomfield Ave,Cerritos,CA,90703-7821,33.847157,-118.062572,+15628609909,https://www.target.com/sl/cerritos/289
-1305,Target Store -,11525 South St,Cerritos,CA,90703-6627,33.859295,-118.08794,+15622740063,https://www.target.com/sl/cerritos/1305
-258,Target Store -,5555 Philadelphia St,Chino,CA,91710-2481,34.032494,-117.682043,+19096278433,https://www.target.com/sl/chino/258
-912,Target Store -,3944 Grand Ave,Chino,CA,91710-5422,34.001494,-117.718243,+19094655804,https://www.target.com/sl/chino/912
-203,Target Store -,1240 Broadway,Chula Vista,CA,91911-2911,32.60458,-117.080426,+16194253850,https://www.target.com/sl/chula-vista/203
-1815,Target Store -,910 Eastlake Pkwy,Chula Vista,CA,91914-3558,32.650517,-116.968454,+16192131010,https://www.target.com/sl/chula-vista/1815
-358,Target Store -,900 Shaw Ave,Clovis,CA,93612-3900,36.807026,-119.698562,+15592974691,https://www.target.com/sl/clovis/358
-2018,Target Store -,695 W Herndon Ave,Clovis,CA,93612-0104,36.839828,-119.727711,+15593210009,https://www.target.com/sl/clovis/2018
-1293,Target Store -,3030 Harbor Blvd Ste A,Costa Mesa,CA,92626-2562,33.68243,-117.918,+17149790372,https://www.target.com/sl/costa-mesa/1293
-3391,Target Store -,289 E 17th St,Costa Mesa,CA,92627-3831,33.632402,-117.916925,+19497632392,https://www.target.com/sl/costa-mesa/3391
-198,Target Store -,10820 Jefferson Blvd,Culver City,CA,90230-4935,33.999135,-118.394038,+13108395200,https://www.target.com/sl/culver-city/198
-2632,Target Store -,6000 Sepulveda Blvd,Culver City,CA,90230-6423,33.9853,-118.394695,+13107544614,https://www.target.com/sl/culver-city/2632
-1407,Target Store -,133 Serramonte Ctr,Daly City,CA,94015-2349,37.670553,-122.470173,+16507552393,https://www.target.com/sl/daly-city/1407
-3353,Target Store -,100 Westlake Ctr,Daly City,CA,94015-1407,37.70032,-122.48288,+14154660506,https://www.target.com/sl/daly-city/3353
-328,Target Store -,7200 Amador Plaza Rd,Dublin,CA,94568-2320,37.706588,-121.931028,+19258298900,https://www.target.com/sl/dublin/328
-2771,Target Store -,2800 Dublin Blvd,Dublin,CA,94568-4589,37.703228,-121.853195,+19252411042,https://www.target.com/sl/dublin/2771
-304,Target Store -,250 Broadway,El Cajon,CA,92021-4539,32.809271,-116.958998,+16194429641,https://www.target.com/sl/el-cajon/304
-1140,Target Store -,2911 Jamacha Rd,El Cajon,CA,92019-4342,32.738795,-116.93853,+16196602948,https://www.target.com/sl/el-cajon/1140
-274,Target Store -,1280 Auto Park Way,Escondido,CA,92029-2231,33.113107,-117.099632,+17604896119,https://www.target.com/sl/escondido/274
-2802,Target Store -,280 E Via Rancho Pkwy,Escondido,CA,92025-8005,33.069927,-117.065291,+17607059019,https://www.target.com/sl/escondido/2802
-660,Target Store -,16964 Slover Ave,Fontana,CA,92337-7556,34.064981,-117.434569,+19093564242,https://www.target.com/sl/fontana/660
-1958,Target Store -,15272 Summit Ave,Fontana,CA,92336-0231,34.152152,-117.472963,+19094639872,https://www.target.com/sl/fontana/1958
-1422,Target Store -,39201 Fremont Blvd,Fremont,CA,94538-1301,37.545146,-121.984401,+15107956305,https://www.target.com/sl/fremont/1422
-2615,Target Store -,43950 Pacific Commons Blvd,Fremont,CA,94538-3803,37.502219,-121.968037,+15107711616,https://www.target.com/sl/fremont/2615
-275,Target Store -,3150 W Shaw Ave,Fresno,CA,93711-3215,36.809433,-119.847324,+15592757059,https://www.target.com/sl/fresno/275
-314,Target Store -,3173 E Shields Ave,Fresno,CA,93726-6902,36.780352,-119.771179,+15592288471,https://www.target.com/sl/fresno/314
-911,Target Store -,7600 N Blackstone Ave,Fresno,CA,93720-4300,36.847075,-119.786993,+15594310104,https://www.target.com/sl/fresno/911
-1417,Target Store -,5740 N Blackstone Ave,Fresno,CA,93710-5006,36.821413,-119.788498,+15594318622,https://www.target.com/sl/fresno/1417
-2744,Target Store -,6655 North Riverside Dr,Fresno,CA,93722-9308,36.83473,-119.912566,+15594905567,https://www.target.com/sl/fresno/2744
-293,Target Store -,2920 Yorba Linda Blvd,Fullerton,CA,92831-1523,33.887729,-117.877297,+17145793090,https://www.target.com/sl/fullerton/293
-1383,Target Store -,1893 W Malvern Ave,Fullerton,CA,92833-2403,33.87942,-117.961619,+17142781024,https://www.target.com/sl/fullerton/1383
-1418,Target Store -,200 W Orangethorpe Ave,Fullerton,CA,92832-2900,33.85851,-117.928,+17149924565,https://www.target.com/sl/fullerton/1418
-192,Target Store -,12100 Harbor Blvd,Garden Grove,CA,92840-4004,33.787031,-117.913614,+17149714826,https://www.target.com/sl/garden-grove/192
-193,Target Store -,13831 Brookhurst St,Garden Grove,CA,92843-3120,33.761503,-117.955915,+17145342142,https://www.target.com/sl/garden-grove/193
-1472,Target Store -,2499 Whipple Rd,Hayward,CA,94544-7807,37.607973,-122.063005,+15104719166,https://www.target.com/sl/hayward/1472
-2185,Target Store -,19661 Hesperian Blvd,Hayward,CA,94541-4200,37.666285,-122.120084,+15107310001,https://www.target.com/sl/hayward/2185
-2051,Target Store -,9882 Adams Ave,Huntington Beach,CA,92646-4808,33.6715,-117.956,+17148491814,https://www.target.com/sl/huntington-beach/2051
-3422,Target Store -,19041 Beach Blvd,Huntington Beach,CA,92648-2305,33.686081,-117.990423,+17142746902,https://www.target.com/sl/huntington-beach/3422
-1329,Target Store -,3471 W Century Blvd,Inglewood,CA,90301-1218,33.948025,-118.332844,+13106772436,https://www.target.com/sl/inglewood/1329
-3343,Target Store -,220 N. La Brea Ave,Inglewood,CA,90301,33.964768,-118.353068,+14244395117,https://www.target.com/sl/inglewood/3343
-336,Target Store -,3750 Barranca Pkwy,Irvine,CA,92606-8200,33.685581,-117.812576,+19498578337,https://www.target.com/sl/irvine/336
-1238,Target Store -,13200 Jamboree Rd,Irvine,CA,92602-2307,33.727436,-117.784915,+17148381209,https://www.target.com/sl/irvine/1238
-2128,Target Store -,900 Spectrum Center Dr,Irvine,CA,92618-4958,33.64795,-117.740077,+19498850114,https://www.target.com/sl/irvine/2128
-3233,Target Store -,4255 CAMPUS DR STE A150,Irvine,CA,92612-2668,33.649956,-117.838337,+19499886230,https://www.target.com/sl/irvine/3233
-195,Target Store -,2270 N Bellflower Blvd,Long Beach,CA,90815-2017,33.798438,-118.123236,+15624935411,https://www.target.com/sl/long-beach/195
-2424,Target Store -,6750 Cherry Ave,Long Beach,CA,90805-1717,33.877571,-118.166633,+15622952971,https://www.target.com/sl/long-beach/2424
-3225,Target Store -,5760 E 7TH ST,Long Beach,CA,90803-2002,33.7744,-118.11967,+15623439142,https://www.target.com/sl/long-beach/3225
-1306,Target Store -,3535 S La Cienega Blvd,Los Angeles,CA,90016-4407,34.0227,-118.373,+13108951131,https://www.target.com/sl/los-angeles/1306
-1408,Target Store -,2626 Colorado Blvd,Los Angeles,CA,90041-1070,34.141668,-118.224336,+13232581355,https://www.target.com/sl/los-angeles/1408
-2479,Target Store -,5500 W Sunset Blvd,Los Angeles,CA,90028-8522,34.09797,-118.30943,+12135887000,https://www.target.com/sl/los-angeles/2479
-2774,Target Store -,10861 Weyburn Ave,Los Angeles,CA,90024-2957,34.063027,-118.444199,+13108932360,https://www.target.com/sl/los-angeles/2774
-2775,Target Store -,8480 Beverly Blvd Ste 1A,Los Angeles,CA,90048-3414,34.0743,-118.3755,+13236020637,https://www.target.com/sl/los-angeles/2775
-2776,Target Store -,735 S Figueroa St,Los Angeles,CA,90017-2571,34.048833,-118.261007,+12133304543,https://www.target.com/sl/los-angeles/2776
-3216,Target Store -,620 S Virgil Ave Ste 100,Los Angeles,CA,90005-4080,34.06264,-118.286131,+12132963712,https://www.target.com/sl/los-angeles/3216
-3217,Target Store -,3131 S Hoover St STE 1910,Los Angeles,CA,90089-1910,34.024306,-118.285114,+12132753149,https://www.target.com/sl/los-angeles/3217
-3231,Target Store -,11840 W. Santa Monica Blvd,Los Angeles,CA,90025-2202,34.04353,-118.456571,+14245593327,https://www.target.com/sl/los-angeles/3231
-3262,Target Store -,4211 Eagle Rock Blvd,Los Angeles,CA,90065-4404,34.122936,-118.225142,+13234743070,https://www.target.com/sl/los-angeles/3262
-3288,Target Store -,609 N Dillon St,Los Angeles,CA,90026-3604,34.079057,-118.279319,+12137585147,https://www.target.com/sl/los-angeles/3288
-3294,Target Store -,"1302 S. La Brea Ave, Ste A",Los Angeles,CA,90019-2909,34.049677,-118.343739,+13238010965,https://www.target.com/sl/los-angeles/3294
-3346,Target Store -,"7021 Hollywood Blvd, #210",Los Angeles,CA,90028-6034,34.101948,-118.342672,+12135887106,https://www.target.com/sl/los-angeles/3346
-3347,Target Store -,1833A LaCienega Blvd,Los Angeles,CA,90035-4664,34.044258,-118.379157,+14243613817,https://www.target.com/sl/los-angeles/3347
-3359,Target Store -,415 S LaBrea Ave,Los Angeles,CA,90036-3523,34.066618,-118.344355,+13238012401,https://www.target.com/sl/los-angeles/3359
-3371,Target Store -,8900 S Sepulveda Blvd,Los Angeles,CA,90045-3604,33.955706,-118.395791,+14244395000,https://www.target.com/sl/los-angeles/3371
-3393,Target Store -,"330 N Westlake Ave, Unit 500",Los Angeles,CA,90026-7734,34.069283,-118.265935,+12135133089,https://www.target.com/sl/los-angeles/3393
-300,Target Store -,24500 Alicia Pkwy,Mission Viejo,CA,92691-4508,33.60628,-117.689,+19495831298,https://www.target.com/sl/mission-viejo/300
-2163,Target Store -,25601 Jeronimo Rd,Mission Viejo,CA,92691-2794,33.62332,-117.682,+19496801064,https://www.target.com/sl/mission-viejo/2163
-3315,Target Store -,27551 Puerta Real,Mission Viejo,CA,92691-6321,33.562615,-117.671648,+19493175522,https://www.target.com/sl/mission-viejo/3315
-273,Target Store -,3405 Mchenry Ave,Modesto,CA,95350-1445,37.687154,-120.995583,+12095723341,https://www.target.com/sl/modesto/273
-938,Target Store -,3900 Sisk Rd,Modesto,CA,95356-3215,37.69382,-121.063121,+12095439561,https://www.target.com/sl/modesto/938
-1283,Target Store -,41040 California Oaks Rd,Murrieta,CA,92562-5749,33.565642,-117.203908,+19516967527,https://www.target.com/sl/murrieta/1283
-2499,Target Store -,27818 Clinton Keith Rd,Murrieta,CA,92562-8554,33.603888,-117.173596,+19517041123,https://www.target.com/sl/murrieta/2499
-1026,Target Store -,205 Soscol Ave,Napa,CA,94559-4007,38.282734,-122.277002,+17072241058,https://www.target.com/sl/napa/1026
-1438,Target Store -,4000 Bel Aire Plz,Napa,CA,94558-2835,38.322461,-122.307627,+17072253016,https://www.target.com/sl/napa/1438
-294,Target Store -,11051 Victory Blvd,North Hollywood,CA,91606-3719,34.18816,-118.371645,+18187613083,https://www.target.com/sl/north-hollywood/294
-3427,Target Store -,12121 Victory Blvd,North Hollywood,CA,91606-3204,34.187918,-118.397453,+17472055632,https://www.target.com/sl/north-hollywood/3427
-299,Target Store -,8840 Corbin Ave,Northridge,CA,91324-3309,34.230802,-118.560808,+18187720494,https://www.target.com/sl/northridge/299
-2020,Target Store -,8999 Balboa Blvd,Northridge,CA,91325-2608,34.23479,-118.503,+18189249001,https://www.target.com/sl/northridge/2020
-1340,Target Store -,10600 Firestone Blvd,Norwalk,CA,90650-7410,33.925134,-118.107045,+15624068870,https://www.target.com/sl/norwalk/1340
-1424,Target Store -,12051 Imperial Hwy,Norwalk,CA,90650-3084,33.917962,-118.07613,+15624095036,https://www.target.com/sl/norwalk/1424
-303,Target Store -,2255 S El Camino Real,Oceanside,CA,92054-6318,33.184026,-117.329697,+17609678335,https://www.target.com/sl/oceanside/303
-2871,Target Store -,443 College Blvd,Oceanside,CA,92057-5435,33.247039,-117.293228,+17606666778,https://www.target.com/sl/oceanside/2871
-2245,Target Store -,4200 E 4th St,Ontario,CA,91764-5250,34.0758,-117.561778,+19095793040,https://www.target.com/sl/ontario/2245
-3446,Target Store -,"1670 E 4th St, Ste D",Ontario,CA,91764-2638,34.076466,-117.618184,+19097402166,https://www.target.com/sl/ontario/3446
-230,Target Store -,2191 N Tustin St,Orange,CA,92865-3701,33.824384,-117.834997,+17149742800,https://www.target.com/sl/orange/230
-3258,Target Store -,2620 E Chapman Ave,Orange,CA,92869-3205,33.787208,-117.825177,+17149231766,https://www.target.com/sl/orange/3258
-685,Target Store -,39440 10th St W,Palmdale,CA,93551-3747,34.599359,-118.146734,+16612650906,https://www.target.com/sl/palmdale/685
-2350,Target Store -,38019 47Th St E,Palmdale,CA,93552-3103,34.574355,-118.047839,+16619982500,https://www.target.com/sl/palmdale/2350
-883,Target Store -,777 E Colorado Blvd,Pasadena,CA,91101-2104,34.14677,-118.135,+16265841606,https://www.target.com/sl/pasadena/883
-1332,Target Store -,3121 E Colorado Blvd,Pasadena,CA,91107-3814,34.147097,-118.085751,+16265842931,https://www.target.com/sl/pasadena/1332
-212,Target Store -,3520 Tyler St,Riverside,CA,92503-4175,33.906912,-117.459627,+19513518271,https://www.target.com/sl/riverside/212
-291,Target Store -,3333 Arlington Ave,Riverside,CA,92506-3252,33.947388,-117.382433,+19517846430,https://www.target.com/sl/riverside/291
-1843,Target Store -,2755 Canyon Springs Pkwy,Riverside,CA,92507-0932,33.938916,-117.28174,+19516976778,https://www.target.com/sl/riverside/1843
-267,Target Store -,1925 Douglas Blvd,Roseville,CA,95661-3834,38.745763,-121.254606,+19167868787,https://www.target.com/sl/roseville/267
-1502,Target Store -,10451 Fairway Dr,Roseville,CA,95678-1987,38.791131,-121.289567,+19167801020,https://www.target.com/sl/roseville/1502
-310,Target Store -,2505 Riverside Blvd,Sacramento,CA,95818-2234,38.562221,-121.49751,+19164440993,https://www.target.com/sl/sacramento/310
-311,Target Store -,5001 Madison Ave,Sacramento,CA,95841-2604,38.66161,-121.349226,+19163483701,https://www.target.com/sl/sacramento/311
-312,Target Store -,1919 Fulton Ave,Sacramento,CA,95825-1905,38.600567,-121.403401,+19164836093,https://www.target.com/sl/sacramento/312
-1527,Target Store -,8101 Cosumnes River Blvd,Sacramento,CA,95823-5415,38.458625,-121.41386,+19165253576,https://www.target.com/sl/sacramento/1527
-2115,Target Store -,3601 N Freeway Blvd,Sacramento,CA,95834-2902,38.640887,-121.499327,+19165760487,https://www.target.com/sl/sacramento/2115
-2492,Target Store -,6507 4th Ave,Sacramento,CA,95817-2611,38.549206,-121.426579,+19165033678,https://www.target.com/sl/sacramento/2492
-3384,Target Store -,1707 J St,Sacramento,CA,95811-3007,38.57781,-121.483561,+12793005351,https://www.target.com/sl/sacramento/3384
-201,Target Store -,3245 Sports Arena Blvd,San Diego,CA,92110-4529,32.751897,-117.210247,+16192232491,https://www.target.com/sl/san-diego/201
-205,Target Store -,8001 Othello Ave,San Diego,CA,92111-3713,32.81637,-117.151,+18585761570,https://www.target.com/sl/san-diego/205
-305,Target Store -,8251 Mira Mesa Blvd,San Diego,CA,92126-2603,32.910813,-117.146313,+18585301901,https://www.target.com/sl/san-diego/305
-1410,Target Store -,1288 Camino Del Rio N,San Diego,CA,92108-1511,32.767561,-117.150905,+16195420025,https://www.target.com/sl/san-diego/1410
-1846,Target Store -,3424 College Ave,San Diego,CA,92115-7134,32.74126,-117.055525,+16194710025,https://www.target.com/sl/san-diego/1846
-2465,Target Store -,5680 Balboa Ave,San Diego,CA,92111-2702,32.822049,-117.179293,+18583096564,https://www.target.com/sl/san-diego/2465
-2855,Target Store -,17170 Camino Del Sur,San Diego,CA,92127-4166,33.020167,-117.125633,+18582273918,https://www.target.com/sl/san-diego/2855
-3205,Target Store -,3030 Grape St,San Diego,CA,92102-1134,32.72686,-117.12904,+16196847086,https://www.target.com/sl/san-diego/3205
-3302,Target Store -,3029 University Ave,San Diego,CA,92104-3036,32.748369,-117.128943,+16198811535,https://www.target.com/sl/san-diego/3302
-3303,Target Store -,4864 Newport Ave,San Diego,CA,92107-3111,32.745381,-117.24844,+16198811380,https://www.target.com/sl/san-diego/3303
-2766,Target Store -,789 Mission St,San Francisco,CA,94103-3132,37.784642,-122.404002,+14153436272,https://www.target.com/sl/san-francisco/2766
-2768,Target Store -,2675 Geary Blvd,San Francisco,CA,94118-3400,37.781863,-122.44705,+14157965280,https://www.target.com/sl/san-francisco/2768
-3264,Target Store -,285 Winston Dr,San Francisco,CA,94132-1921,37.726614,-122.476464,+14156802914,https://www.target.com/sl/san-francisco/3264
-324,Target Store -,1811 Hillsdale Ave,San Jose,CA,95124-3027,37.264626,-121.918805,+14082677900,https://www.target.com/sl/san-jose/324
-626,Target Store -,2155 Morrill Ave,San Jose,CA,95132-1130,37.414028,-121.876387,+14089466791,https://www.target.com/sl/san-jose/626
-1426,Target Store -,450 N Capitol Ave,San Jose,CA,95133-1938,37.373857,-121.844588,+14082548931,https://www.target.com/sl/san-jose/1426
-1427,Target Store -,1600 Saratoga Ave,San Jose,CA,95129-5101,37.290985,-121.989769,+14088717984,https://www.target.com/sl/san-jose/1427
-1927,Target Store -,879 Blossom Hill Rd,San Jose,CA,95123-1213,37.252092,-121.860045,+14085133002,https://www.target.com/sl/san-jose/1927
-1984,Target Store -,1750 Story Rd,San Jose,CA,95122-1921,37.340099,-121.840931,+14082730054,https://www.target.com/sl/san-jose/1984
-2088,Target Store -,533 Coleman Ave,San Jose,CA,95110-2047,37.339164,-121.905016,+14083462022,https://www.target.com/sl/san-jose/2088
-2238,Target Store -,3155 Silver Creek Rd,San Jose,CA,95121-1730,37.30786,-121.813,+14082387800,https://www.target.com/sl/san-jose/2238
-2281,Target Store -,2161 Monterey Hwy,San Jose,CA,95125-1057,37.303989,-121.865807,+14086601703,https://www.target.com/sl/san-jose/2281
-2581,Target Store -,95 Holger Way,San Jose,CA,95134-1377,37.418112,-121.955506,+14088341527,https://www.target.com/sl/san-jose/2581
-2605,Target Store -,5630 Cottle Rd,San Jose,CA,95123-3696,37.25041,-121.803374,+14086003721,https://www.target.com/sl/san-jose/2605
-250,Target Store -,3300 S Bristol St,Santa Ana,CA,92704-7246,33.702755,-117.886981,+17146414944,https://www.target.com/sl/santa-ana/250
-286,Target Store -,1330 E 17th St,Santa Ana,CA,92705-8500,33.759257,-117.850704,+17145414593,https://www.target.com/sl/santa-ana/286
-1936,Target Store -,1441 W 17th St,Santa Ana,CA,92706-3301,33.761461,-117.887485,+17144810030,https://www.target.com/sl/santa-ana/1936
-3338,Target Store -,1610 Wilshire Blvd,Santa Monica,CA,90403-5508,34.028327,-118.486493,+14244165730,https://www.target.com/sl/santa-monica/3338
-3344,Target Store -,420 Broadway,Santa Monica,CA,90401-2314,34.015417,-118.492677,+14244165468,https://www.target.com/sl/santa-monica/3344
-937,Target Store -,1980 Santa Rosa Ave,Santa Rosa,CA,95407-7621,38.417042,-122.709582,+17075750665,https://www.target.com/sl/santa-rosa/937
-2804,Target Store -,950 Coddingtown Center,Santa Rosa,CA,95401-3506,38.456614,-122.730368,+17075965587,https://www.target.com/sl/santa-rosa/2804
-246,Target Store -,2907 Cochran St,Simi Valley,CA,93065-2773,34.280264,-118.739242,+18055838933,https://www.target.com/sl/simi-valley/246
-2462,Target Store -,51 Tierra Rejada Rd,Simi Valley,CA,93065-2902,34.273194,-118.797049,+18054165790,https://www.target.com/sl/simi-valley/2462
-313,Target Store -,4707 Pacific Ave,Stockton,CA,95207-6301,37.991634,-121.314598,+12094768081,https://www.target.com/sl/stockton/313
-1862,Target Store -,10424 Trinity Parkway,Stockton,CA,95219-7225,38.05213,-121.372721,+12092350251,https://www.target.com/sl/stockton/1862
-1307,Target Store -,5711 Sepulveda Blvd,Van Nuys,CA,91411-2918,34.175234,-118.466515,+18187790163,https://www.target.com/sl/van-nuys/1307
-1309,Target Store -,14920 Raymer St,Van Nuys,CA,91405-1146,34.212687,-118.46022,+18189221001,https://www.target.com/sl/van-nuys/1309
-298,Target Store -,4200 E Main St,Ventura,CA,93003-5230,34.261914,-119.237025,+18056449871,https://www.target.com/sl/ventura/298
-2398,Target Store -,245 S Mills Rd,Ventura,CA,93003-3435,34.27049,-119.249,+18055352752,https://www.target.com/sl/ventura/2398
-1805,Target Store -,4247 S Mooney Blvd,Visalia,CA,93277-9146,36.292517,-119.316571,+15597490740,https://www.target.com/sl/visalia/1805
-2469,Target Store -,3308 N Dinuba Blvd,Visalia,CA,93291-8718,36.358716,-119.295256,+15593021850,https://www.target.com/sl/visalia/2469
-1040,Target Store -,1751 University Dr,Vista,CA,92083-7775,33.169156,-117.214363,+17609410220,https://www.target.com/sl/vista/1040
-2165,Target Store -,3150 Business Park Dr,Vista,CA,92081-8520,33.13671,-117.228517,+17602086111,https://www.target.com/sl/vista/2165
-1028,Target Store -,2831 E Eastland Ctr Dr,West Covina,CA,91791-1624,34.07412,-117.884696,+16268590221,https://www.target.com/sl/west-covina/1028
-2147,Target Store -,2370 S Azusa Ave,West Covina,CA,91792-1511,34.033547,-117.912146,+16266675400,https://www.target.com/sl/west-covina/2147
-249,Target Store -,16400 Beach Blvd,Westminster,CA,92683-7858,33.725383,-117.98629,+17148414449,https://www.target.com/sl/westminster/249
-2304,Target Store -,200 Westminster Mall,Westminster,CA,92683-4984,33.745618,-118.012257,+17146571351,https://www.target.com/sl/westminster/2304
-48,Target Store -,7899 Wadsworth Blvd,Arvada,CO,80003-2107,39.840209,-105.085028,+13034250124,https://www.target.com/sl/arvada/48
-64,Target Store -,2800 Pearl St,Boulder,CO,80301-1123,40.021887,-105.256717,+13034493400,https://www.target.com/sl/boulder/64
-2183,Target Store -,2171 Prairie Center Pkwy,Brighton,CO,80601-7000,39.956316,-104.7798,+13032199055,https://www.target.com/sl/brighton/2183
-1326,Target Store -,5010 Founders Pkwy,Castle Rock,CO,80108-7838,39.40837,-104.857,+13036634322,https://www.target.com/sl/castle-rock/1326
-2225,Target Store -,1985 Sheridan Blvd,Edgewater,CO,80214-1325,39.746722,-105.055446,+17202743665,https://www.target.com/sl/edgewater/2225
-1806,Target Store -,4301 E Virginia Ave,Glendale,CO,80246-1510,39.708204,-104.937705,+13032090182,https://www.target.com/sl/glendale/1806
-2029,Target Store -,110 W Meadows Dr,Glenwood Springs,CO,81601-9516,39.555855,-107.343783,+19709458006,https://www.target.com/sl/glenwood-springs/2029
-93,Target Store -,2424 Highway 6 and 50 Ste C,Grand Junction,CO,81505-1103,39.09287,-108.601179,+19702458056,https://www.target.com/sl/grand-junction/93
-1813,Target Store -,4400 Centerplace Dr,Greeley,CO,80634-3756,40.393874,-104.750551,+19703305443,https://www.target.com/sl/greeley/1813
-147,Target Store -,6767 S Clinton St,Greenwood Village,CO,80112-3617,39.593371,-104.88155,+13037902583,https://www.target.com/sl/greenwood-village/147
-1776,Target Store -,9390 W Cross Dr,Littleton,CO,80123-2202,39.61042,-105.101,+17209221475,https://www.target.com/sl/littleton/1776
-2023,Target Store -,10001 Commons St,Lone Tree,CO,80124-5547,39.53487,-104.883653,+13032091851,https://www.target.com/sl/lone-tree/2023
-2218,Target Store -,551 S Hover Rd,Longmont,CO,80501-7920,40.15302,-105.134,+17208644393,https://www.target.com/sl/longmont/2218
-1178,Target Store -,1725 Rocky Mountain Ave,Loveland,CO,80538-8851,40.409288,-105.004497,+19706695423,https://www.target.com/sl/loveland/1178
-2343,Target Store -,3530 Wolverine Dr,Montrose,CO,81401-4952,38.443756,-107.86855,+19704978980,https://www.target.com/sl/montrose/2343
-2219,Target Store -,11150 S Twenty Mile Rd,Parker,CO,80134-4952,39.513087,-104.771791,+13032090166,https://www.target.com/sl/parker/2219
-618,Target Store -,3300 Dillon Dr,Pueblo,CO,81008-1040,38.303164,-104.606076,+17195455631,https://www.target.com/sl/pueblo/618
-2261,Target Store -,3650 River Point Pkwy,Sheridan,CO,80110-3312,39.649625,-105.005927,+13039746661,https://www.target.com/sl/sheridan/2261
-1525,Target Store -,715 Blue River Pkwy,Silverthorne,CO,80498-9224,39.637251,-106.07767,+19704682268,https://www.target.com/sl/silverthorne/1525
-1769,Target Store -,400 Marshall Rd,Superior,CO,80027-8623,39.95652,-105.174,+13032090106,https://www.target.com/sl/superior/1769
-1372,Target Store -,1001 E 120th Ave,Thornton,CO,80233-5711,39.916352,-104.9751,+13032800400,https://www.target.com/sl/thornton/1372
-2021,Target Store -,5071 Kipling St,Wheat Ridge,CO,80033-2251,39.788605,-105.112381,+13032091848,https://www.target.com/sl/wheat-ridge/2021
-1956,Target Store -,120 Hawley Ln,Trumbull,CT,06611-5347,41.23354,-73.151677,+12034550102,https://www.target.com/sl/trumbull/1956
+1500,Target Store -,14500 W Colfax Ave Unit B1,Lakewood,CO,80401-3203,39.733793,-105.157724,+13032739940,https://www.target.com/sl/lakewood/1500
+1928,Target Store -,10445 Reed St,Westminster,CO,80021-6063,39.886453,-105.078379,+13034108310,https://www.target.com/sl/westminster/1928
+1501,Target Store -,3810 Bloomington St,Colorado Springs,CO,80922-3203,38.888207,-104.717715,+17195744351,https://www.target.com/sl/colorado-springs/1501
+3386,Target Store -,2490 S. Colorado Blvd,Denver,CO,80222-5907,39.67082,-104.939056,+13032185745,https://www.target.com/sl/denver/3386
+2221,Target Store -,9670 Prominent Pt,Colorado Springs,CO,80924-5000,38.97338,-104.746,+17193024266,https://www.target.com/sl/colorado-springs/2221
+271,Target Store -,1950 E County Line Rd,Highlands Ranch,CO,80126-2437,39.565063,-104.965672,+13037971911,https://www.target.com/sl/highlands-ranch/271
+2820,Target Store -,7777 E Hampden Ave,Denver,CO,80231-4806,39.655327,-104.900255,+13034812821,https://www.target.com/sl/denver/2820
+2458,Target Store -,15700 E Briarwood Cir,Aurora,CO,80016-1558,39.592002,-104.804946,+17202146000,https://www.target.com/sl/aurora/2458
+1976,Target Store -,7400 S Gartrell Rd,Aurora,CO,80016-4236,39.581773,-104.721865,+13032092827,https://www.target.com/sl/aurora/1976
+3416,Target Store -,460 S College Ave,Fort Collins,CO,80524-2992,40.582317,-105.076255,+19707973960,https://www.target.com/sl/fort-collins/3416
+2716,Target Store -,1265 Sgt Jon Stiles Dr,Highlands Ranch,CO,80129-2265,39.549552,-105.005107,+13033234971,https://www.target.com/sl/highlands-ranch/2716
+3403,Target Store -,93 N Quebec St,Denver,CO,80230,39.717432,-104.904373,+13032185430,https://www.target.com/sl/denver/3403
+256,Target Store -,16910 E Quincy Ave,Aurora,CO,80015-2745,39.636674,-104.789979,+13036991020,https://www.target.com/sl/aurora/256
+1471,Target Store -,14200 E Ellsworth Ave,Aurora,CO,80012-1402,39.715366,-104.821198,+13032140114,https://www.target.com/sl/aurora/1471
+2403,Target Store -,2936 Council Tree Ave,Fort Collins,CO,80525-6300,40.527099,-105.02242,+19705303120,https://www.target.com/sl/fort-collins/2403
+1413,Target Store -,1400 S Havana St,Aurora,CO,80012-4014,39.691569,-104.863636,+13037558530,https://www.target.com/sl/aurora/1413
+3279,Target Store -,"1600 California St, Ste 14",Denver,CO,80202-3709,39.745186,-104.991767,+13032227520,https://www.target.com/sl/denver/3279
+2717,Target Store -,460 S Vance St,Lakewood,CO,80226-3305,39.708369,-105.079511,+13032097749,https://www.target.com/sl/lakewood/2717
+2197,Target Store -,14451 Orchard Pkwy,Westminster,CO,80023-9174,39.958717,-104.995118,+13032090163,https://www.target.com/sl/westminster/2197
+79,Target Store -,105 W Troutman Pkwy,Fort Collins,CO,80525-3038,40.527326,-105.078537,+19702239100,https://www.target.com/sl/fort-collins/79
+154,Target Store -,5240 N Academy Blvd,Colorado Springs,CO,80918-4004,38.905204,-104.78007,+17195949600,https://www.target.com/sl/colorado-springs/154
+739,Target Store -,1630 E Cheyenne Mountain Blvd,Colorado Springs,CO,80906-4050,38.792999,-104.801542,+17195402366,https://www.target.com/sl/colorado-springs/739
+2052,Target Store -,7930 Northfield Blvd,Denver,CO,80238-3527,39.78392,-104.895,+13032098720,https://www.target.com/sl/denver/2052
 2361,Target Store -,5065 Main St,Trumbull,CT,06611-4204,41.228735,-73.225326,+12038732013,https://www.target.com/sl/trumbull/2361
+1956,Target Store -,120 Hawley Ln,Trumbull,CT,06611-5347,41.23354,-73.151677,+12034550102,https://www.target.com/sl/trumbull/1956
 1146,Target Store -,1050 Brandywine Pkwy,Wilmington,DE,19803-1492,39.83067,-75.5407,+13024782500,https://www.target.com/sl/wilmington/1146
 2875,Target Store -,3240 Kirkwood Hwy,Wilmington,DE,19808-6130,39.73602,-75.624952,+13024854437,https://www.target.com/sl/wilmington/2875
-2067,Target Store -,10201 Hagen Ranch Rd,Boynton Beach,FL,33437-3758,26.52584,-80.166,+15615360261,https://www.target.com/sl/boynton-beach/2067
-2210,Target Store -,650 N Congress Ave,Boynton Beach,FL,33426-3445,26.533378,-80.088374,+15613962202,https://www.target.com/sl/boynton-beach/2210
-817,Target Store -,6150 14th St W,Bradenton,FL,34207-4622,27.432646,-82.577904,+19417562700,https://www.target.com/sl/bradenton/817
 3396,Target Store -,7350 Manatee Ave W,Bradenton,FL,34209-3441,27.498201,-82.634863,+19415380441,https://www.target.com/sl/bradenton/3396
-1454,Target Store -,2430 Santa Barbara Blvd,Cape Coral,FL,33914-4485,26.606538,-81.976707,+12394585868,https://www.target.com/sl/cape-coral/1454
-2316,Target Store -,1890 NE Pine Island Rd,Cape Coral,FL,33909-1733,26.669695,-81.932793,+12398292639,https://www.target.com/sl/cape-coral/2316
-2146,Target Store -,4400 N State Rd 7,Coral Springs,FL,33073-3353,26.284717,-80.2042,+19543662134,https://www.target.com/sl/coral-springs/2146
-2265,Target Store -,9600 Westview Dr,Coral Springs,FL,33076-2514,26.297052,-80.252135,+19542825000,https://www.target.com/sl/coral-springs/2265
-1337,Target Store -,1200 S Federal Hwy,Deerfield Beach,FL,33441-7037,26.30188,-80.0926,+19544284970,https://www.target.com/sl/deerfield-beach/1337
 2092,Target Store -,3599 W Hillsboro Blvd,Deerfield Beach,FL,33442-9404,26.319517,-80.151457,+19543335214,https://www.target.com/sl/deerfield-beach/2092
-818,Target Store -,13711 S Tamiami Trl,Fort Myers,FL,33912-1649,26.542519,-81.8687,+12394818860,https://www.target.com/sl/fort-myers/818
 2059,Target Store -,10000 Gulf Center Dr,Fort Myers,FL,33913-8961,26.48359,-81.7865,+12394322641,https://www.target.com/sl/fort-myers/2059
-2363,Target Store -,15880 San Carlos Blvd,Fort Myers,FL,33908-3378,26.510365,-81.945624,+12392659002,https://www.target.com/sl/fort-myers/2363
-2369,Target Store -,9350 Dynasty Dr,Fort Myers,FL,33905-5574,26.615149,-81.801196,+12392659022,https://www.target.com/sl/fort-myers/2369
-645,Target Store -,444 Monument Rd,Jacksonville,FL,32225-6429,30.328925,-81.548558,+19047214909,https://www.target.com/sl/jacksonville/645
-669,Target Store -,9041 Southside Blvd,Jacksonville,FL,32256-5484,30.193734,-81.549105,+19044640043,https://www.target.com/sl/jacksonville/669
-1300,Target Store -,10490 San Jose Blvd,Jacksonville,FL,32257-6207,30.188558,-81.629169,+19042684334,https://www.target.com/sl/jacksonville/1300
-1853,Target Store -,6331 Roosevelt Blvd,Jacksonville,FL,32244-3303,30.235,-81.6952,+19045961065,https://www.target.com/sl/jacksonville/1853
+649,Target Store -,718 Maguire Blvd,Orlando,FL,32803-3706,28.555243,-81.345493,+14078960401,https://www.target.com/sl/orlando/649
+1273,Target Store -,1749 E Nine Mile Rd,Pensacola,FL,32514-5729,30.530082,-87.223828,+18504738647,https://www.target.com/sl/pensacola/1273
 1921,Target Store -,13740 Beach Blvd,Jacksonville,FL,32224-1208,30.285361,-81.456998,+19042484363,https://www.target.com/sl/jacksonville/1921
-1974,Target Store -,4567 River City Dr,Jacksonville,FL,32246-7411,30.260515,-81.525011,+19045960020,https://www.target.com/sl/jacksonville/1974
-2233,Target Store -,9525 Crosshill Blvd,Jacksonville,FL,32222-5812,30.199232,-81.824713,+19042484366,https://www.target.com/sl/jacksonville/2233
-1918,Target Store -,4795 W Irlo Bronson Memorial Hwy,Kissimmee,FL,34746-5332,28.331561,-81.471396,+14075940029,https://www.target.com/sl/kissimmee/1918
 2370,Target Store -,3200 Rolling Oaks Blvd,Kissimmee,FL,34747-3052,28.344167,-81.614219,+13216773971,https://www.target.com/sl/kissimmee/2370
+1790,Target Store -,2155 Town Center Blvd,Orlando,FL,32837-6801,28.36954,-81.4072,+14072515133,https://www.target.com/sl/orlando/1790
+686,Target Store -,4711 Bayou Blvd,Pensacola,FL,32503-2607,30.468992,-87.208593,+18504949070,https://www.target.com/sl/pensacola/686
+665,Target Store -,8401 S Tamiami Trl,Sarasota,FL,34238-2927,27.228133,-82.492189,+19419253377,https://www.target.com/sl/sarasota/665
+1131,Target Store -,8151 Dr Martin Luther King St N,Saint Petersburg,FL,33702-4111,27.846105,-82.644125,+17275762735,https://www.target.com/sl/saint-petersburg/1131
+1518,Target Store -,4750 Millenia Plaza Way,Orlando,FL,32839-2434,28.492932,-81.430165,+14075410019,https://www.target.com/sl/orlando/1518
+650,Target Store -,880 Sand Lake Rd,Orlando,FL,32809-7710,28.449346,-81.390654,+14078565459,https://www.target.com/sl/orlando/650
+2445,Target Store -,2950 S Blue Angel Pkwy,Pensacola,FL,32506-6905,30.363162,-87.358086,+18504543000,https://www.target.com/sl/pensacola/2445
+799,Target Store -,5350 Fruitville Rd,Sarasota,FL,34232-6401,27.336617,-82.46222,+19413796660,https://www.target.com/sl/sarasota/799
+2040,Target Store -,1544 N Dale Mabry Hwy,Tampa,FL,33607-2551,27.957042,-82.508311,+18132620244,https://www.target.com/sl/tampa/2040
+3383,Target Store -,"249 NW 6th St, Ste 120",Miami,FL,33136-4248,25.78037,-80.199041,+13057774002,https://www.target.com/sl/miami/3383
+645,Target Store -,444 Monument Rd,Jacksonville,FL,32225-6429,30.328925,-81.548558,+19047214909,https://www.target.com/sl/jacksonville/645
+3273,Target Store -,1861 W Tennessee St,Tallahassee,FL,32304-3356,30.448655,-84.313556,+18506881918,https://www.target.com/sl/tallahassee/3273
+2843,Target Store -,7800 SW 104th St,Miami,FL,33156-2631,25.672791,-80.322582,+13057022131,https://www.target.com/sl/miami/2843
+2363,Target Store -,15880 San Carlos Blvd,Fort Myers,FL,33908-3378,26.510365,-81.945624,+12392659002,https://www.target.com/sl/fort-myers/2363
+1039,Target Store -,8350 S Dixie Hwy,Miami,FL,33143-7714,25.693142,-80.305695,+13056680262,https://www.target.com/sl/miami/1039
+1760,Target Store -,325 N Alafaya Trl,Orlando,FL,32828-7012,28.5522,-81.2022,+14074828155,https://www.target.com/sl/orlando/1760
+3378,Target Store -,204 Ruby Red Pl,Winter Garden,FL,34787,28.379567,-81.61699,+13213953600,https://www.target.com/sl/winter-garden/3378
+746,Target Store -,15005 SW 88th St,Miami,FL,33196-1314,25.685467,-80.437934,+13053861244,https://www.target.com/sl/miami/746
+818,Target Store -,13711 S Tamiami Trl,Fort Myers,FL,33912-1649,26.542519,-81.8687,+12394818860,https://www.target.com/sl/fort-myers/818
+1023,Target Store -,4450 Park St N,Saint Petersburg,FL,33709-4020,27.812701,-82.755764,+17275480400,https://www.target.com/sl/saint-petersburg/1023
+1973,Target Store -,3700 Bradfordville Rd,Tallahassee,FL,32309-1943,30.561288,-84.21554,+18508943213,https://www.target.com/sl/tallahassee/1973
+2265,Target Store -,9600 Westview Dr,Coral Springs,FL,33076-2514,26.297052,-80.252135,+19542825000,https://www.target.com/sl/coral-springs/2265
+1935,Target Store -,10155 Okeechobee Blvd,West Palm Beach,FL,33411-1404,26.710874,-80.202491,+15612042349,https://www.target.com/sl/west-palm-beach/1935
+2427,Target Store -,1760 Palm Beach Lakes Blvd,West Palm Beach,FL,33401-2008,26.72269,-80.085,+15618477480,https://www.target.com/sl/west-palm-beach/2427
+817,Target Store -,6150 14th St W,Bradenton,FL,34207-4622,27.432646,-82.577904,+19417562700,https://www.target.com/sl/bradenton/817
+2210,Target Store -,650 N Congress Ave,Boynton Beach,FL,33426-3445,26.533378,-80.088374,+15613962202,https://www.target.com/sl/boynton-beach/2210
+1300,Target Store -,10490 San Jose Blvd,Jacksonville,FL,32257-6207,30.188558,-81.629169,+19042684334,https://www.target.com/sl/jacksonville/1300
+2289,Target Store -,11627 W Hillsborough Ave,Tampa,FL,33635-9736,28.015839,-82.612749,+18137495961,https://www.target.com/sl/tampa/2289
+2233,Target Store -,9525 Crosshill Blvd,Jacksonville,FL,32222-5812,30.199232,-81.824713,+19042484366,https://www.target.com/sl/jacksonville/2233
+655,Target Store -,15240 N Dale Mabry Hwy,Tampa,FL,33618-1809,28.088613,-82.504973,+18139622281,https://www.target.com/sl/tampa/655
+2146,Target Store -,4400 N State Rd 7,Coral Springs,FL,33073-3353,26.284717,-80.2042,+19543662134,https://www.target.com/sl/coral-springs/2146
+2547,Target Store -,4305 Norfolk Pkwy,Melbourne,FL,32904-8605,28.038122,-80.661401,+13218217340,https://www.target.com/sl/melbourne/2547
+1075,Target Store -,20500 SW 112th Ave,Miami,FL,33189-2296,25.575947,-80.375153,+13052350839,https://www.target.com/sl/miami/1075
+1934,Target Store -,8455 N Wickham Rd,Melbourne,FL,32940-6607,28.228007,-80.720324,+13212429631,https://www.target.com/sl/melbourne/1934
+656,Target Store -,13658 University Plaza St,Tampa,FL,33613-4649,28.071895,-82.428282,+18139723396,https://www.target.com/sl/tampa/656
+2067,Target Store -,10201 Hagen Ranch Rd,Boynton Beach,FL,33437-3758,26.52584,-80.166,+15615360261,https://www.target.com/sl/boynton-beach/2067
+1974,Target Store -,4567 River City Dr,Jacksonville,FL,32246-7411,30.260515,-81.525011,+19045960020,https://www.target.com/sl/jacksonville/1974
+844,Target Store -,2120 Apalachee Pkwy,Tallahassee,FL,32301-4819,30.43252,-84.244336,+18506712041,https://www.target.com/sl/tallahassee/844
+3354,Target Store -,11619 Daryl Carter Pkwy,Orlando,FL,32821-4000,28.396049,-81.485193,+13213293529,https://www.target.com/sl/orlando/3354
+2188,Target Store -,3401 N Miami Ave,Miami,FL,33127-3500,25.810344,-80.193643,+17864370164,https://www.target.com/sl/miami/2188
+1918,Target Store -,4795 W Irlo Bronson Memorial Hwy,Kissimmee,FL,34746-5332,28.331561,-81.471396,+14075940029,https://www.target.com/sl/kissimmee/1918
+968,Target Store -,7795 SW 40th St,Miami,FL,33155-3546,25.735588,-80.321217,+13052625767,https://www.target.com/sl/miami/968
+1051,Target Store -,3625 W Gandy Blvd,Tampa,FL,33611-2607,27.894675,-82.504568,+18138358333,https://www.target.com/sl/tampa/1051
+669,Target Store -,9041 Southside Blvd,Jacksonville,FL,32256-5484,30.193734,-81.549105,+19044640043,https://www.target.com/sl/jacksonville/669
+2316,Target Store -,1890 NE Pine Island Rd,Cape Coral,FL,33909-1733,26.669695,-81.932793,+12398292639,https://www.target.com/sl/cape-coral/2316
+1853,Target Store -,6331 Roosevelt Blvd,Jacksonville,FL,32244-3303,30.235,-81.6952,+19045961065,https://www.target.com/sl/jacksonville/1853
+2063,Target Store -,2415 Tarpon Bay Blvd,Naples,FL,34119-8764,26.270688,-81.740467,+12395521100,https://www.target.com/sl/naples/2063
+798,Target Store -,6295 W Waters Ave,Tampa,FL,33634-1100,28.027791,-82.54837,+18138852311,https://www.target.com/sl/tampa/798
+2848,Target Store -,10101 W Flagler St,Miami,FL,33174-1830,25.771189,-80.359793,+13058942938,https://www.target.com/sl/miami/2848
+3322,Target Store -,2750 SW 27th Terrace Ste 101,Miami,FL,33133-3064,25.740427,-80.238302,+17867923171,https://www.target.com/sl/miami/3322
+899,Target Store -,2324 Pine Ridge Rd,Naples,FL,34109-2006,26.209139,-81.770681,+12394350051,https://www.target.com/sl/naples/899
+2376,Target Store -,120 W Grant St,Orlando,FL,32806-3932,28.51585,-81.3795,+14076081580,https://www.target.com/sl/orlando/2376
+2034,Target Store -,101 N Cattlemen Rd,Sarasota,FL,34243-4700,27.387171,-82.457988,+19413607520,https://www.target.com/sl/sarasota/2034
+2264,Target Store -,3343 Daniels Rd,Winter Garden,FL,34787-7009,28.521262,-81.584843,+14073950111,https://www.target.com/sl/winter-garden/2264
+3420,Target Store -,3825 NW 7th St,Miami,FL,33126-5502,25.780287,-80.258722,+13058941320,https://www.target.com/sl/miami/3420
 1299,Target Store -,3570 Harden Blvd,Lakeland,FL,33803-5928,28.000168,-81.972942,+18636484412,https://www.target.com/sl/lakeland/1299
+1859,Target Store -,4005 US Highway 98 N,Lakeland,FL,33809-3815,28.092393,-81.970917,+18638591622,https://www.target.com/sl/lakeland/1859
+1337,Target Store -,1200 S Federal Hwy,Deerfield Beach,FL,33441-7037,26.30188,-80.0926,+19544284970,https://www.target.com/sl/deerfield-beach/1337
+2369,Target Store -,9350 Dynasty Dr,Fort Myers,FL,33905-5574,26.615149,-81.801196,+12392659022,https://www.target.com/sl/fort-myers/2369
+1454,Target Store -,2430 Santa Barbara Blvd,Cape Coral,FL,33914-4485,26.606538,-81.976707,+12394585868,https://www.target.com/sl/cape-coral/1454
+2036,Target Store -,100 Perimeter Center Pl,Atlanta,GA,30346-1204,33.9305,-84.3413,+16782590888,https://www.target.com/sl/atlanta/2036
+1486,Target Store -,2400 N Druid Hills Rd NE,Atlanta,GA,30329-3211,33.82825,-84.3255,+14042670060,https://www.target.com/sl/atlanta/1486
+3362,Target Store -,127 E Broad St,Athens,GA,30601-2852,33.957696,-83.376558,+17067153851,https://www.target.com/sl/athens/3362
+1453,Target Store -,3065 Atlanta Hwy,Athens,GA,30606-3334,33.941502,-83.44039,+17062089379,https://www.target.com/sl/athens/1453
+2171,Target Store -,2539 Piedmont Rd NE,Atlanta,GA,30324-3006,33.824116,-84.363145,+14047201081,https://www.target.com/sl/atlanta/2171
+1165,Target Store -,2535 Dallas Hwy SW,Marietta,GA,30064-2543,33.944886,-84.626634,+17707927933,https://www.target.com/sl/marietta/1165
+1964,Target Store -,1275 Caroline St NE,Atlanta,GA,30307-2705,33.757275,-84.346626,+14042600200,https://www.target.com/sl/atlanta/1964
+2121,Target Store -,1401 Johnson Ferry Rd,Marietta,GA,30062-6495,33.985,-84.42961,+17702400005,https://www.target.com/sl/marietta/2121
+1910,Target Store -,14065 Abercorn St,Savannah,GA,31419-1964,31.984042,-81.175146,+19129252667,https://www.target.com/sl/savannah/1910
+2137,Target Store -,375 18th St,Atlanta,GA,30363-1190,33.792608,-84.399931,+16789544265,https://www.target.com/sl/atlanta/2137
+1106,Target Store -,3040 Shallowford Rd,Marietta,GA,30062-1252,34.035208,-84.460926,+17703218545,https://www.target.com/sl/marietta/1106
+1197,Target Store -,3535 Peachtree Rd NE,Atlanta,GA,30326-3287,33.851828,-84.358821,+14042379494,https://www.target.com/sl/atlanta/1197
+2331,Target Store -,1907 E Victory Dr,Savannah,GA,31404-3714,32.04093,-81.0683,+19126441600,https://www.target.com/sl/savannah/2331
+3438,Target Store -,2345 Kuhio Ave,Honolulu,HI,96815-2995,21.278445,-157.825361,+18087299426,https://www.target.com/sl/honolulu/3438
+2870,Target Store -,"1450 Ala Moana Blvd, Ste 2401",Honolulu,HI,96814-4604,21.292351,-157.842055,+18082067162,https://www.target.com/sl/honolulu/2870
+2410,Target Store -,4380 Lawehana St,Honolulu,HI,96818-3137,21.3557,-157.929,+18084413118,https://www.target.com/sl/honolulu/2410
+1230,Target Store -,6280 N Eagle Rd,Boise,ID,83713-0955,43.661723,-116.352417,+12089388350,https://www.target.com/sl/boise/1230
+617,Target Store -,633 N Milwaukee St,Boise,ID,83704-9139,43.610581,-116.285758,+12083753275,https://www.target.com/sl/boise/617
+3341,Target Store -,603 E Green St,Champaign,IL,61820-5012,40.110204,-88.230259,+12174029137,https://www.target.com/sl/champaign/3341
+2373,Target Store -,4466 N Broadway St,Chicago,IL,60640-5660,41.963561,-87.656393,+17735962376,https://www.target.com/sl/chicago/2373
+2781,Target Store -,1101 W Jackson Blvd,Chicago,IL,60607-2905,41.877739,-87.654667,+13122793340,https://www.target.com/sl/chicago/2781
+2799,Target Store -,1 S State St,Chicago,IL,60603-2802,41.881699,-87.627409,+13122792133,https://www.target.com/sl/chicago/2799
+3221,Target Store -,2650 N. Clark St,Chicago,IL,60614-1523,41.931421,-87.644556,+17737999142,https://www.target.com/sl/chicago/3221
+3349,Target Store -,555 W Webster Ave,Chicago,IL,60614-7610,41.921628,-87.643178,+17735981125,https://www.target.com/sl/chicago/3349
+943,Target Store -,2102 N Prospect Ave,Champaign,IL,61822-1231,40.141522,-88.25544,+12173553325,https://www.target.com/sl/champaign/943
+2079,Target Store -,2112 W Peterson Ave,Chicago,IL,60659-4277,41.990786,-87.682837,+17737613001,https://www.target.com/sl/chicago/2079
+2613,Target Store -,1200 N Larrabee St,Chicago,IL,60610-1746,41.903848,-87.643453,+13124708944,https://www.target.com/sl/chicago/2613
+942,Target Store -,2656 N Elston Ave,Chicago,IL,60647-2019,41.929386,-87.685128,+17732521994,https://www.target.com/sl/chicago/942
+927,Target Store -,2209 Howard St,Evanston,IL,60202-3636,42.020562,-87.705636,+18477331144,https://www.target.com/sl/evanston/927
+3214,Target Store -,3300 N. Ashland Ave,Chicago,IL,60657-2109,41.9416,-87.667,+17735982532,https://www.target.com/sl/chicago/3214
+3219,Target Store -,1346 E 53rd St,Chicago,IL,60615-4002,41.7996,-87.5934,+17733584139,https://www.target.com/sl/chicago/3219
+835,Target Store -,2621 W Schaumburg Rd,Schaumburg,IL,60194-3894,42.02324,-88.1455,+18477980192,https://www.target.com/sl/schaumburg/835
+928,Target Store -,6150 W Touhy Ave,Niles,IL,60714-4621,42.012531,-87.78051,+18475882800,https://www.target.com/sl/niles/928
+2078,Target Store -,1940 W 33rd St,Chicago,IL,60608-6107,41.835613,-87.674869,+17738433250,https://www.target.com/sl/chicago/2078
+3207,Target Store -,401 E Illinois St,Chicago,IL,60611-4390,41.890953,-87.617418,+13128941764,https://www.target.com/sl/chicago/3207
+841,Target Store -,7100 S Cicero Ave,Chicago,IL,60629-5813,41.762773,-87.74283,+17085639050,https://www.target.com/sl/chicago/841
+1924,Target Store -,6525 W Diversey Ave,Chicago,IL,60707-2312,41.930371,-87.78927,+17738043610,https://www.target.com/sl/chicago/1924
+3307,Target Store -,1664 W Division St,Chicago,IL,60622-3922,41.903654,-87.669295,+17735982638,https://www.target.com/sl/chicago/3307
+3317,Target Store -,2434 N Sacramento Ave,Chicago,IL,60647-2666,41.926104,-87.702909,+17736342396,https://www.target.com/sl/chicago/3317
+1879,Target Store -,4433 S Pulaski Rd,Chicago,IL,60632-4010,41.812935,-87.722548,+17735792120,https://www.target.com/sl/chicago/1879
+1437,Target Store -,2939 W Addison St,Chicago,IL,60618-4635,41.945125,-87.701945,+17736047680,https://www.target.com/sl/chicago/1437
+3208,Target Store -,3204 N Clark St,Chicago,IL,60657-1602,41.940098,-87.651389,+17735982480,https://www.target.com/sl/chicago/3208
+3283,Target Store -,1616 Sherman Ave,Evanston,IL,60201-5621,42.0477542,-87.6820639,+18474481816,https://www.target.com/sl/evanston/3283
+1125,Target Store -,239 Golf Mill Ctr,Niles,IL,60714-1237,42.052844,-87.838899,+18477689217,https://www.target.com/sl/niles/1125
+880,Target Store -,1235 E Higgins Rd,Schaumburg,IL,60173-4939,42.037979,-88.048792,+18474131080,https://www.target.com/sl/schaumburg/880
+3314,Target Store -,4631 W Foster Ave,Chicago,IL,60630-1709,41.974771,-87.744032,+17732723405,https://www.target.com/sl/chicago/3314
+1889,Target Store -,1154 S Clark St,Chicago,IL,60605-2159,41.867718,-87.630707,+13122126300,https://www.target.com/sl/chicago/1889
+3402,Target Store -,630 N LaSalle Dr,Chicago,IL,60654,41.893415,-87.633009,+13122609201,https://www.target.com/sl/chicago/3402
+3447,Target Store -,4728 W. Irving Park Rd,Chicago,IL,60641-2701,41.95408,-87.746548,+17737561789,https://www.target.com/sl/chicago/3447
+3272,Target Store -,6422 N. Sheridan Rd Unit A,Chicago,IL,60626-5336,41.999244,-87.661,+17736815154,https://www.target.com/sl/chicago/3272
+108,Target Store -,4000 1st Ave,Evansville,IN,47710-3614,38.015727,-87.576467,+18124262218,https://www.target.com/sl/evansville/108
+1848,Target Store -,1300 E 86th St Ste 35,Indianapolis,IN,46240-1990,39.914909,-86.138697,+13178100044,https://www.target.com/sl/indianapolis/1848
+1789,Target Store -,4850 E Southport Rd,Indianapolis,IN,46237-3321,39.667855,-86.085026,+13177874169,https://www.target.com/sl/indianapolis/1789
+2217,Target Store -,3801 Coldwater Rd,Fort Wayne,IN,46805-1101,41.11128,-85.1382,+12604706360,https://www.target.com/sl/fort-wayne/2217
+1366,Target Store -,10401 N Michigan Rd,Carmel,IN,46032-7939,39.936085,-86.23232,+13178760809,https://www.target.com/sl/carmel/1366
+1214,Target Store -,10202 E Washington St,Indianapolis,IN,46229-2670,39.777506,-85.986361,+13178993198,https://www.target.com/sl/indianapolis/1214
+1933,Target Store -,6119 Stellhorn Rd,Fort Wayne,IN,46815-5357,41.12216,-85.064,+12604858640,https://www.target.com/sl/fort-wayne/1933
+881,Target Store -,6925 W 38th St,Indianapolis,IN,46254-3905,39.821328,-86.280071,+13173291034,https://www.target.com/sl/indianapolis/881
+1481,Target Store -,6625 E Lloyd Expy,Evansville,IN,47715-2757,37.975406,-87.470714,+18124028500,https://www.target.com/sl/evansville/1481
+1063,Target Store -,1600 E 151st Street,Carmel,IN,46032-5056,40.008541,-86.128331,+13178150560,https://www.target.com/sl/carmel/1063
+2391,Target Store -,6101 N Keystone Ave,Indianapolis,IN,46220-2488,39.866403,-86.119702,+13174547504,https://www.target.com/sl/indianapolis/2391
+2440,Target Store -,1102 S Thomas Rd,Fort Wayne,IN,46804-1144,41.076805,-85.20336,+12604344580,https://www.target.com/sl/fort-wayne/2440
+803,Target Store -,1111 E Army Post Rd Ste 2204,Des Moines,IA,50315-5962,41.523719,-93.60205,+15152873438,https://www.target.com/sl/des-moines/803
+1768,Target Store -,1030 Blairs Ferry Rd NE,Cedar Rapids,IA,52402-1220,42.036658,-91.650377,+13193931600,https://www.target.com/sl/cedar-rapids/1768
+1771,Target Store -,3400 Edgewood Rd SW,Cedar Rapids,IA,52404-7214,41.944325,-91.71696,+13193964444,https://www.target.com/sl/cedar-rapids/1771
+1901,Target Store -,5405 Mills Civic Pkwy,West Des Moines,IA,50266-5303,41.561322,-93.779833,+15152230262,https://www.target.com/sl/west-des-moines/1901
+2041,Target Store -,5901 Douglas Ave,Des Moines,IA,50322-3303,41.630418,-93.699735,+15153316115,https://www.target.com/sl/des-moines/2041
+69,Target Store -,1800 Valley West Dr,West Des Moines,IA,50266-1104,41.599259,-93.752751,+15152253784,https://www.target.com/sl/west-des-moines/69
+1757,Target Store -,12200 Blue Valley Pkwy,Overland Park,KS,66213-2639,38.908199,-94.674659,+19133277770,https://www.target.com/sl/overland-park/1757
+1944,Target Store -,10800 E 21st St N,Wichita,KS,67206-3542,37.724216,-97.211489,+13166364206,https://www.target.com/sl/wichita/1944
+1756,Target Store -,15345 W 119th St,Olathe,KS,66062-1074,38.910686,-94.764408,+19133934400,https://www.target.com/sl/olathe/1756
+1842,Target Store -,8101 W 151st,Overland Park,KS,66223-2113,38.853669,-94.681994,+19139050419,https://www.target.com/sl/overland-park/1842
+1943,Target Store -,7575 Maple St,Wichita,KS,67209-2013,37.67822,-97.4311,+13167295348,https://www.target.com/sl/wichita/1943
+1945,Target Store -,2727 N Maize Rd,Wichita,KS,67205-7311,37.732947,-97.464818,+13167214289,https://www.target.com/sl/wichita/1945
+2043,Target Store -,11501 W 97th St,Overland Park,KS,66214-2289,38.950386,-94.718861,+19139050285,https://www.target.com/sl/overland-park/2043
+1543,Target Store -,20255 W 154th St,Olathe,KS,66062-7055,38.848948,-94.819941,+19137825975,https://www.target.com/sl/olathe/1543
+1094,Target Store -,1940 Pavillon Way,Lexington,KY,40509-2210,38.022057,-84.415147,+18592637448,https://www.target.com/sl/lexington/1094
+1479,Target Store -,3600 Mall Rd,Louisville,KY,40218-5403,38.198329,-85.670463,+15024566768,https://www.target.com/sl/louisville/1479
+1071,Target Store -,4101 Towne Center Dr,Louisville,KY,40241-4146,38.296935,-85.557122,+15023269185,https://www.target.com/sl/louisville/1071
+3313,Target Store -,"500 S Upper St, STE 110",Lexington,KY,40508-2920,38.043272,-84.5032,+18592863352,https://www.target.com/sl/lexington/3313
+780,Target Store -,4640 Taylorsville Rd,Louisville,KY,40220-3530,38.215374,-85.594476,+15024938717,https://www.target.com/sl/louisville/780
+1513,Target Store -,7311 Jefferson Blvd,Louisville,KY,40219-6178,38.145684,-85.672642,+15029641053,https://www.target.com/sl/louisville/1513
+2473,Target Store -,4174 Westport Rd,Louisville,KY,40207-2735,38.25864,-85.6421,+15029921039,https://www.target.com/sl/louisville/2473
+366,Target Store -,131 West Reynolds Rd,Lexington,KY,40503-3599,37.992925,-84.526448,+18592739403,https://www.target.com/sl/lexington/366
+2728,Target Store -,12975 Shelbyville Rd,Louisville,KY,40243-2425,38.24605,-85.515,+15029921237,https://www.target.com/sl/louisville/2728
+2377,Target Store -,3225 Louisiana Ave,Lafayette,LA,70501-1406,30.265299,-91.995832,+13377697515,https://www.target.com/sl/lafayette/2377
+1369,Target Store -,6885 Siegen Ln,Baton Rouge,LA,70809-4528,30.38446,-91.0613,+12252930984,https://www.target.com/sl/baton-rouge/1369
+2089,Target Store -,2001 Millerville Rd,Baton Rouge,LA,70816-1408,30.441249,-91.022367,+12252724275,https://www.target.com/sl/baton-rouge/2089
+1473,Target Store -,4313 Ambassador Caffery Pkwy,Lafayette,LA,70508-6703,30.160103,-92.049102,+13374062536,https://www.target.com/sl/lafayette/1473
+1938,Target Store -,6717 Ritchie Hwy,Glen Burnie,MD,21061-2318,39.189988,-76.610587,+14104870038,https://www.target.com/sl/glen-burnie/1938
+1004,Target Store -,4600 Mitchellville Rd,Bowie,MD,20716-3110,38.952326,-76.722322,+13013523830,https://www.target.com/sl/bowie/1004
+2007,Target Store -,10401 Martin Luther King Jr Hwy,Bowie,MD,20720-4201,38.953917,-76.824625,+13019550107,https://www.target.com/sl/bowie/2007
+1003,Target Store -,7951 Nolpark Ct,Glen Burnie,MD,21061-5205,39.133067,-76.634601,+14109692257,https://www.target.com/sl/glen-burnie/1003
+1415,Target Store -,11160 Veirs Mill Rd,Silver Spring,MD,20902-2538,39.036286,-77.05633,+13019468006,https://www.target.com/sl/silver-spring/1415
+1138,Target Store -,12000 Cherry Hill Rd,Silver Spring,MD,20904-1985,39.052045,-76.95646,+13015860724,https://www.target.com/sl/silver-spring/1138
+2570,Target Store -,605 Boston Post Rd E,Marlborough,MA,01752-3702,42.348748,-71.504967,+15082516957,https://www.target.com/sl/marlborough/2570
+3363,Target Store -,500 Geneva Ave,Dorchester,MA,02122-1321,42.299241,-71.062748,+18573853081,https://www.target.com/sl/dorchester/3363
+3304,Target Store -,822 Somerville Ave,Cambridge,MA,02140,42.388648,-71.118659,+16177021786,https://www.target.com/sl/cambridge/3304
+1898,Target Store -,7 Allstate Rd,Dorchester,MA,02125-1663,42.328872,-71.062845,+16176021921,https://www.target.com/sl/dorchester/1898
+2822,Target Store -,1341 BOYLSTON ST,Boston,MA,02215-3936,42.344172,-71.099961,+18573175220,https://www.target.com/sl/boston/2822
+1516,Target Store -,423 Donald Lynch Blvd,Marlborough,MA,01752-4709,42.359487,-71.607159,+15085731004,https://www.target.com/sl/marlborough/1516
+3222,Target Store -,564 Massachusetts Ave,Cambridge,MA,02139-4029,42.364561,-71.102575,+16179148262,https://www.target.com/sl/cambridge/3222
+3368,Target Store -,"100 Cambridge St, Ste 2",Boston,MA,02114-2532,42.361045,-71.0626,+18575572879,https://www.target.com/sl/boston/3368
+3226,Target Store -,860 COMMONWEALTH AVE,Boston,MA,02215-1205,42.350679,-71.114022,+16179919822,https://www.target.com/sl/boston/3226
+634,Target Store -,2000 Waters Rd,Ann Arbor,MI,48103-8999,42.244007,-83.769179,+17349960700,https://www.target.com/sl/ann-arbor/634
+354,Target Store -,43670 Ford Rd,Canton,MI,48187-3101,42.32347,-83.4716,+17344541133,https://www.target.com/sl/canton/354
+2230,Target Store -,29451 Plymouth Rd,Livonia,MI,48150-2112,42.366765,-83.33477,+17347930637,https://www.target.com/sl/livonia/2230
+361,Target Store -,500 E Edgewood Blvd,Lansing,MI,48911-5901,42.66339,-84.54388,+15178829084,https://www.target.com/sl/lansing/361
+616,Target Store -,5609 W Saginaw Hwy,Lansing,MI,48917-2456,42.738624,-84.628522,+15178869488,https://www.target.com/sl/lansing/616
+2415,Target Store -,47330 Michigan Ave,Canton,MI,48188-2310,42.269635,-83.502964,+17347142012,https://www.target.com/sl/canton/2415
+872,Target Store -,20100 Haggerty Rd,Livonia,MI,48152-1087,42.434408,-83.431597,+17349536620,https://www.target.com/sl/livonia/872
+3415,Target Store -,231 S State St,Ann Arbor,MI,48104-2005,42.279427,-83.740708,+17342051869,https://www.target.com/sl/ann-arbor/3415
+2321,Target Store -,4611 Maine Ave SE,Rochester,MN,55904-6929,43.954523,-92.464843,+15072065020,https://www.target.com/sl/rochester/2321
+68,Target Store -,1744 Suburban Ave,Saint Paul,MN,55106-6619,44.949601,-93.028418,+16517781188,https://www.target.com/sl/saint-paul/68
+1375,Target Store -,900 Nicollet Mall,Minneapolis,MN,55403-2530,44.975017,-93.274104,+16123380085,https://www.target.com/sl/minneapolis/1375
+2406,Target Store -,449 Commerce Dr,Woodbury,MN,55125-4872,44.939486,-92.908822,+16512391874,https://www.target.com/sl/woodbury/2406
+1356,Target Store -,4848 County Road 101,Minnetonka,MN,55345-2635,44.916909,-93.504896,+19524013830,https://www.target.com/sl/minnetonka/1356
+3200,Target Store -,1329 5th St SE,Minneapolis,MN,55414-1390,44.981616,-93.235075,+16123553857,https://www.target.com/sl/minneapolis/3200
+52,Target Store -,2500 E Lake St,Minneapolis,MN,55406-1909,44.949951,-93.236742,+16127215701,https://www.target.com/sl/minneapolis/52
+643,Target Store -,15150 Cedar Ave,Apple Valley,MN,55124-7056,44.729898,-93.21455,+19528915500,https://www.target.com/sl/apple-valley/643
+3204,Target Store -,2080 Ford Pkwy,Saint Paul,MN,55116-1813,44.917612,-93.188251,+16516053633,https://www.target.com/sl/saint-paul/3204
+820,Target Store -,8600 Springbrook Dr NW,Coon Rapids,MN,55433-6033,45.126821,-93.268746,+17637850322,https://www.target.com/sl/coon-rapids/820
+215,Target Store -,4201 W Division St,Saint Cloud,MN,56301-6601,45.556925,-94.208528,+13202534740,https://www.target.com/sl/saint-cloud/215
+1144,Target Store -,3300 124th Ave NW,Coon Rapids,MN,55433-3805,45.194942,-93.350366,+17633232931,https://www.target.com/sl/coon-rapids/1144
+100,Target Store -,13201 Ridgedale Dr,Minnetonka,MN,55305-1809,44.970157,-93.447411,+19525428250,https://www.target.com/sl/minnetonka/100
+2390,Target Store -,15560 Pilot Knob Rd,Apple Valley,MN,55124-7286,44.72331,-93.1754,+19522363165,https://www.target.com/sl/apple-valley/2390
+2229,Target Store -,1300 University Ave W,Saint Paul,MN,55104-4103,44.95349,-93.1558,+16516421146,https://www.target.com/sl/saint-paul/2229
+1095,Target Store -,1650 New Brighton Blvd,Minneapolis,MN,55413-1643,45.004814,-93.229932,+16127817033,https://www.target.com/sl/minneapolis/1095
+930,Target Store -,125 Lincoln Ave SE,Saint Cloud,MN,56304-0823,45.565472,-94.145193,+13206540096,https://www.target.com/sl/saint-cloud/930
+694,Target Store -,7200 Valley Creek Plz,Woodbury,MN,55125-2265,44.926719,-92.959728,+16517357083,https://www.target.com/sl/woodbury/694
+260,Target Store -,3601 Highway 100 S,Minneapolis,MN,55416-2500,44.936939,-93.346785,+19529268855,https://www.target.com/sl/minneapolis/260
+1351,Target Store -,3827 Marketplace Dr NW,Rochester,MN,55901-3192,44.063197,-92.502995,+15075362555,https://www.target.com/sl/rochester/1351
+754,Target Store -,6365 I 55 N,Jackson,MS,39213-9742,32.39856,-90.147817,+16019561150,https://www.target.com/sl/north-jackson/754
+2485,Target Store -,3867 Promenade Pkwy,D'iberville,MS,39540-5363,30.454942,-88.899895,+12282333301,https://www.target.com/sl/d'iberville/2485
+1920,Target Store -,170 Promenade Blvd,Flowood,MS,39232-8017,32.343338,-90.060623,+16019191415,https://www.target.com/sl/flowood/1920
+2442,Target Store -,5150 Goodman Rd,Olive Branch,MS,38654-7903,34.964928,-89.898693,+16628923031,https://www.target.com/sl/olive-branch-west/2442
+2055,Target Store -,6143 U S Highway 98,Hattiesburg,MS,39402-8533,31.323514,-89.385061,+16012615298,https://www.target.com/sl/hattiesburg/2055
+1169,Target Store -,7255 Interstate Dr,Horn Lake,MS,38637-1410,34.965723,-90.00456,+16623491585,https://www.target.com/sl/horn-lake/1169
+1515,Target Store -,4255 Hampton Ave,Saint Louis,MO,63109-2120,38.59236,-90.2952,+13148020122,https://www.target.com/sl/saint-louis/1515
+1840,Target Store -,1201 W 136th St,Kansas City,MO,64145-1647,38.880085,-94.60723,+18164120108,https://www.target.com/sl/kansas-city/1840
+1436,Target Store -,8509 State Line Rd,Kansas City,MO,64114-2723,38.972472,-94.607118,+18164446012,https://www.target.com/sl/kansas-city/1436
+3439,Target Store -,900 S Grand Blvd,Saint Louis,MO,63103-2918,38.627257,-90.235465,+13148020434,https://www.target.com/sl/saint-louis/3439
+1388,Target Store -,4375 N Chouteau Trfy,Kansas City,MO,64117-1743,39.173898,-94.533073,+18164522164,https://www.target.com/sl/kansas-city/1388
+1353,Target Store -,40 THF Blvd,Chesterfield,MO,63005-1150,38.666762,-90.58587,+16365366207,https://www.target.com/sl/chesterfield/1353
+1952,Target Store -,1272 Town And Country Crossing Dr,Chesterfield,MO,63017-0605,38.620739,-90.517369,+16365910234,https://www.target.com/sl/chesterfield/1952
+2423,Target Store -,9040 N Skyview Ave,Kansas City,MO,64154-8501,39.257692,-94.654643,+18164102940,https://www.target.com/sl/kansas-city/2423
+1455,Target Store -,9220 NE Barry Rd,Kansas City,MO,64157-1209,39.247376,-94.463373,+18167814238,https://www.target.com/sl/kansas-city/1455
+1177,Target Store -,8420 N Madison Ave,Kansas City,MO,64155-2777,39.249007,-94.595171,+18164368711,https://www.target.com/sl/kansas-city/1177
+1509,Target Store -,4250 Rusty Rd,Saint Louis,MO,63128-1973,38.50674,-90.339126,+13148926336,https://www.target.com/sl/saint-louis/1509
+1333,Target Store -,403 Main St,Billings,MT,59105-3227,45.806033,-108.472736,+14062567020,https://www.target.com/sl/billings/1333
+171,Target Store -,2601 Central Ave,Billings,MT,59102-6652,45.770816,-108.582331,+14066525430,https://www.target.com/sl/billings/171
+1777,Target Store -,17810 W Center Rd,Omaha,NE,68130-2308,41.235967,-96.193936,+14026974930,https://www.target.com/sl/omaha/1777
+2383,Target Store -,12500 K Plaza,Omaha,NE,68137-2207,41.214297,-96.108691,+14022012658,https://www.target.com/sl/omaha/2383
+530,Target Store -,4001 N 132nd St,Omaha,NE,68164-1839,41.294429,-96.116794,+14024310060,https://www.target.com/sl/omaha/530
+879,Target Store -,5330 S 56th St,Lincoln,NE,68516-1833,40.759505,-96.641294,+14024230300,https://www.target.com/sl/lincoln/879
+2303,Target Store -,8201 S 40th St,Lincoln,NE,68516-3005,40.728421,-96.66528,+14024203540,https://www.target.com/sl/lincoln/2303
+2125,Target Store -,7200 Dodge St,Omaha,NE,68114-3673,41.260872,-96.025386,+14023908880,https://www.target.com/sl/omaha/2125
+2010,Target Store -,6636 N 73rd Plz,Omaha,NE,68122-1803,41.318745,-96.026913,+14025732220,https://www.target.com/sl/omaha/2010
+2326,Target Store -,16959 Evans Plaza,Omaha,NE,68116-2388,41.289685,-96.179389,+14029701000,https://www.target.com/sl/omaha/2326
+217,Target Store -,333 N 48th St,Lincoln,NE,68504-3505,40.816087,-96.654904,+14024648292,https://www.target.com/sl/lincoln/217
+850,Target Store -,3550 S Rainbow Blvd,Las Vegas,NV,89103-1004,36.1244,-115.242,+17022535151,https://www.target.com/sl/las-vegas/850
+2164,Target Store -,4100 Blue Diamond Rd,Las Vegas,NV,89139-7717,36.04072,-115.194644,+17022668049,https://www.target.com/sl/las-vegas/2164
+265,Target Store -,4001 S Maryland Pkwy,Las Vegas,NV,89119-7556,36.116541,-115.13886,+17027322218,https://www.target.com/sl/las-vegas/265
+2568,Target Store -,695 S Green Valley Pkwy,Henderson,NV,89052-0404,36.003399,-115.085183,+17022167100,https://www.target.com/sl/henderson/2568
+264,Target Store -,1200 S Nellis Blvd,Las Vegas,NV,89104-5752,36.15806,-115.060962,+17024388866,https://www.target.com/sl/las-vegas/264
+3323,Target Store -,3767 Las Vegas Blvd S Ste 100,Las Vegas,NV,89109-4308,36.104745,-115.172551,+17257244459,https://www.target.com/sl/las-vegas/3323
+2404,Target Store -,350 W Lake Mead Pkwy,Henderson,NV,89015-7088,36.038477,-114.994098,+17022161900,https://www.target.com/sl/henderson/2404
+1207,Target Store -,8750 W Charleston Blvd,Las Vegas,NV,89117-5452,36.161086,-115.287134,+17029332300,https://www.target.com/sl/las-vegas/1207
+1524,Target Store -,4155 S Grand Canyon Dr,Las Vegas,NV,89147-7123,36.114471,-115.311127,+17022510330,https://www.target.com/sl/las-vegas/1524
+680,Target Store -,605 N Stephanie St,Henderson,NV,89014-2612,36.065059,-115.047712,+17024515959,https://www.target.com/sl/henderson/680
+826,Target Store -,3210 N Tenaya Way,Las Vegas,NV,89129-6239,36.21954,-115.25,+17026455440,https://www.target.com/sl/las-vegas/826
+1462,Target Store -,6480 Sky Pointe Dr,Las Vegas,NV,89131-4038,36.280438,-115.263741,+17028391591,https://www.target.com/sl/las-vegas/1462
+1171,Target Store -,9725 S Eastern Ave,Las Vegas,NV,89183-6841,36.012118,-115.121798,+17029149555,https://www.target.com/sl/las-vegas/1171
+2569,Target Store -,6371 N Decatur Blvd,Las Vegas,NV,89130-8001,36.272988,-115.209482,+17025158540,https://www.target.com/sl/las-vegas/2569
+1532,Target Store -,600 Amherst St,Nashua,NH,03063-1002,42.79899,-71.53679,+16033240039,https://www.target.com/sl/nashua/1532
+1228,Target Store -,310 Daniel Webster Hwy,Nashua,NH,03060-5730,42.702771,-71.437791,+16038914858,https://www.target.com/sl/nashua/1228
+1154,Target Store -,1331 Hooper Ave,Toms River,NJ,08753-2822,39.987737,-74.175227,+17325570220,https://www.target.com/sl/toms-river/1154
+1263,Target Store -,543 River Rd,Edgewater,NJ,07020-1146,40.813663,-73.982223,+12014020252,https://www.target.com/sl/edgewater/1263
+1464,Target Store -,1204 New Brunswick Ave,Phillipsburg,NJ,08865-4124,40.673576,-75.134524,+19083871305,https://www.target.com/sl/greenwich-township/1464
+3432,Target Store -,56 State Route 36,Eatontown,NJ,07724-2508,40.289947,-74.047325,+18482085450,https://www.target.com/sl/eatontown-plaza/3432
+2446,Target Store -,68 US Highway 46 W,Hackettstown,NJ,07840-4978,40.8465,-74.8083,+19084529251,https://www.target.com/sl/washington-twp/2446
+2170,Target Store -,2100 N 2nd St,Millville,NJ,08332-1304,39.420673,-75.040967,+18563277340,https://www.target.com/sl/millville/2170
+3290,Target Store -,1157 Route 46,Parsippany,NJ,07054-2179,40.86174,-74.388087,+18622863568,https://www.target.com/sl/parsippany/3290
+1152,Target Store -,400 Ryders Ln,Milltown,NJ,08850-1700,40.441323,-74.42582,+17326133903,https://www.target.com/sl/milltown/1152
+2104,Target Store -,4004 Rte 130 N,Delran,NJ,08075-2414,40.012534,-74.958721,+18565449050,https://www.target.com/sl/delran/2104
+2893,Target Store -,800 Schulmeister Rd,Old Bridge,NJ,08857-2965,40.422196,-74.305128,+17327531026,https://www.target.com/sl/old-bridge-route-9/2893
+2141,Target Store -,2235 Springfield Ave,Vauxhall,NJ,07088-1100,40.715486,-74.284732,+19086229002,https://www.target.com/sl/union-north/2141
+1132,Target Store -,4001 Black Horse Pike,Turnersville,NJ,08012-1762,39.733466,-75.039622,+18568750082,https://www.target.com/sl/turnersville/1132
+3408,Target Store -,1825 NJ-35,Wall Township,NJ,07719-3541,40.165738,-74.050842,+17323593344,https://www.target.com/sl/wall-township/3408
+2181,Target Store -,487 Cross Keys Rd,Sicklerville,NJ,08081-9749,39.747347,-74.994064,+18567402173,https://www.target.com/sl/gloucester-township/2181
+1155,Target Store -,1515 US Highway 22,Watchung,NJ,07069-6509,40.641532,-74.421845,+19087698699,https://www.target.com/sl/watchung/1155
+1378,Target Store -,2331 Route 66,Ocean,NJ,07712-3961,40.23093,-74.0445,+17329186645,https://www.target.com/sl/ocean-township/1378
+2384,Target Store -,675 Woodbury Glassboro Rd,Sewell,NJ,08080-3733,39.764985,-75.132122,+18564152380,https://www.target.com/sl/mantua/2384
+1315,Target Store -,621 W Edgar Rd,Linden,NJ,07036-3203,40.619214,-74.244329,+19084741733,https://www.target.com/sl/linden/1315
+1084,Target Store -,2690 US Hwy 22 E,Union,NJ,07083-8512,40.687048,-74.308861,+19086882344,https://www.target.com/sl/union/1084
+3235,Target Store -,29 Vervalen St,Closter,NJ,07624-2620,40.9712,-73.9578,+12013671405,https://www.target.com/sl/closter-nj/3235
+1345,Target Store -,70 Princeton Hightstown Rd,East Windsor,NJ,08520-1933,40.276872,-74.540946,+16093712273,https://www.target.com/sl/east-windsor/1345
+1886,Target Store -,100 14th St,Jersey City,NJ,07310-1202,40.732336,-74.03572,+12014990017,https://www.target.com/sl/jersey-city/1886
+1055,Target Store -,100 Parsonage Rd,Edison,NJ,08837-2424,40.55146,-74.3327,+17327441100,https://www.target.com/sl/menlo-park/1055
+2247,Target Store -,94 State Rt 23,Riverdale,NJ,07457-1208,40.989761,-74.325836,+19738502861,https://www.target.com/sl/riverdale-rt-23-and-falston/2247
+1491,Target Store -,130 State Route 10,East Hanover,NJ,07936-2103,40.813154,-74.380545,+19738873145,https://www.target.com/sl/east-hanover/1491
+1864,Target Store -,381 Mount Hope Ave,Rockaway,NJ,07866-1645,40.906008,-74.55937,+19739895740,https://www.target.com/sl/rockaway/1864
+1151,Target Store -,500 Nassau Park Blvd,Princeton,NJ,08540-5991,40.306136,-74.677047,+16099518555,https://www.target.com/sl/princeton/1151
+1389,Target Store -,1900 Deptford Center Rd,Deptford,NJ,08096-5624,39.82943,-75.091781,+18564018878,https://www.target.com/sl/deptford/1389
+1929,Target Store -,5000 Hadley Center Dr,South Plainfield,NJ,07080-1135,40.548825,-74.426464,+19084442023,https://www.target.com/sl/south-plainfield/1929
+1184,Target Store -,55 US Hwy 9,Manalapan,NJ,07726-3018,40.291358,-74.301701,+17322945190,https://www.target.com/sl/manalapan/1184
+1822,Target Store -,30 Kingsland Rd,Clifton,NJ,07014-1904,40.824427,-74.135839,+19733300002,https://www.target.com/sl/clifton/1822
+1109,Target Store -,380 Consumer Sq,Mays Landing,NJ,08330-3326,39.451831,-74.633592,+16096458133,https://www.target.com/sl/mays-landing/1109
+1823,Target Store -,4955 US Highway 9,Howell,NJ,07731-3750,40.131875,-74.220036,+17323634182,https://www.target.com/sl/howell-township/1823
+1153,Target Store -,570 Route 70,Brick,NJ,08723-4014,40.058814,-74.150328,+17322620600,https://www.target.com/sl/brick/1153
+1865,Target Store -,7101 Tonnelle Ave,North Bergen,NJ,07047-4507,40.801744,-74.021424,+12015201701,https://www.target.com/sl/north-bergen-commons/1865
+2853,Target Store -,101 Grand Ave,North Brunswick,NJ,08902-1056,40.435819,-74.504829,+17327982558,https://www.target.com/sl/north-brunswick/2853
+2881,Target Store -,200 Passaic Ave,Kearny,NJ,07032-1129,40.760181,-74.158492,+12014289610,https://www.target.com/sl/kearny/2881
+2381,Target Store -,900 Bergen Town Ctr,Paramus,NJ,07652-5005,40.915876,-74.061134,+12018817660,https://www.target.com/sl/paramus/2381
+1158,Target Store -,2703 Route 541,Burlington,NJ,08016-4175,40.036142,-74.822986,+16092399885,https://www.target.com/sl/burlington/1158
+3296,Target Store -,650 W Cuthbert Blvd,Haddon Township,NJ,08108-3642,39.901464,-75.062978,+18564779341,https://www.target.com/sl/haddon-township/3296
+1175,Target Store -,632 Route 46 E,Fairfield,NJ,07004-1581,40.889623,-74.271414,+19733960069,https://www.target.com/sl/fairfield/1175
+2878,Target Store -,250 New Rd,Somers Point,NJ,08244-2177,39.325122,-74.595368,+16093653542,https://www.target.com/sl/somers-point/2878
+1192,Target Store -,2105 Route 35,Middletown,NJ,07748-1301,40.411546,-74.135431,+17327069222,https://www.target.com/sl/middletown/1192
+1917,Target Store -,4 Centerton Rd,Mount Laurel,NJ,08054-6102,39.968399,-74.914433,+18565331197,https://www.target.com/sl/mount-laurel/1917
+2392,Target Store -,209 Stafford Park Blvd,Manahawkin,NJ,08050-2734,39.710389,-74.28476,+16099784922,https://www.target.com/sl/stafford-township/2392
+1085,Target Store -,2137 Route 38,Cherry Hill,NJ,08002-2045,39.934744,-75.024516,+18563171445,https://www.target.com/sl/cherry-hill/1085
+1224,Target Store -,200 Promenade Blvd,Bridgewater,NJ,08807-3456,40.562362,-74.553134,+17328688333,https://www.target.com/sl/bridgewater/1224
+2256,Target Store -,4196 US Highway 1,Monmouth Junction,NJ,08852-1904,40.381514,-74.575909,+17323295220,https://www.target.com/sl/south-brunswick/2256
+1330,Target Store -,630 Main St,Hackensack,NJ,07601-5913,40.898491,-74.038818,+12016780599,https://www.target.com/sl/hackensack/1330
+1133,Target Store -,1139 White Horse Rd,Voorhees,NJ,08043-2107,39.85104,-74.9839,+18565660900,https://www.target.com/sl/voorhees/1133
+1365,Target Store -,751 Route 73 S,Marlton,NJ,08053-9637,39.866973,-74.922641,+18568108442,https://www.target.com/sl/marlton/1365
+1467,Target Store -,45 Central Ave,Clark,NJ,07066-1421,40.627381,-74.307959,+17328820736,https://www.target.com/sl/clark/1467
+356,Target Store -,8510 Montgomery Blvd NE,Albuquerque,NM,87111-2307,35.13003,-106.548,+15052939223,https://www.target.com/sl/albuquerque/356
+2813,Target Store -,2120 Louisiana Blvd NE,Albuquerque,NM,87110-5402,35.101583,-106.568088,+15052003234,https://www.target.com/sl/albuquerque/2813
+2031,Target Store -,6100 Paseo Del Norte NE,Albuquerque,NM,87113-1512,35.17275,-106.582,+15053460135,https://www.target.com/sl/albuquerque/2031
+625,Target Store -,9371 Coors Blvd NW,Albuquerque,NM,87114-4005,35.186039,-106.664262,+15058977923,https://www.target.com/sl/albuquerque/625
+357,Target Store -,11120 Lomas Blvd NE,Albuquerque,NM,87112-5582,35.085529,-106.527855,+15052929110,https://www.target.com/sl/albuquerque/357
+3249,Target Store -,500 E 14th St,New York,NY,10009-3336,40.730125,-73.98019,+19179943522,https://www.target.com/sl/new-york/3249
+1401,Target Store -,519 Gateway Dr,Brooklyn,NY,11239-2801,40.652462,-73.870271,+17182356032,https://www.target.com/sl/brooklyn/1401
+3411,Target Store -,600 Broadway,New York City,NY,10012-3206,40.725155,-73.996741,+16468225200,https://www.target.com/sl/new-york-city/3411
+3326,Target Store -,"5200 Kings Hwy, Ste A",Brooklyn,NY,11234-1130,40.636286,-73.927667,+19179338856,https://www.target.com/sl/brooklyn/3326
+1798,Target Store -,40 W 225th St,Bronx,NY,10463-7016,40.87353,-73.907803,+17187337199,https://www.target.com/sl/bronx/1798
+3312,Target Store -,1201 3rd Ave,New York,NY,10021-5401,40.768169,-73.961505,+13322041718,https://www.target.com/sl/new-york/3312
+3321,Target Store -,512 2nd Ave,New York,NY,10016-8604,40.741484,-73.978092,+16468224567,https://www.target.com/sl/new-york/3321
+3387,Target Store -,150 E 86th St,New York,NY,10028-2118,40.779116,-73.955141,+16467588596,https://www.target.com/sl/new-york/3387
+2805,Target Store -,204 Saratoga Rd,Schenectady,NY,12302-4509,42.866616,-73.930923,+15183873311,https://www.target.com/sl/schenectady/2805
+3276,Target Store -,6401 18th Ave,Brooklyn,NY,11204-3730,40.61957,-73.989712,+19294375465,https://www.target.com/sl/brooklyn/3276
+3412,Target Store -,258 8th Ave,New York,NY,10011-1619,40.745412,-73.998103,+16467200024,https://www.target.com/sl/new-york/3412
+3268,Target Store -,615 10th Ave,New York,NY,10036-3035,40.761342,-73.99456,+12123891418,https://www.target.com/sl/new-york/3268
+3284,Target Store -,400 Grand St,New York,NY,10002-3949,40.716204,-73.986877,+19179943500,https://www.target.com/sl/new-york/3284
+1194,Target Store -,600 Greece Ridge Center Dr,Rochester,NY,14626-2825,43.2024,-77.692925,+15852250240,https://www.target.com/sl/rochester/1194
+3229,Target Store -,255 Greenwich St,New York,NY,10007-2377,40.7147,-74.0112,+19174382214,https://www.target.com/sl/new-york/3229
+3429,Target Store -,"5100 Kings Plaza, Ste 2201",Brooklyn,NY,11234-5208,40.609069,-73.920255,+19179338190,https://www.target.com/sl/brooklyn/3429
+3334,Target Store -,1863 Broadway,New York,NY,10023-7503,40.770074,-73.98245,+16464293934,https://www.target.com/sl/new-york/3334
+2211,Target Store -,500 Skyview Centre Pkwy,Rochester,NY,14622-2486,43.198015,-77.573885,+15857970089,https://www.target.com/sl/rochester/2211
+3291,Target Store -,1520 Forest Ave,Staten Island,NY,10302-2225,40.62374,-74.139574,+19294824510,https://www.target.com/sl/staten-island/3291
+2212,Target Store -,1598 Flatbush Ave,Brooklyn,NY,11210-3036,40.631538,-73.946639,+17186375005,https://www.target.com/sl/brooklyn/2212
+3356,Target Store -,8973-95 Bay Pkwy,Brooklyn,NY,11214-6414,40.593615,-74.001191,+19294793702,https://www.target.com/sl/brooklyn/3356
+3380,Target Store -,10 Union Square East,New York,NY,10003-3314,40.734606,-73.989688,+13322667061,https://www.target.com/sl/new-york/3380
+2475,Target Store -,700 Exterior St,Bronx,NY,10451-2022,40.82341,-73.930513,+17184015651,https://www.target.com/sl/bronx/2475
+3280,Target Store -,40-25 82nd St,Elmhurst,NY,11373-1304,40.746818,-73.883431,+19294637630,https://www.target.com/sl/elmhurst/3280
+3395,Target Store -,215 E Fordham Rd,Bronx,NY,10458-5060,40.862576,-73.896274,+19176883207,https://www.target.com/sl/bronx/3395
+3337,Target Store -,123 W 125th St,New York,NY,10027-4436,40.808414,-73.946204,+19174384263,https://www.target.com/sl/new-york/3337
+1344,Target Store -,8801 Queens Blvd,Elmhurst,NY,11373-4449,40.73533,-73.8749,+17187605656,https://www.target.com/sl/elmhurst/1344
+2811,Target Store -,815 E Hutchinson River Pkwy,Bronx,NY,10465-1818,40.824145,-73.837659,+17185362689,https://www.target.com/sl/bronx/2811
+3277,Target Store -,112 W 34th St,New York,NY,10120-0101,40.750245,-73.989309,+16469684739,https://www.target.com/sl/new-york/3277
+3404,Target Store -,2101 Church Ave,Brooklyn,NY,11226-4363,40.650472,-73.959584,+19294808370,https://www.target.com/sl/brooklyn/3404
+2753,Target Store -,2873 Richmond Ave,Staten Island,NY,10314-5811,40.574684,-74.16763,+19177915851,https://www.target.com/sl/staten-island/2753
+2006,Target Store -,2900 Veterans Rd W,Staten Island,NY,10309-2500,40.528857,-74.231899,+17187016205,https://www.target.com/sl/staten-island/2006
+1521,Target Store -,428 Balltown Rd,Schenectady,NY,12304-2245,42.77571,-73.8901,+15183468540,https://www.target.com/sl/schenectady/1521
+3394,Target Store -,795 Columbus Ave,New York City,NY,10025-5920,40.794128,-73.96633,+16467588424,https://www.target.com/sl/new-york-city/3394
+3385,Target Store -,237 W 42nd St,New York,NY,10036-7201,40.7568,-73.988212,+12128842217,https://www.target.com/sl/new-york/3385
+3243,Target Store -,1715 E. 13th St,Brooklyn,NY,11229-2086,40.608593,-73.958472,+19294172396,https://www.target.com/sl/brooklyn/3243
+2528,Target Store -,3181 Chili Ave,Rochester,NY,14624-5409,43.104625,-77.74614,+15855713979,https://www.target.com/sl/rochester/2528
+1157,Target Store -,2325 Marketplace Dr,Rochester,NY,14623-6009,43.078449,-77.63205,+15854243370,https://www.target.com/sl/rochester/1157
+3329,Target Store -,602 W 181st St,New York,NY,10033-4912,40.849318,-73.934066,+16463467725,https://www.target.com/sl/new-york/3329
+1849,Target Store -,139 Flatbush Ave,Brooklyn,NY,11217-1403,40.684489,-73.97748,+17182901109,https://www.target.com/sl/brooklyn/1849
+1086,Target Store -,1040 Hanes Mall Blvd,Winston Salem,NC,27103-1309,36.069071,-80.320706,+13367749687,https://www.target.com/sl/winston-salem/1086
+2080,Target Store -,9841 Northlake Centre Pkwy,Charlotte,NC,28216-8930,35.34966,-80.8596,+17045263648,https://www.target.com/sl/charlotte/2080
+1872,Target Store -,4037 Durham Chapel Hill Blvd,Durham,NC,27707-2516,35.966462,-78.959448,+19197650008,https://www.target.com/sl/durham/1872
+1180,Target Store -,2701 Lawndale Dr,Greensboro,NC,27408-4820,36.104303,-79.82095,+13362862511,https://www.target.com/sl/greensboro/1180
+1087,Target Store -,7860 Rea Rd,Charlotte,NC,28277-6502,35.058613,-80.815392,+17045421856,https://www.target.com/sl/charlotte/1087
+2244,Target Store -,900 Metropolitan Ave,Charlotte,NC,28204-3262,35.214505,-80.834873,+17049733121,https://www.target.com/sl/charlotte/2244
+2784,Target Store -,7129 O'Kelly Chapel Road,Cary,NC,27519-6849,35.844771,-78.885305,+19196742214,https://www.target.com/sl/cary/2784
+762,Target Store -,9531 South Blvd,Charlotte,NC,28273-6901,35.107803,-80.878991,+17045567082,https://www.target.com/sl/charlotte/762
+2108,Target Store -,1628 Highwoods Blvd,Greensboro,NC,27410-2048,36.11382,-79.8768,+13364559900,https://www.target.com/sl/greensboro/2108
+2069,Target Store -,8210 Renaissance Pkwy,Durham,NC,27713-6688,35.903257,-78.956402,+19194250001,https://www.target.com/sl/durham/2069
+1892,Target Store -,4191 The Circle at North Hills St,Raleigh,NC,27609-5712,35.836291,-78.642612,+19197819848,https://www.target.com/sl/raleigh/1892
+2090,Target Store -,9870 Rea Rd,Charlotte,NC,28277-6655,35.037398,-80.80772,+17042643521,https://www.target.com/sl/charlotte/2090
+3255,Target Store -,2512 Hillsborough St,Raleigh,NC,27607-7249,35.788206,-78.668787,+19193762740,https://www.target.com/sl/raleigh/3255
+1824,Target Store -,1040 Timber Dr E,Garner,NC,27529-6913,35.68757,-78.5792,+19196612017,https://www.target.com/sl/garner/1824
+1080,Target Store -,4841 Grove Barton Rd,Raleigh,NC,27613-1900,35.870472,-78.719468,+19197851803,https://www.target.com/sl/raleigh/1080
+1793,Target Store -,8830 Albemarle Rd,Charlotte,NC,28227-2616,35.209345,-80.694336,+17042640078,https://www.target.com/sl/charlotte/1793
+1078,Target Store -,1212 Bridford Pkwy,Greensboro,NC,27407-2645,36.056943,-79.906945,+13368561066,https://www.target.com/sl/greensboro/1078
+2132,Target Store -,12830 Walker Branch Dr,Charlotte,NC,28273-8850,35.1004,-80.985799,+17045832601,https://www.target.com/sl/charlotte/2132
+2873,Target Store -,8701 Six Forks Rd,Raleigh,NC,27615-2968,35.898387,-78.651234,+19193260118,https://www.target.com/sl/raleigh/2873
+1081,Target Store -,8120 University City Blvd,Charlotte,NC,28213-8126,35.293192,-80.745314,+17045996332,https://www.target.com/sl/charlotte/1081
+1077,Target Store -,5420 University Pkwy,Winston Salem,NC,27105-1366,36.168581,-80.278784,+13367447880,https://www.target.com/sl/winston-salem/1077
+1794,Target Store -,8651 Brier Creek Pkwy,Raleigh,NC,27617-7325,35.90285,-78.7858,+19197650005,https://www.target.com/sl/raleigh/1794
+1826,Target Store -,7900 Old Wake Forest Rd,Raleigh,NC,27616-3319,35.865849,-78.567983,+19197901024,https://www.target.com/sl/raleigh/1826
+1104,Target Store -,2700 Timber Dr,Garner,NC,27529-2591,35.715937,-78.638227,+19197729065,https://www.target.com/sl/garner/1104
+961,Target Store -,2021 Walnut St,Cary,NC,27518-9205,35.758061,-78.738405,+19192334451,https://www.target.com/sl/cary/961
+85,Target Store -,2400 10th St SW,Minot,ND,58701-2013,48.207108,-101.313391,+17018525820,https://www.target.com/sl/minot/85
+1783,Target Store -,3601 32nd Ave S,Grand Forks,ND,58201-5911,47.887188,-97.079468,+17017876177,https://www.target.com/sl/grand-forks/1783
+2194,Target Store -,600 Kirkwood Mall,Bismarck,ND,58504-5704,46.799078,-100.783506,+17012503180,https://www.target.com/sl/bismarck/2194
+61,Target Store -,4202 13th Ave SW,Fargo,ND,58103-3308,46.860628,-96.852985,+17012827400,https://www.target.com/sl/fargo/61
+3254,Target Store -,235 Calhoun St,Cincinnati,OH,45219-1528,39.128041,-84.51723,+15136988161,https://www.target.com/sl/cincinnati/3254
+622,Target Store -,817 W Alexis Rd,Toledo,OH,43612-4303,41.720484,-83.560917,+14194780559,https://www.target.com/sl/toledo/622
+1252,Target Store -,2300 Miamisburg Centerville Rd,Dayton,OH,45459-3722,39.633188,-84.214062,+19374353817,https://www.target.com/sl/dayton/1252
+1978,Target Store -,55 Graceland Blvd,Columbus,OH,43214-7508,40.065417,-83.020761,+16147811978,https://www.target.com/sl/columbus/1978
+1969,Target Store -,4211 Trueman Blvd,Hilliard,OH,43026-2480,40.038055,-83.123237,+16148765530,https://www.target.com/sl/hilliard/1969
+2450,Target Store -,2437 Taylor Park Dr,Reynoldsburg,OH,43068-8036,39.934578,-82.792794,+16146555001,https://www.target.com/sl/reynoldsburg/2450
+1236,Target Store -,1485 Polaris Pkwy,Columbus,OH,43240-2041,40.138804,-82.97916,+16144305585,https://www.target.com/sl/columbus/1236
+3244,Target Store -,1892 N. High St,Columbus,OH,43201-1148,40.001016,-83.008056,+16143845413,https://www.target.com/sl/columbus/3244
+2086,Target Store -,8100 E Broad St,Reynoldsburg,OH,43068-8019,39.988048,-82.785363,+16143229594,https://www.target.com/sl/reynoldsburg/2086
+2358,Target Store -,1970 Hilliard Rome Rd,Hilliard,OH,43026-7566,39.990764,-83.149457,+16142195160,https://www.target.com/sl/hilliard/2358
+2226,Target Store -,3100 W 117th St,Cleveland,OH,44111-1747,41.46842,-81.771174,+12163250772,https://www.target.com/sl/cleveland/2226
+2488,Target Store -,6150 Glenway Ave,Cincinnati,OH,45211-6319,39.144703,-84.619454,+15137191076,https://www.target.com/sl/cincinnati/2488
+1447,Target Store -,3245 Geier Dr,Cincinnati,OH,45209-5009,39.1635,-84.42758,+15136315690,https://www.target.com/sl/cincinnati/1447
+1545,Target Store -,9040 Colerain Ave,Cincinnati,OH,45251-2402,39.23584,-84.589433,+15137190037,https://www.target.com/sl/cincinnati/1545
+1092,Target Store -,8680 Beechmont Ave,Cincinnati,OH,45255-4710,39.073405,-84.313929,+15134746006,https://www.target.com/sl/cincinnati/1092
+623,Target Store -,5225 Monroe St,Toledo,OH,43623-3139,41.699627,-83.653767,+14198433441,https://www.target.com/sl/toledo/623
+1058,Target Store -,1717 Olentangy River Rd,Columbus,OH,43212-1452,39.993456,-83.026919,+16142981070,https://www.target.com/sl/columbus/1058
+1091,Target Store -,9841 Waterstone Blvd,Cincinnati,OH,45249-8296,39.295565,-84.304805,+15136771888,https://www.target.com/sl/cincinnati/1091
+2228,Target Store -,3535 Steelyard Dr,Cleveland,OH,44109-2387,41.458019,-81.689439,+12163251107,https://www.target.com/sl/cleveland/2228
+1072,Target Store -,4199 Morse Xing,Columbus,OH,43219-6015,40.05613,-82.920862,+16144712154,https://www.target.com/sl/columbus/1072
+1940,Target Store -,4341 Feedwire Rd,Dayton,OH,45440-3970,39.65901,-84.1045,+19374399301,https://www.target.com/sl/dayton/1940
+1782,Target Store -,10711 E 71st St,Tulsa,OK,74133-2522,36.062426,-95.856368,+19183078161,https://www.target.com/sl/tulsa/1782
+43,Target Store -,5400 N May Ave,Oklahoma City,OK,73112-5407,35.52441,-97.5644,+14059476761,https://www.target.com/sl/oklahoma-city/43
+19,Target Store -,1701 S Yale Ave,Tulsa,OK,74112-6221,36.13727,-95.9204,+19187441701,https://www.target.com/sl/tulsa/19
+1397,Target Store -,13924 N Pennsylvania Ave,Oklahoma City,OK,73134-6021,35.612882,-97.547433,+14057520183,https://www.target.com/sl/oklahoma-city/1397
+1860,Target Store -,8315 N Rockwell Ave,Oklahoma City,OK,73132-4220,35.556031,-97.640095,+14055066086,https://www.target.com/sl/oklahoma-city/1860
+2357,Target Store -,7437 S Olympia Ave W,Tulsa,OK,74132-1838,36.055236,-96.001883,+19188771620,https://www.target.com/sl/tulsa/2357
+2542,Target Store -,10019 S Memorial Dr,Tulsa,OK,74133-6103,36.018796,-95.884218,+19186155000,https://www.target.com/sl/tulsa/2542
+362,Target Store -,2295 SE Tualatin Valley Hwy,Hillsboro,OR,97123-7915,45.507197,-122.957016,+15036931016,https://www.target.com/sl/hillsboro/362
+1419,Target Store -,9800 SE Washington St,Portland,OR,97216-2420,45.516017,-122.562351,+15032525850,https://www.target.com/sl/portland/1419
+910,Target Store -,11095 NE Evergreen Pkwy,Hillsboro,OR,97006-7510,45.539167,-122.864806,+15035313656,https://www.target.com/sl/hillsboro/910
+2523,Target Store -,9401 NE Cascades Pkwy,Portland,OR,97220-6824,45.57659,-122.564823,+19712301930,https://www.target.com/sl/portland/2523
+3413,Target Store -,12675 NW Cornell Rd,Portland,OR,97229-5886,45.526053,-122.808099,+15034033619,https://www.target.com/sl/portland/3413
+2779,Target Store -,1555 N Tomahawk Island Dr,Portland,OR,97217-8296,45.612967,-122.682361,+15032059109,https://www.target.com/sl/portland/2779
+3227,Target Store -,2001 Pennsylvania Ave,Philadelphia,PA,19130-3823,39.96163,-75.172693,+12157893020,https://www.target.com/sl/philadelphia/3227
+2201,Target Store -,4801 McKnight Rd Ste 3,Pittsburgh,PA,15237-3423,40.526686,-80.007524,+14125361807,https://www.target.com/sl/pittsburgh/2201
+1134,Target Store -,201 Sunrise Blvd,Exton,PA,19341-2336,40.039407,-75.62947,+16102807233,https://www.target.com/sl/exton/1134
+2077,Target Store -,288 Mt Nebo Pointe Dr,Pittsburgh,PA,15237-1317,40.535463,-80.067772,+14125368200,https://www.target.com/sl/pittsburgh/2077
+1136,Target Store -,857 Baltimore Pike,Springfield,PA,19064-3963,39.915528,-75.334492,+16103380530,https://www.target.com/sl/springfield/1136
+1510,Target Store -,1600 N Cedar Crest Blvd,Allentown,PA,18104-2318,40.612714,-75.535035,+16103984006,https://www.target.com/sl/allentown/1510
+3247,Target Store -,7162 Ridge Ave,Philadelphia,PA,19128-3250,40.044429,-75.232731,+12672703421,https://www.target.com/sl/philadelphia/3247
+2399,Target Store -,912 Airport Center Dr,Allentown,PA,18109-9385,40.63911,-75.4396,+16105735710,https://www.target.com/sl/allentown/2399
+3206,Target Store -,1900 CHESTNUT ST,Philadelphia,PA,19103-4610,39.95179,-75.17206,+12153993719,https://www.target.com/sl/philadelphia/3206
+1217,Target Store -,600 Chauvet Dr,Pittsburgh,PA,15275-1043,40.44576,-80.1833,+14124900488,https://www.target.com/sl/pittsburgh/1217
+1218,Target Store -,105 Blazier Dr,Pittsburgh,PA,15237-6039,40.586457,-80.042153,+14123699411,https://www.target.com/sl/pittsburgh/1218
+1875,Target Store -,2251 York Crossing Dr,York,PA,17408-4753,39.965157,-76.778147,+17177649661,https://www.target.com/sl/york/1875
+3263,Target Store -,1020 Broad St,Philadelphia,PA,19146-5006,39.938349,-75.167176,+12152013956,https://www.target.com/sl/philadelphia/3263
+2312,Target Store -,1200 Baltimore Pike,Springfield,PA,19064-2701,39.914902,-75.350763,+14844702320,https://www.target.com/sl/springfield/2312
+1254,Target Store -,5125 Jonestown Rd Ste 331,Harrisburg,PA,17112-2983,40.308926,-76.796429,+17176718098,https://www.target.com/sl/harrisburg/1254
+1288,Target Store -,315 Colonnade Blvd,State College,PA,16803-2321,40.812571,-77.906703,+18148618660,https://www.target.com/sl/state-college/1288
+2072,Target Store -,2385 Covered Bridge Dr,Lancaster,PA,17602-1174,40.026216,-76.203447,+17173908727,https://www.target.com/sl/lancaster/2072
+2787,Target Store -,201 S Hills Vlg,Pittsburgh,PA,15241-1408,40.344245,-80.057074,+14125959380,https://www.target.com/sl/pittsburgh/2787
+3285,Target Store -,456 N 5th St,Philadelphia,PA,19123-4007,39.959808,-75.147846,+12152013627,https://www.target.com/sl/philadelphia/3285
+1221,Target Store -,2610 Pleasant Valley Rd,York,PA,17402-9609,39.987156,-76.68029,+17177552759,https://www.target.com/sl/york/1221
+2867,Target Store -,1589 Fruitville Pike,Lancaster,PA,17601-4005,40.068111,-76.311442,+17178742064,https://www.target.com/sl/lancaster/2867
+2124,Target Store -,4000 Monument Rd,Philadelphia,PA,19131-1600,40.006086,-75.212145,+12672335020,https://www.target.com/sl/philadelphia/2124
+2075,Target Store -,2701 Castor Ave,Philadelphia,PA,19134-5505,39.991215,-75.089745,+12153059050,https://www.target.com/sl/philadelphia/2075
+1443,Target Store -,1 Mifflin St,Philadelphia,PA,19148-2017,39.923772,-75.145899,+12154637311,https://www.target.com/sl/philadelphia/1443
+3234,Target Store -,201 W Beaver Ave,State College,PA,16801-4819,40.7925,-77.8618,+18143085876,https://www.target.com/sl/state-college/3234
+2186,Target Store -,4600 High Pointe Blvd,Harrisburg,PA,17111-2447,40.246129,-76.806682,+17175584150,https://www.target.com/sl/harrisburg/2186
+3392,Target Store -,482 Smithfield St,Pittsburgh,PA,15219-4407,40.43939,-79.998903,+14122588500,https://www.target.com/sl/pittsburgh/3392
+2496,Target Store -,180 Eagleview Blvd,Exton,PA,19341-3012,40.05259,-75.665338,+14847130150,https://www.target.com/sl/exton/2496
+1809,Target Store -,11000 Roosevelt Blvd Ste 3,Philadelphia,PA,19116-3961,40.101882,-75.010845,+12153050000,https://www.target.com/sl/philadelphia/1809
+2385,Target Store -,2661 Freeport Rd,Pittsburgh,PA,15238-1441,40.537955,-79.837073,+14128206780,https://www.target.com/sl/pittsburgh/2385
+2418,Target Store -,7400 Bustleton Ave,Philadelphia,PA,19152-4312,40.051333,-75.058631,+12673509480,https://www.target.com/sl/philadelphia/2418
+2430,Target Store -,400 Bald Hill Rd,Warwick,RI,02886-6101,41.722392,-71.47641,+14012441972,https://www.target.com/sl/warwick/2430
+1188,Target Store -,1245 Bald Hill Rd,Warwick,RI,02886-4233,41.706577,-71.494179,+14018210121,https://www.target.com/sl/warwick/1188
+1199,Target Store -,134 Harbison Blvd,Columbia,SC,29212-2204,34.066744,-81.164761,+18037490869,https://www.target.com/sl/columbia/1199
+1319,Target Store -,10204 Two Notch Rd,Columbia,SC,29229-4386,34.11804,-80.877112,+18034194086,https://www.target.com/sl/columbia/1319
+963,Target Store -,1150 Seaboard St,Myrtle Beach,SC,29577-6517,33.713441,-78.893579,+18439466998,https://www.target.com/sl/myrtle-beach/963
+1391,Target Store -,2070 Sam Rittenberg Blvd,Charleston,SC,29407-4605,32.79943,-80.0306,+18437630756,https://www.target.com/sl/charleston/1391
+2742,Target Store -,140 Sayebrook Pkwy,Myrtle Beach,SC,29588-6834,33.653935,-78.98049,+18432946571,https://www.target.com/sl/myrtle-beach/2742
+3428,Target Store -,"211 King St, 001",Charleston,SC,29401-3128,32.78045,-79.933401,+18437793495,https://www.target.com/sl/charleston/3428
+1923,Target Store -,6090A Garners Ferry Rd,Columbia,SC,29209-0600,33.981616,-80.968332,+18036470168,https://www.target.com/sl/columbia/1923
+2540,Target Store -,1021 Highline Pl,Sioux Falls,SD,57110-1000,43.539039,-96.654829,+16053335600,https://www.target.com/sl/sioux-falls/2540
+76,Target Store -,3600 S Louise Ave,Sioux Falls,SD,57106-6326,43.511783,-96.769284,+16053611551,https://www.target.com/sl/sioux-falls/76
+2057,Target Store -,5405 Washington Pike,Knoxville,TN,37918-7004,36.036859,-83.887806,+18652910086,https://www.target.com/sl/knoxville/2057
+695,Target Store -,1701 Galleria Blvd,Franklin,TN,37067-1602,35.96564,-86.812455,+16157712093,https://www.target.com/sl/franklin/695
+2474,Target Store -,5959 Poplar Ave,Memphis,TN,38119-3938,35.101357,-89.862978,+19012615079,https://www.target.com/sl/memphis/2474
+2815,Target Store -,1900 Town Center Blvd,Knoxville,TN,37922-6669,35.862042,-84.078239,+18652915478,https://www.target.com/sl/knoxville/2815
+795,Target Store -,6670 Clinton Hwy,Knoxville,TN,37912-1016,36.008464,-84.022171,+18659477636,https://www.target.com/sl/knoxville/795
+151,Target Store -,8040 Ray Mears Blvd,Knoxville,TN,37919-5457,35.922124,-84.047781,+18656932203,https://www.target.com/sl/knoxville/151
+146,Target Store -,26 White Bridge Pike,Nashville,TN,37205-1411,36.130779,-86.854673,+16153528461,https://www.target.com/sl/nashville/146
+1963,Target Store -,3064 Columbia Ave,Franklin,TN,37064-7424,35.89233,-86.880687,+16154722052,https://www.target.com/sl/franklin/1963
+90,Target Store -,601 Colonial Rd,Memphis,TN,38117-5132,35.113176,-89.90362,+19016859240,https://www.target.com/sl/memphis/90
+1370,Target Store -,11100 Parkside Dr,Knoxville,TN,37934-1960,35.90058,-84.1513,+18656758200,https://www.target.com/sl/knoxville/1370
+1030,Target Store -,7989 US Highway 64,Memphis,TN,38133-4007,35.203464,-89.796608,+19013831649,https://www.target.com/sl/memphis/1030
+2240,Target Store -,6814 Charlotte Pike,Nashville,TN,37209-4206,36.135103,-86.891363,+16152380112,https://www.target.com/sl/nashville/2240
+1059,Target Store -,3171 Lebanon Pike,Nashville,TN,37214-2314,36.182625,-86.637907,+16158894734,https://www.target.com/sl/nashville/1059
+2187,Target Store -,17502 La Cantera Pkwy,San Antonio,TX,78257-8202,29.606476,-98.597432,+12102470113,https://www.target.com/sl/san-antonio/2187
+2754,Target Store -,8917 Tehama Ridge Pkwy,Fort Worth,TX,76177-2005,32.90212,-97.32478,+16824997241,https://www.target.com/sl/fort-worth/2754
+2139,Target Store -,8605 Westheimer Rd,Houston,TX,77063-4201,29.735151,-95.517449,+17133310373,https://www.target.com/sl/houston/2139
+1032,Target Store -,7845 N Macarthur Blvd,Irving,TX,75063-7516,32.913092,-96.961901,+19725069924,https://www.target.com/sl/irving/1032
+824,Target Store -,708 E Expressway 83,McAllen,TX,78503-1609,26.186369,-98.213058,+19566822611,https://www.target.com/sl/mcallen/824
+2520,Target Store -,4760 State Highway 121,Lewisville,TX,75056-2913,33.064037,-96.885036,+14692870346,https://www.target.com/sl/lewisville/2520
+1458,Target Store -,19511 N Freeway I-45,Spring,TX,77388-6015,30.05039,-95.4343,+12812882043,https://www.target.com/sl/spring/1458
+2409,Target Store -,10107 Research Blvd,Austin,TX,78759-5803,30.392679,-97.744668,+15126871315,https://www.target.com/sl/austin/2409
+3342,Target Store -,901 E. 5th St Ste 140,Austin,TX,78702-4075,30.264076,-97.734203,+15128132929,https://www.target.com/sl/austin/3342
+1785,Target Store -,11311 Bandera Rd,San Antonio,TX,78250-6812,29.547842,-98.663965,+12106822253,https://www.target.com/sl/san-antonio/1785
+1116,Target Store -,554 W Interstate 20,Grand Prairie,TX,75052-6932,32.677827,-97.009642,+19726424719,https://www.target.com/sl/grand-prairie/1116
+2425,Target Store -,751 Alta Mere Dr,Fort Worth,TX,76116-1526,32.74899,-97.432039,+18175660565,https://www.target.com/sl/fort-worth/2425
+13,Target Store -,13131 Montfort Dr,Dallas,TX,75240-5112,32.92778,-96.813082,+19722398161,https://www.target.com/sl/dallas/13
+2042,Target Store -,301 Carroll St,Fort Worth,TX,76107-1956,32.755476,-97.354078,+18173020290,https://www.target.com/sl/fort-worth/2042
+2224,Target Store -,3600 Nolana Ave,McAllen,TX,78504-4594,26.24457,-98.2544,+19566187700,https://www.target.com/sl/mcallen/2224
+2865,Target Store -,6635 N Grand Pkwy W,Spring,TX,77389-1774,30.087472,-95.52035,+13462362140,https://www.target.com/sl/spring/2865
+1231,Target Store -,907 W McDermott Dr,Allen,TX,75013-6503,33.099539,-96.681289,+19723969486,https://www.target.com/sl/allen/1231
+1542,Target Store -,5621 N I H 35,Austin,TX,78723-2431,30.316057,-97.70676,+15126510202,https://www.target.com/sl/austin/1542
+1979,Target Store -,8223 State Highway 151,San Antonio,TX,78245-2104,29.438798,-98.64903,+12102470016,https://www.target.com/sl/san-antonio/1979
+2093,Target Store -,2580 Shearn St,Houston,TX,77007-3967,29.774663,-95.384816,+17133310376,https://www.target.com/sl/houston/2093
+2144,Target Store -,12701 FM 1960 Rd W,Houston,TX,77065-4014,29.919296,-95.604957,+12819492219,https://www.target.com/sl/houston/2144
+176,Target Store -,13700 San Pedro Ave,San Antonio,TX,78232-4332,29.565135,-98.479886,+12104966800,https://www.target.com/sl/san-antonio/176
+2494,Target Store -,8503 S Sam Houston Pkwy E,Houston,TX,77075-4857,29.60213,-95.26457,+17133438300,https://www.target.com/sl/houston/2494
+875,Target Store -,2417 N Haskell Ave,Dallas,TX,75204-3707,32.804355,-96.79138,+12148260331,https://www.target.com/sl/dallas/875
+1908,Target Store -,23710 Westheimer Pkwy,Katy,TX,77494-3605,29.735751,-95.775786,+12813928331,https://www.target.com/sl/katy/1908
+2426,Target Store -,5355 W Loop 1604 N,San Antonio,TX,78253-5300,29.493253,-98.709562,+12104241910,https://www.target.com/sl/san-antonio/2426
+1763,Target Store -,3201 Preston Rd,Frisco,TX,75034-9446,33.104797,-96.811982,+19726686880,https://www.target.com/sl/frisco/1763
+822,Target Store -,801 Sunland Park Dr,El Paso,TX,79912-5209,31.81844,-106.548296,+19155858185,https://www.target.com/sl/el-paso/822
+2882,Target Store -,22165 FM 529,Katy,TX,77493-5094,29.872263,-95.75971,+12815053382,https://www.target.com/sl/katy/2882
+1797,Target Store -,10900 Lakeline Mall Dr,Austin,TX,78717-5924,30.47615,-97.7964,+15126513376,https://www.target.com/sl/austin/1797
+858,Target Store -,13250 Northwest Fwy,Houston,TX,77040-6003,29.849244,-95.502707,+17139397878,https://www.target.com/sl/houston/858
+1457,Target Store -,20777 Hwy 59 N,Humble,TX,77338-2209,30.019506,-95.268162,+12814461081,https://www.target.com/sl/humble/1457
+96,Target Store -,2300 W Ben White Blvd,Austin,TX,78704-7525,30.233362,-97.792106,+15124452266,https://www.target.com/sl/austin/96
+1953,Target Store -,11220 FM 2222,Austin,TX,78730-1001,30.402109,-97.850225,+15126510086,https://www.target.com/sl/austin/1953
+947,Target Store -,9440 Marsh Ln,Dallas,TX,75220-4924,32.862745,-96.854439,+12143573980,https://www.target.com/sl/dallas/947
+1354,Target Store -,18255 Blanco Rd,San Antonio,TX,78258-4585,29.611833,-98.510142,+12107647876,https://www.target.com/sl/san-antonio/1354
+1336,Target Store -,8500 Main St,Houston,TX,77025-2703,29.692869,-95.418438,+17136660967,https://www.target.com/sl/houston/1336
+1852,Target Store -,3227 SE Military Dr,San Antonio,TX,78223-3876,29.353592,-98.436513,+12102470082,https://www.target.com/sl/san-antonio/1852
+95,Target Store -,8601 Research Blvd,Austin,TX,78758-7121,30.362314,-97.715779,+15128375163,https://www.target.com/sl/austin/95
+2467,Target Store -,746 NW Loop 410,San Antonio,TX,78216-5609,29.517056,-98.504488,+12104242301,https://www.target.com/sl/san-antonio/2467
+2066,Target Store -,6801 FM 1960 Rd W,Houston,TX,77069-3803,29.968063,-95.531155,+12817161105,https://www.target.com/sl/houston/2066
+2419,Target Store -,2700 Eldridge Pkwy,Houston,TX,77082-6870,29.733015,-95.626743,+12818105251,https://www.target.com/sl/houston/2419
+907,Target Store -,19955 Katy Fwy,Houston,TX,77094-1019,29.782355,-95.716756,+12816479191,https://www.target.com/sl/houston/907
+2190,Target Store -,6064 Marsha Sharp Freeway,Lubbock,TX,79407-3726,33.547794,-101.953281,+18067883600,https://www.target.com/sl/lubbock/2190
+1784,Target Store -,6419 Skillman St,Dallas,TX,75231-7109,32.86569,-96.745008,+12143480240,https://www.target.com/sl/dallas/1784
+1061,Target Store -,5300 S Mo Pac Expy,Austin,TX,78749-1112,30.2337,-97.8285,+15128925535,https://www.target.com/sl/austin/1061
+2338,Target Store -,4885 Eldorado Pkwy,Frisco,TX,75033-8662,33.17361,-96.8449,+19724645745,https://www.target.com/sl/frisco/2338
+1975,Target Store -,300 Meyerland Plaza Mall,Houston,TX,77096-1611,29.686678,-95.462488,+17132920030,https://www.target.com/sl/houston/1975
+3292,Target Store -,"8335 Westchester Dr, Ste 200",Dallas,TX,75225-5716,32.864491,-96.807364,+14693723350,https://www.target.com/sl/dallas/3292
+2389,Target Store -,6931 FM 1960 Rd E,Humble,TX,77346-2705,30.000453,-95.172219,+12813182237,https://www.target.com/sl/humble/2389
+2112,Target Store -,1910 Bob Bullock Loop,Laredo,TX,78043-9733,27.51611,-99.451807,+19567183220,https://www.target.com/sl/laredo/2112
+1764,Target Store -,2200 Dallas Pkwy,Plano,TX,75093-4300,33.030336,-96.826952,+19727816587,https://www.target.com/sl/plano/1764
+3250,Target Store -,"2025 Guadalupe St, STE 01-100",Austin,TX,78705-5654,30.283605,-97.741641,+15126511262,https://www.target.com/sl/austin/3250
+2438,Target Store -,700 Barnes Dr,San Marcos,TX,78666-6187,29.846426,-97.970298,+15123927960,https://www.target.com/sl/san-marcos/2438
+2239,Target Store -,22832 US Highway 281 N,San Antonio,TX,78258-7430,29.65331,-98.445,+12106792368,https://www.target.com/sl/san-antonio/2239
+3335,Target Store -,"101 Concho St, Ste 200",San Marcos,TX,78666-5701,29.886186,-97.941448,+15123935400,https://www.target.com/sl/san-marcos/3335
+67,Target Store -,120 W Parker Rd,Plano,TX,75075-2331,33.037404,-96.70825,+19724249575,https://www.target.com/sl/plano/67
+955,Target Store -,4323 San Felipe St,Houston,TX,77027-3406,29.745243,-95.453373,+17139609608,https://www.target.com/sl/houston/955
+801,Target Store -,7501 San Dario Ave,Laredo,TX,78045-7207,27.569584,-99.499934,+19567226800,https://www.target.com/sl/laredo/801
+1124,Target Store -,21515 Tomball Pkwy,Houston,TX,77070-1647,30.000192,-95.58411,+12816551427,https://www.target.com/sl/houston/1124
+2243,Target Store -,5270 S State Highway 360,Grand Prairie,TX,75052-8307,32.642824,-97.060569,+14693482100,https://www.target.com/sl/grand-prairie/2243
+2288,Target Store -,9500 S IH 35,Austin,TX,78748-1753,30.162592,-97.793568,+15126870634,https://www.target.com/sl/austin/2288
+758,Target Store -,8550 Tom Landry Fwy,Fort Worth,TX,76120-4414,32.758276,-97.170162,+18172747611,https://www.target.com/sl/fort-worth/758
+1435,Target Store -,984 Gessner Rd,Houston,TX,77024-2505,29.78247,-95.5423,+17133000227,https://www.target.com/sl/houston/1435
+1775,Target Store -,16731 Coit Rd,Dallas,TX,75248-1750,32.983052,-96.769579,+12147750206,https://www.target.com/sl/dallas/1775
+2334,Target Store -,39739 Lyndon B Johnson Fwy,Dallas,TX,75237-3560,32.649886,-96.863018,+14693413920,https://www.target.com/sl/dallas/2334
+3375,Target Store -,2075 Westheimer Rd,Houston,TX,77098-1539,29.741127,-95.409573,+13463985902,https://www.target.com/sl/houston/3375
+2216,Target Store -,1874 Joe Battle Blvd,El Paso,TX,79936-0962,31.759186,-106.265312,+19158495010,https://www.target.com/sl/el-paso/2216
+993,Target Store -,6955 Highway 6 N,Houston,TX,77084-1313,29.877608,-95.646855,+12815508955,https://www.target.com/sl/houston/993
+2516,Target Store -,150 E Stacy Rd,Allen,TX,75002-8756,33.123517,-96.662084,+14693422004,https://www.target.com/sl/allen/2516
+771,Target Store -,2810 SW Military Dr,San Antonio,TX,78224-1032,29.355947,-98.542542,+12109778552,https://www.target.com/sl/san-antonio/771
+83,Target Store -,7302 University Ave,Lubbock,TX,79423-1423,33.528009,-101.872299,+18067457579,https://www.target.com/sl/lubbock/83
+75,Target Store -,10801 Westheimer Rd,Houston,TX,77042-3201,29.735533,-95.568335,+17137829950,https://www.target.com/sl/houston/75
+1770,Target Store -,5700 Overton Ridge Blvd,Fort Worth,TX,76132-3220,32.678625,-97.412599,+18174231600,https://www.target.com/sl/fort-worth/1770
+2803,Target Store -,1223 Austin Hwy,San Antonio,TX,78209-4854,29.488814,-98.447283,+12102023578,https://www.target.com/sl/san-antonio/2803
+823,Target Store -,1901 George Dieter Dr,El Paso,TX,79936-3855,31.769818,-106.305141,+19155903560,https://www.target.com/sl/el-paso/823
+1395,Target Store -,725 Hebron Pkwy,Lewisville,TX,75057-5001,33.011846,-96.971203,+19724592605,https://www.target.com/sl/lewisville/1395
+55,Target Store -,6464 E NORTHWEST HWY STE 212,Dallas,TX,75214-7802,32.856408,-96.752703,+12143612026,https://www.target.com/sl/dallas/55
+849,Target Store -,6001 W Gateway Blvd,El Paso,TX,79925-3416,31.783152,-106.414718,+19157729302,https://www.target.com/sl/el-paso/849
+255,Target Store -,3333 W Airport Fwy,Irving,TX,75062-5921,32.839199,-96.990952,+19722529888,https://www.target.com/sl/irving/255
+1751,Target Store -,7025 S Park Centre Dr,Salt Lake City,UT,84121-6619,40.622565,-111.850185,+18012552292,https://www.target.com/sl/salt-lake-city/1751
+3316,Target Store -,1290 N State St,Provo,UT,84604-6432,40.251613,-111.666349,+13854475020,https://www.target.com/sl/provo/3316
+2904,Target Store -,"1200 Towne Centre Blvd, SPC A",Provo,UT,84601-5947,40.215439,-111.662879,+13854475902,https://www.target.com/sl/provo/2904
+2641,Target Store -,1110 S 300 W,Salt Lake City,UT,84101-3053,40.744916,-111.901664,+18014019562,https://www.target.com/sl/salt-lake-city/2641
+3365,Target Store -,"2236 S 1300 East, Ste D-1",Salt Lake City,UT,84106-2898,40.722378,-111.856082,+13854193352,https://www.target.com/sl/salt-lake-city/3365
+3306,Target Store -,155 Dorset St,South Burlington,VT,05403-6346,44.466154,-73.18226,+18029234473,https://www.target.com/sl/south-burlington/3306
+1420,Target Store -,"4200 Portsmouth Blvd, STE 600",Chesapeake,VA,23321-2100,36.828586,-76.414423,+17574658400,https://www.target.com/sl/chesapeake/1420
+1533,Target Store -,6600 Richmond Hwy,Alexandria,VA,22306-6601,38.776005,-77.082404,+17032530018,https://www.target.com/sl/alexandria/1533
+2436,Target Store -,4521 S Laburnum Ave,Richmond,VA,23231-2421,37.530964,-77.35611,+18048361860,https://www.target.com/sl/richmond/2436
+1105,Target Store -,2060 S Independence Blvd,Virginia Beach,VA,23453-4747,36.788687,-76.109025,+17574161719,https://www.target.com/sl/virginia-beach/1105
+3257,Target Store -,740 N Glebe Rd,Arlington,VA,22203-2257,38.879577,-77.113826,+17036829584,https://www.target.com/sl/arlington/3257
+2396,Target Store -,2233 Upton Dr,Virginia Beach,VA,23454-1186,36.75582,-76.009786,+17574305100,https://www.target.com/sl/virginia-beach/2396
+772,Target Store -,1180 Carl D Silver Pkwy,Fredericksburg,VA,22401-4913,38.299852,-77.512493,+15407866800,https://www.target.com/sl/fredericksburg/772
+2203,Target Store -,233 Carmichael Way,Chesapeake,VA,23322-2182,36.659011,-76.234037,+17574216640,https://www.target.com/sl/chesapeake/2203
+2379,Target Store -,191 Market St,Winchester,VA,22603-4750,39.221962,-78.135246,+15405454960,https://www.target.com/sl/winchester/2379
+2296,Target Store -,200 Marquis Pkwy,Williamsburg,VA,23185-5371,37.258955,-76.641055,+17572593020,https://www.target.com/sl/williamsburg/2296
+1893,Target Store -,5115 Leesburg Pike,Falls Church,VA,22041-3207,38.844672,-77.118418,+17032530021,https://www.target.com/sl/falls-church/1893
+1019,Target Store -,10100 Brook Rd,Glen Allen,VA,23059-6514,37.673607,-77.462599,+18042622390,https://www.target.com/sl/glen-allen/1019
+2272,Target Store -,45130 Columbia Pl,Sterling,VA,20166-2500,39.009216,-77.439655,+17034632008,https://www.target.com/sl/sterling/2272
+3430,Target Store -,"900 Army Navy Dr, Ste a2",Arlington,VA,22202-4935,38.865497,-77.062437,+15714035242,https://www.target.com/sl/arlington/3430
+1225,Target Store -,4601 Commonwealth Centre Pkwy,Midlothian,VA,23112-2639,37.420887,-77.63418,+18046390580,https://www.target.com/sl/midlothian/1225
+2478,Target Store -,201 Perimeter Dr,Midlothian,VA,23113-7314,37.51178,-77.692738,+18044198140,https://www.target.com/sl/midlothian/2478
+2790,Target Store -,2905 District Ave S,Fairfax,VA,22031-2273,38.872567,-77.229434,+15715333751,https://www.target.com/sl/fairfax/2790
+1018,Target Store -,5401 W Broad St,Richmond,VA,23230-2629,37.586919,-77.500796,+18042853492,https://www.target.com/sl/richmond/1018
+1041,Target Store -,11301 Midlothian Tpke,Richmond,VA,23235-4715,37.50405,-77.6051,+18048975711,https://www.target.com/sl/richmond/1041
+1021,Target Store -,1316 Greenbrier Pkwy,Chesapeake,VA,23320-0605,36.771766,-76.231762,+17575471842,https://www.target.com/sl/chesapeake/1021
+1161,Target Store -,4630 Monticello Ave,Williamsburg,VA,23188-8200,37.27137,-76.760678,+17572589794,https://www.target.com/sl/williamsburg/1161
+1341,Target Store -,13047 Fair Lakes Shopping Ctr,Fairfax,VA,22033-5179,38.855688,-77.392918,+17034497100,https://www.target.com/sl/fairfax/1341
+1049,Target Store -,11290 W Broad St,Glen Allen,VA,23060-5815,37.65192,-77.605343,+18043608900,https://www.target.com/sl/glen-allen/1049
+1431,Target Store -,6100 Arlington Blvd,Falls Church,VA,22044-2901,38.868047,-77.142045,+17032378118,https://www.target.com/sl/falls-church/1431
+2770,Target Store -,4554 Virginia Beach Blvd,Virginia Beach,VA,23462-3004,36.844625,-76.133441,+17574517660,https://www.target.com/sl/virginia-beach/2770
+1076,Target Store -,3101 Richmond Hwy,Alexandria,VA,22305-3042,38.833904,-77.050005,+17037063840,https://www.target.com/sl/alexandria/1076
+2175,Target Store -,25 S Gateway Dr,Fredericksburg,VA,22406-1228,38.3448,-77.4932,+15403744820,https://www.target.com/sl/fredericksburg/2175
+1009,Target Store -,46201 Potomac Run Plz,Sterling,VA,20164-6609,39.026292,-77.40061,+17034448440,https://www.target.com/sl/sterling/1009
+2138,Target Store -,9785 Patriot Hwy,Fredericksburg,VA,22407-9406,38.22492,-77.5018,+15408341440,https://www.target.com/sl/fredericksburg/2138
+1234,Target Store -,2340 Legge Blvd,Winchester,VA,22601-7008,39.154246,-78.16744,+15405350220,https://www.target.com/sl/winchester/1234
+1005,Target Store -,10301 New Guinea Rd,Fairfax,VA,22032-3268,38.798687,-77.301682,+17037645100,https://www.target.com/sl/fairfax/1005
+1931,Target Store -,7107 Forest Hill Ave,Richmond,VA,23225-1501,37.535149,-77.52764,+18043307365,https://www.target.com/sl/richmond/1931
+1047,Target Store -,525 First Colonial Rd,Virginia Beach,VA,23451-6119,36.846717,-76.022877,+17574280233,https://www.target.com/sl/virginia-beach/1047
+2786,Target Store -,1401 2nd Ave,Seattle,WA,98101-2007,47.608941,-122.339058,+12064943250,https://www.target.com/sl/seattle/2786
+3275,Target Store -,272 116th Ave NE,Bellevue,WA,98004-5213,47.612535,-122.184601,+14253621530,https://www.target.com/sl/bellevue/3275
+342,Target Store -,3310 S Meridian,Puyallup,WA,98373-3777,47.159345,-122.295164,+12538402900,https://www.target.com/sl/puyallup/342
+1444,Target Store -,16200 SE Mill Plain Blvd,Vancouver,WA,98684-9638,45.616707,-122.505134,+13604496420,https://www.target.com/sl/vancouver/1444
+2857,Target Store -,4915 S Regal St,Spokane,WA,99223-7633,47.6096,-117.365,+15098223274,https://www.target.com/sl/spokane/2857
+339,Target Store -,4053 Factoria Square Mall SE,Bellevue,WA,98006-1286,47.574202,-122.172947,+14255620830,https://www.target.com/sl/bellevue/339
+915,Target Store -,13724 E Sprague Ave,Spokane,WA,99216-0812,47.656051,-117.219974,+15099248757,https://www.target.com/sl/spokane/915
+637,Target Store -,2800 SW Barton St,Seattle,WA,98126-3975,47.521889,-122.368834,+12069321153,https://www.target.com/sl/seattle/637
+1883,Target Store -,8801 NE Hazel Dell Ave,Vancouver,WA,98665-8145,45.686388,-122.667686,+13607130004,https://www.target.com/sl/vancouver/1883
+1284,Target Store -,302 NE Northgate Way,Seattle,WA,98125-6047,47.70897,-122.325012,+12064940897,https://www.target.com/sl/seattle/1284
+343,Target Store -,7809C NE Vancouver Plaza Dr,Vancouver,WA,98662-6624,45.650676,-122.591779,+13602534324,https://www.target.com/sl/vancouver/343
+636,Target Store -,9770 N Newport Hwy,Spokane,WA,99218-1249,47.747573,-117.400259,+15094663006,https://www.target.com/sl/spokane/636
+2136,Target Store -,10302 156Th St E,Puyallup,WA,98374-9321,47.11346,-122.292,+12536041066,https://www.target.com/sl/puyallup/2136
+2231,Target Store -,300 Cabela Dr,Triadelphia,WV,26059-1023,40.056346,-80.599357,+13045472980,https://www.target.com/sl/wheeling/2231
+1478,Target Store -,2070 Thundering Herd Rd,Barboursville,WV,25504-2600,38.420497,-82.285095,+13047367767,https://www.target.com/sl/barboursville/1478
+2538,Target Store -,436 Retail Commons Pkwy,Martinsburg,WV,25403-6183,39.437745,-77.991967,+13042645200,https://www.target.com/sl/martinsburg/2538
+1828,Target Store -,2800 Meadowbrook Mall,Bridgeport,WV,26330-9795,39.311828,-80.27442,+13048427770,https://www.target.com/sl/bridgeport/1828
+2897,Target Store -,300 Liberty Square,Hurricane,WV,25526,38.456887,-81.931349,+13047607612,https://www.target.com/sl/teays-valley/2897
+1949,Target Store -,5001 University Towne Center Dr,Morgantown,WV,26501-2267,39.649432,-80.000996,+13045991072,https://www.target.com/sl/morgantown/1949
+1261,Target Store -,30 Rhl Blvd,South Charleston,WV,25309-8278,38.338227,-81.714517,+13047465445,https://www.target.com/sl/charleston/1261
+2765,Target Store -,750 Hilldale Way,Madison,WI,53705-2644,43.074785,-89.45352,+16088073978,https://www.target.com/sl/madison/2765
+3405,Target Store -,610 State St,Madison,WI,53703-1016,43.07494,-89.39611,+16087224849,https://www.target.com/sl/madison/3405
+2546,Target Store -,1250 W Sunset Dr,Waukesha,WI,53189-8423,42.98974,-88.2592,+12628321272,https://www.target.com/sl/waukesha/2546
+1060,Target Store -,201 Junction Rd,Madison,WI,53717-2615,43.06214,-89.525021,+16088278800,https://www.target.com/sl/madison/1060
+1248,Target Store -,1800 S Kensington Dr,Appleton,WI,54915-4136,44.245862,-88.35683,+19207499770,https://www.target.com/sl/appleton/1248
+1483,Target Store -,2050 Lime Kiln Rd,Green Bay,WI,54311-6264,44.465351,-87.985999,+19204060755,https://www.target.com/sl/green-bay/1483
+238,Target Store -,4301 W Wisconsin Ave,Appleton,WI,54913-8605,44.26986,-88.46903,+19207315566,https://www.target.com/sl/appleton/238
+82,Target Store -,2401 Kossow Rd,Waukesha,WI,53186-2904,43.034537,-88.177573,+12627848646,https://www.target.com/sl/waukesha/82
+1247,Target Store -,1001 Cormier Rd,Green Bay,WI,54304-4404,44.49059,-88.070666,+19204990494,https://www.target.com/sl/green-bay/1247
+1069,Target Store -,4301 Lien Rd,Madison,WI,53704-3608,43.119366,-89.307239,+16082444527,https://www.target.com/sl/madison/1069
+3409,Target Store -,510 S Hwy 89,Jackson,WY,83001,43.469629,-110.789506,+13072003139,https://www.target.com/sl/jackson-hole/3409
+224,Target Store -,1708 Dell Range Blvd,Cheyenne,WY,82009-4945,41.161666,-104.799678,+13076378888,https://www.target.com/sl/cheyenne/224
+164,Target Store -,401 SE Wyoming Blvd,Casper,WY,82609-4219,42.84703,-106.264667,+13072658214,https://www.target.com/sl/casper/164

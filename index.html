@@ -12,7 +12,7 @@
 
   <style>
     .hero {
-      background: linear-gradient(135deg, #15803d 0%, #22c55e 100%);
+      background-color: #044b1f;
       color: white;
       padding: 1.5rem 2rem;
       position: relative;
@@ -51,7 +51,7 @@
       font-size: 0.9rem;
       padding: 0.4rem 0.75rem;
       border-radius: 9999px;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+      //box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     }
 
     .evidence-box {
@@ -114,10 +114,12 @@
     /* Controls */
     .controls {
       background-color: white;
-      padding: 1.5rem;
-      border-radius: 0.5rem;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-      margin-bottom: 0.5rem;
+      padding: 1rem;
+      margin-bottom: 0;
+      border-bottom: 0;
+      //border-radius: 0.5rem;
+      //box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      //margin-bottom: 0.5rem;
     }
 
     .control-grid {
@@ -159,8 +161,8 @@
     .message {
       text-align: center;
       padding: 2rem;
-      border-radius: 0.5rem;
-      margin-bottom: 1.5rem;
+      //border-radius: 0.5rem;
+      //margin-bottom: 1.5rem;
       font-size: 1.125rem;
     }
 
@@ -180,19 +182,21 @@
     }
 
     /* Results area */
-    .results {
+    #results_container {
       background-color: white;
-      padding: 1.5rem;
-      border-radius: 0.5rem;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      margin-top: 0;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      //border-radius: 0.5rem;
+      //box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     }
 
     .map-container {
       height: 300px;
       width: 100%;
       border: 1px solid #e5e7eb;
-      border-radius: 0.5rem;
-      margin-bottom: 1.5rem;
+      //border-radius: 0.5rem;
+      margin-bottom: 1rem;
     }
 
     .store-grid {
@@ -208,7 +212,7 @@
     }
 
     .costco-title {
-      color: #15803d;
+      color: #0d9c44;
     }
 
     .target-title {
@@ -243,6 +247,23 @@
     .store-link:hover {
       text-decoration: underline;
     }
+
+    .controls, #message-container .message, #results-container {
+    border-left: 1px solid #e5e7eb;
+    border-right: 1px solid #e5e7eb;
+  }
+
+  .controls {
+    border-top: 1px solid #e5e7eb;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  #results-container {
+    border-bottom: 1px solid #e5e7eb;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
   </style>
 </head>
 
